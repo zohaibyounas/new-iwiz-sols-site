@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, FormEvent } from "react";
 import Link from "next/link";
 import { ChevronRight, ThumbsUp, Users } from "lucide-react";
 import emailjs from "emailjs-com";
@@ -8,21 +8,23 @@ import { toast, Toaster } from "react-hot-toast";
 export default function ContactPage() {
   const [isSending, setIsSending] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSending(true);
 
-    const form = e.target;
+    const form = e.target as HTMLFormElement;
 
     const data = {
-      user_name: form.user_name.value,
-      user_email: form.user_email.value,
-      service: form.service.value,
-      message: form.message.value,
+      user_name: (form.elements.namedItem("user_name") as HTMLInputElement)
+        .value,
+      user_email: (form.elements.namedItem("user_email") as HTMLInputElement)
+        .value,
+      service: (form.elements.namedItem("service") as HTMLSelectElement).value,
+      message: (form.elements.namedItem("message") as HTMLTextAreaElement)
+        .value,
       time: new Date().toLocaleString(),
     };
 
-    // Debug: Check what data is being sent
     console.log("Data being sent to EmailJS:", data);
 
     emailjs
@@ -80,7 +82,7 @@ export default function ContactPage() {
               Contact Us
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#1A1A1A] leading-tight mb-6">
-              Let’s Build an Awesome <br /> Project Together
+              Let&apos;s Build an Awesome <br /> Project Together
             </h2>
             <p className="text-gray-500 text-sm md:text-[15px] leading-relaxed mb-10 max-w-lg">
               Each demo built with Teba will look different. You can customize
