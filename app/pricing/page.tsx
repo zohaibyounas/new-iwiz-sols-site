@@ -7,9 +7,9 @@ import { ChevronRight, Check, Plus, Minus } from "lucide-react";
 
 export default function PricingPage() {
   // State for FAQ Accordion
-  const [openFaq, setOpenFaq] = useState(0);
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
 
-  const toggleFaq = (index) => {
+  const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index);
   };
 
