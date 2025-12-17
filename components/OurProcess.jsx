@@ -3,31 +3,31 @@ import React from "react";
 import Image from "next/image";
 
 const stats = [
-  { value: "12", label: "Years Experience", offset: "mt-6" },
-  { value: "97%", label: "Retention Rate", offset: "mt-0" },
-  { value: "8K", label: "Project Completed", offset: "mt-6" },
-  { value: "19K", label: "Happy Clients", offset: "mt-0" },
+  { value: "10+", label: "Years of Industry Experience", offset: "mt-6" },
+  { value: "97%", label: "Client Retention Rate", offset: "mt-0" },
+  { value: "100+", label: "Projects Successfully Delivered", offset: "mt-6" },
+  { value: "40+", label: "Satisfied Global Clients", offset: "mt-0" },
 ];
 
 const steps = [
   {
     title: "Initiation & Planning",
     description:
-      "We are architects innovation trailblazers of technological advancement",
+      "We analyze requirements, define scope, and plan scalable IT solutions.",
     step: "STEP - 01",
     image: "/illustration.png",
   },
   {
     title: "Execution & Development",
     description:
-      "We are architects innovation trailblazers of technological advancement",
+      "We develop, integrate, and deliver reliable IT products efficiently globally.",
     step: "STEP - 02",
     image: "/illustration1.png",
   },
   {
     title: "Testing & Maintenance",
     description:
-      "We are architects innovation trailblazers of technological advancement",
+      "We test, optimize, and maintain systems ensuring performance, security, reliability.",
     step: "STEP - 03",
     image: "/illustration2.png",
   },

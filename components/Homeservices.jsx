@@ -4,51 +4,49 @@ import { FaCloud, FaShieldAlt, FaRobot, FaServer } from "react-icons/fa";
 
 const services = [
   {
-    title: "Managed IT Services",
+    title: "Product Design & Prototyping",
     description:
-      "It is a long established fact that reader will be distract readable content of a when looking.",
+      "Transforming concepts into tested, production-ready products.",
     icon: FaServer,
     url: "/services/ManagedITServices",
   },
   {
-    title: "Cloud Services",
+    title: "Embedded Systems Security",
     description:
-      "It is a long established fact that reader will be distract readable content of a when looking.",
+      "Securing firmware, hardware, and data against evolving threats.",
     icon: FaCloud,
     url: "/services/CloudServices",
   },
   {
-    title: "Machine Learning",
+    title: "IoT Solutions",
     description:
-      "It is a long established fact that reader will be distract readable content of a when looking.",
+      "Building connected systems with real-time monitoring and control.",
     icon: FaRobot,
     url: "/services/MachineLearning", // No specific URL provided, using #
   },
   {
-    title: "Data Security",
-    description:
-      "It is a long established fact that reader will be distract readable content of a when looking.",
+    title: "Mobile & Desktop Application Development",
+    description: "Crafting high-quality apps for Android and iOS platforms.",
     icon: FaShieldAlt,
     url: "/services/DataSecurity",
   },
   {
-    title: "Managed IT Services",
-    description:
-      "It is a long established fact that reader will be distract readable content of a when looking.",
+    title: "Cloud Software Solutions",
+    description: "Scalable cloud platforms for modern digital experiences.",
     icon: FaServer,
     url: "/services/ManagedITServices",
   },
   {
-    title: "Machine Learning",
+    title: "POS & Retail Automation",
     description:
-      "It is a long established fact that reader will be distract readable content of a when looking.",
+      "Smart POS systems designed for retail and enterprise operations.",
     icon: FaRobot,
     url: "#", // No specific URL provided, using #
   },
   {
-    title: "Data Security",
+    title: "Maintenance & Support",
     description:
-      "It is a long established fact that reader will be distract readable content of a when looking.",
+      "End-to-end technical support to keep your systems running smoothly.",
     icon: FaShieldAlt,
     url: "/services/DataSecurity",
   },
