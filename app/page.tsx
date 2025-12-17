@@ -66,12 +66,14 @@ export default function Home() {
               <div className="space-y-4 mt-6">
                 <div className="flex items-start gap-4">
                   <img
-                    src="/icon.png"
+                    src="icon.png"
                     alt="Mission Icon"
                     className="w-12 h-12"
                   />
                   <div>
-                    <h3 className="font-bold text-lg">Our Mission</h3>
+                    <h3 className="font-bold text-lg text-black">
+                      Our Mission
+                    </h3>
                     <p className="text-slate-600 text-sm">
                       Our mission is to push boundaries, engage audiences, and
                       drive innovation through.
@@ -81,12 +83,12 @@ export default function Home() {
 
                 <div className="flex items-start gap-4">
                   <img
-                    src="/icon1.png"
+                    src="icon1.png"
                     alt="Vision Icon"
                     className="w-12 h-12"
                   />
                   <div>
-                    <h3 className="font-bold text-lg">Our Vision</h3>
+                    <h3 className="font-bold text-lg text-black">Our Vision</h3>
                     <p className="text-slate-600 text-sm">
                       Our vision is to inspire creativity and deliver remarkable
                       digital experiences.
@@ -96,12 +98,12 @@ export default function Home() {
 
                 <div className="flex items-start gap-4">
                   <img
-                    src="/icon2.png"
+                    src="icon2.png"
                     alt="Awards Icon"
                     className="w-12 h-12"
                   />
                   <div>
-                    <h3 className="font-bold text-lg">Our Awards</h3>
+                    <h3 className="font-bold text-lg text-black">Our Awards</h3>
                     <p className="text-slate-600 text-sm">
                       Recognized for excellence and innovation across multiple
                       domains.
