@@ -6,6 +6,7 @@ import OurProject from "../components/OurProject";
 import AppointmentHero from "../components/AppointmentHero";
 import Testimonial from "../components/Testimonial";
 import BlogsHero from "../components/BlogsHero";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -65,10 +66,11 @@ export default function Home() {
 
               <div className="space-y-4 mt-6">
                 <div className="flex items-start gap-4">
-                  <img
-                    src="icon.png"
-                    alt="Mission Icon"
-                    className="w-12 h-12"
+                  <Image
+                    src="/icon.png"
+                    alt="Vision Icon"
+                    width={48}
+                    height={48}
                   />
                   <div>
                     <h3 className="font-bold text-lg text-black">
@@ -82,10 +84,11 @@ export default function Home() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <img
-                    src="icon1.png"
+                  <Image
+                    src="/icon1.png"
                     alt="Vision Icon"
-                    className="w-12 h-12"
+                    width={48}
+                    height={48}
                   />
                   <div>
                     <h3 className="font-bold text-lg text-black">Our Vision</h3>
@@ -97,10 +100,11 @@ export default function Home() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <img
-                    src="icon2.png"
-                    alt="Awards Icon"
-                    className="w-12 h-12"
+                  <Image
+                    src="/icon2.png"
+                    alt="Vision Icon"
+                    width={48}
+                    height={48}
                   />
                   <div>
                     <h3 className="font-bold text-lg text-black">Our Awards</h3>
