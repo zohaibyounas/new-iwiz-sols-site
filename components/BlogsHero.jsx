@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const BlogsHero = () => {
   return (
@@ -16,10 +17,11 @@ const BlogsHero = () => {
               About Technology
             </h2>
           </div>
-
-          <button className="px-8 py-4 rounded-tl-xl rounded-br-xl bg-gradient-to-r from-blue-500 to-blue-600 text-white text-sm font-semibold shadow-md hover:shadow-lg hover:from-blue-600 hover:to-blue-700 transition-all">
-            View All Posts
-          </button>
+          <Link href="blog">
+            <button className="px-8 py-4 rounded-tl-xl rounded-br-xl bg-gradient-to-r from-blue-500 to-blue-600 text-white text-sm font-semibold shadow-md hover:shadow-lg hover:from-blue-600 hover:to-blue-700 transition-all">
+              View All Posts
+            </button>
+          </Link>
         </div>
 
         {/* BLOG GRID - Reduced gap from 8 to 5 */}

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { FaCloud, FaShieldAlt, FaRobot, FaServer } from "react-icons/fa";
 
 const services = [
@@ -7,42 +8,49 @@ const services = [
     description:
       "It is a long established fact that reader will be distract readable content of a when looking.",
     icon: FaServer,
+    url: "/services/ManagedITServices",
   },
   {
     title: "Cloud Services",
     description:
       "It is a long established fact that reader will be distract readable content of a when looking.",
     icon: FaCloud,
+    url: "/services/CloudServices",
   },
   {
     title: "Machine Learning",
     description:
       "It is a long established fact that reader will be distract readable content of a when looking.",
     icon: FaRobot,
+    url: "/services/MachineLearning", // No specific URL provided, using #
   },
   {
     title: "Data Security",
     description:
       "It is a long established fact that reader will be distract readable content of a when looking.",
     icon: FaShieldAlt,
+    url: "/services/DataSecurity",
   },
   {
     title: "Managed IT Services",
     description:
       "It is a long established fact that reader will be distract readable content of a when looking.",
     icon: FaServer,
+    url: "/services/ManagedITServices",
   },
   {
     title: "Machine Learning",
     description:
       "It is a long established fact that reader will be distract readable content of a when looking.",
     icon: FaRobot,
+    url: "#", // No specific URL provided, using #
   },
   {
     title: "Data Security",
     description:
       "It is a long established fact that reader will be distract readable content of a when looking.",
     icon: FaShieldAlt,
+    url: "/services/DataSecurity",
   },
 ];
 
@@ -74,12 +82,12 @@ const Homeservices = () => {
               <p className="text-gray-500 text-sm mb-4 leading-relaxed">
                 {service.description}
               </p>
-              <a
-                href="#"
-                className="text-[#387DF3] font-medium text-sm hover:underline inline-flex items-center"
+              <Link
+                href={service.url}
+                className="text-[#387DF3] font-medium text-sm hover:underline inline-flex items-center transition-colors"
               >
                 Read More <span className="ml-1">→</span>
-              </a>
+              </Link>
             </div>
           );
         })}
@@ -103,12 +111,12 @@ const Homeservices = () => {
               <p className="text-gray-500 text-sm mb-4 leading-relaxed">
                 {service.description}
               </p>
-              <a
-                href="#"
-                className="text-[#387DF3] font-medium text-sm hover:underline inline-flex items-center"
+              <Link
+                href={service.url}
+                className="text-[#387DF3] font-medium text-sm hover:underline inline-flex items-center transition-colors"
               >
                 Read More <span className="ml-1">→</span>
-              </a>
+              </Link>
             </div>
           );
         })}
@@ -116,9 +124,9 @@ const Homeservices = () => {
 
       <p className="text-center text-gray-600 mt-14 text-sm">
         You can also find our Consultant Service to{" "}
-        <a href="#" className="text-[#387DF3] hover:underline">
+        <Link href="/contact" className="text-[#387DF3] hover:underline">
           Contact
-        </a>{" "}
+        </Link>{" "}
         for the consulting
       </p>
     </section>

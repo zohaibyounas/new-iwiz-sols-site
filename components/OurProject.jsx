@@ -3,6 +3,7 @@ import Image from "next/image";
 import project from "../public/project.png";
 import project1 from "../public/project1.png";
 import project2 from "../public/project2.png";
+import Link from "next/link";
 
 const OurProject = () => {
   const projects = [
@@ -56,10 +57,11 @@ const OurProject = () => {
             </div>
           ))}
         </div>
-
-        <button className="mt-10 px-8 py-4 rounded-tl-xl rounded-br-xl bg-gradient-to-r from-blue-500 to-blue-600 text-white text-sm font-semibold shadow-md hover:shadow-lg hover:from-blue-600 hover:to-blue-700 transition-all ">
-          View Our All Works
-        </button>
+        <Link href="/projects">
+          <button className="mt-10 px-8 py-4 rounded-tl-xl rounded-br-xl bg-gradient-to-r from-blue-500 to-blue-600 text-white text-sm font-semibold shadow-md hover:shadow-lg hover:from-blue-600 hover:to-blue-700 transition-all ">
+            View Our All Works
+          </button>
+        </Link>
       </div>
     </section>
   );
