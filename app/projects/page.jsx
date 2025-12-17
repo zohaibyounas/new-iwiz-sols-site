@@ -123,7 +123,7 @@ export default function ProjectsPage() {
               <img
                 src={project.image}
                 alt={project.title}
-                fill
+                //   fill
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
               />
 

@@ -100,7 +100,7 @@ const AboutTestimonial = () => {
                     <img
                       src={item.image}
                       alt={item.name}
-                      fill
+                      //    fill
                       className="object-fit"
                     />
                   </div>

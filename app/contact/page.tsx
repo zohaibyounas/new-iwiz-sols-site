@@ -113,7 +113,7 @@ export default function ContactPage() {
                 Make an Appointment
               </h3>
               <p className="text-blue-100 text-xs md:text-sm mb-8 font-medium">
-                Feel free to contact with us, we don't spam your email
+                Feel free to contact with us, we don&apos;t spam your email
               </p>
 
               <form className="space-y-4">

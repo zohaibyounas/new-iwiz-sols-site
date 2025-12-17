@@ -77,17 +77,19 @@ export default function ServiceDetailsPage() {
 
         <div className="container mx-auto px-4 relative z-10 text-center">
           {/* Main Title */}
-          <h1 className="text-5xl md:text-6xl font-extrabold mb-6">Services</h1>
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-6">
+            Web Analysis
+          </h1>
 
           {/* Breadcrumb: Home > About Us */}
           <div className="flex items-center justify-center gap-3 text-lg font-medium">
             <Link href="/" className="hover:text-blue-400 transition-colors">
-              Home
+              Services
             </Link>
 
             <ChevronRight className="w-5 h-5 text-blue-500" />
 
-            <span className="text-blue-400">Services</span>
+            <span className="text-blue-400">Web Analysis</span>
           </div>
         </div>
       </section>
@@ -192,7 +194,7 @@ export default function ServiceDetailsPage() {
 
             {/* Main Title & Text */}
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">
-              Main Services
+              Data Security
             </h2>
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-6">
               When an unknown printer took a galley of type and scrambled make
@@ -232,7 +234,7 @@ export default function ServiceDetailsPage() {
                 <img
                   src="/s3.png"
                   alt="Worker Laptop"
-                  // fill
+                  //   fill
                   className="object-cover"
                 />
               </div>

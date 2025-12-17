@@ -268,7 +268,7 @@ export default function PricingPage() {
               <img
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop"
                 alt="Office Team"
-                fill
+                //  fill
                 className="object-cover"
               />
             </div>

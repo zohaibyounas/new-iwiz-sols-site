@@ -46,7 +46,7 @@ const TeamMember = () => {
             <img
               src="/teammem.png"
               alt="Rosy Gaggero"
-              fill
+              // fill
               className="object-cover object-top"
             />
           </div>
@@ -120,7 +120,7 @@ const TeamMember = () => {
               <img
                 src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=2574&auto=format&fit=crop"
                 alt="Member 1"
-                fill
+                // fill
                 className="object-cover"
               />
             </div>
@@ -130,7 +130,7 @@ const TeamMember = () => {
               <img
                 src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=2574&auto=format&fit=crop"
                 alt="Member 2"
-                fill
+                //  fill
                 className="object-cover"
               />
             </div>
@@ -140,7 +140,7 @@ const TeamMember = () => {
               <img
                 src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=2574&auto=format&fit=crop"
                 alt="Member 3"
-                fill
+                // fill
                 className="object-cover"
               />
             </div>

@@ -11,6 +11,7 @@ export const metadata = {
 const blogPosts = [
   {
     id: 1,
+    slug: "TestBlog",
     category: "Business solution",
     date: "27 May, 2024",
     title: "Boost your startup business with our digital agency",
@@ -19,6 +20,7 @@ const blogPosts = [
   },
   {
     id: 2,
+    slug: "TestBlog",
     category: "Business solution",
     date: "27 May, 2024",
     title: "Boost your Startup Business With our Digital Agency",
@@ -27,6 +29,7 @@ const blogPosts = [
   },
   {
     id: 3,
+    slug: "TestBlog",
     category: "Business solution",
     date: "27 May, 2024",
     title: "Data Backup and Recovery Best Practices Small",
@@ -35,6 +38,7 @@ const blogPosts = [
   },
   {
     id: 4,
+    slug: "TestBlog",
     category: "Business solution",
     date: "27 May, 2024",
     title: "Maximizing Productivity with IT Support Service",
@@ -43,6 +47,7 @@ const blogPosts = [
   },
   {
     id: 5,
+    slug: "TestBlog",
     category: "Business solution",
     date: "27 May, 2024",
     title: "Leaves Should Be Shredded Before Used As Mulch",
@@ -51,6 +56,7 @@ const blogPosts = [
   },
   {
     id: 6,
+    slug: "TestBlog",
     category: "Business solution",
     date: "27 May, 2024",
     title: "It's Time To Design Your Dream Outdoor Living Space",
@@ -59,6 +65,7 @@ const blogPosts = [
   },
   {
     id: 7,
+    slug: "TestBlog",
     category: "Business solution",
     date: "27 May, 2024",
     title: "Distinctively revolutionary for chang the Seamlessly",
@@ -67,6 +74,7 @@ const blogPosts = [
   },
   {
     id: 8,
+    slug: "TestBlog",
     category: "Business solution",
     date: "27 May, 2024",
     title: "Distinctively revolutionary for chang the Seamlessly",
@@ -75,6 +83,7 @@ const blogPosts = [
   },
   {
     id: 9,
+    slug: "TestBlog",
     category: "Business solution",
     date: "27 May, 2024",
     title: "The website of your dream can be Built easily",
@@ -132,8 +141,9 @@ export default function BlogPage() {
                 <img
                   src={post.image}
                   alt={post.title}
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  width={600}
+                  height={400}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
 
@@ -154,7 +164,7 @@ export default function BlogPage() {
                 {/* Read More Link */}
                 <div className="mt-auto">
                   <Link
-                    href={`/blog/${post.id}`}
+                    href={`/blog/${post.slug}`}
                     className="inline-flex items-center gap-1 text-blue-500 text-sm font-bold hover:text-blue-700 transition-colors"
                   >
                     Read More
