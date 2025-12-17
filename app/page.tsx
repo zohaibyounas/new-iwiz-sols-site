@@ -67,7 +67,7 @@ export default function Home() {
               <div className="space-y-4 mt-6">
                 <div className="flex items-start gap-4">
                   <Image
-                    src="/icon.png"
+                    src="/homeicon.png"
                     alt="Vision Icon"
                     width={48}
                     height={48}
@@ -85,7 +85,7 @@ export default function Home() {
 
                 <div className="flex items-start gap-4">
                   <Image
-                    src="/icon1.png"
+                    src="/homeicon1.png"
                     alt="Vision Icon"
                     width={48}
                     height={48}
@@ -101,7 +101,7 @@ export default function Home() {
 
                 <div className="flex items-start gap-4">
                   <Image
-                    src="/icon2.png"
+                    src="/homeicon2.png"
                     alt="Vision Icon"
                     width={48}
                     height={48}
