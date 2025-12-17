@@ -15,9 +15,9 @@ import {
 
 export default function ServiceDetailsPage() {
   // State to manage FAQ accordion (Index 0 is open by default as per image)
-  const [openFaq, setOpenFaq] = useState(0);
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
 
-  const toggleFaq = (index) => {
+  const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index);
   };
 
