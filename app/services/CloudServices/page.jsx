@@ -187,7 +187,6 @@ export default function ServiceDetailsPage() {
               <img
                 src="/serviceser.png"
                 alt="Data Security Technology"
-                // fill
                 className="object-cover"
               />
             </div>
@@ -242,7 +241,7 @@ export default function ServiceDetailsPage() {
                 <img
                   src="/s2.png"
                   alt="Tech Visualization"
-                  fill
+                  //  fill
                   className="object-cover"
                 />
               </div>

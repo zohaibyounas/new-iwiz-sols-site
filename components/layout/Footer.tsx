@@ -26,21 +26,52 @@ const Footer = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* --- NEWSLETTER SECTION --- */}
         {/* Blue container with specific rounded corners */}
-        <div className="bg-[#3B82F6] rounded-tl-3xl rounded-br-3xl  p-8 md:p-12 lg:px-16 lg:py-14 flex flex-col md:flex-row items-center justify-between gap-8 mb-20 shadow-2xl">
+        <div
+          className="bg-[#3B82F6] rounded-tl-3xl rounded-br-3xl 
+  p-6 sm:p-8 md:p-12 lg:px-16 lg:py-14 
+  flex flex-col md:flex-row 
+  items-center justify-between 
+  gap-6 md:gap-10 
+  mb-20 shadow-2xl"
+        >
+          {/* Text */}
           <div className="max-w-lg text-center md:text-left">
-            <h2 className="text-3xl md:text-4xl font-bold leading-tight">
-              Subscribe to Our <br /> Newsletter
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-snug text-white">
+              Subscribe to Our <br className="hidden sm:block" /> Newsletter
             </h2>
           </div>
 
+          {/* Form */}
           <div className="w-full max-w-md">
-            <div className="bg-white rounded-lg p-1.5 flex items-center shadow-lg">
+            <div
+              className="
+      bg-white rounded-lg p-2 
+      flex flex-col sm:flex-row 
+      items-stretch sm:items-center 
+      gap-2 shadow-lg
+    "
+            >
               <input
                 type="email"
                 placeholder="Enter Your Email"
-                className="flex-1 bg-transparent text-gray-700 px-4 py-3 outline-none placeholder-gray-400 text-sm md:text-base"
+                className="
+          flex-1 bg-transparent text-gray-700 
+          px-4 py-3 outline-none 
+          placeholder-gray-400 
+          text-sm sm:text-base
+        "
               />
-              <button className="bg-[#3B82F6] hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-md transition-colors text-sm md:text-base whitespace-nowrap">
+
+              <button
+                className="
+        bg-[#3B82F6] hover:bg-blue-700 
+        text-white font-medium 
+        px-6 py-3 
+        rounded-md transition-colors 
+        text-sm sm:text-base 
+        w-full sm:w-auto
+      "
+              >
                 Submit Now
               </button>
             </div>
