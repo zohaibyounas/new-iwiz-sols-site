@@ -105,6 +105,7 @@ export default function Home() {
                     alt="Vision Icon"
                     width={48}
                     height={48}
+                    // fill
                   />
                   <div>
                     <h3 className="font-bold text-lg text-black">Our Awards</h3>
