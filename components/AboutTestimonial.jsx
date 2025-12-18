@@ -35,7 +35,7 @@ const AboutTestimonial = () => {
 
   return (
     <section className="w-full py-20 px-4 sm:px-6 lg:px-8 bg-white font-sans overflow-hidden">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto ">
         {/* HEADER SECTION */}
         <div className="flex flex-col md:flex-row items-end justify-between mb-12 gap-6">
           <div className="max-w-xl">

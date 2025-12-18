@@ -11,9 +11,9 @@ const stats = [
 
 const WhyUs = () => {
   return (
-    <section className="relative w-full py-20 bg-[#F8F9FC] overflow-hidden font-sans">
+    <section className="relative w-full py-20 bg-[#F8F9FC] overflow-hidden font-sans ">
       {/* 1. Background Pattern (Subtle contour lines) */}
-      <div className="absolute inset-0 pointer-events-none opacity-[0.4]">
+      <div className="absolute inset-0 pointer-events-none opacity-[0.4] ">
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <pattern
@@ -48,7 +48,7 @@ const WhyUs = () => {
         </svg>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         {/* --- TOP SECTION --- */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start mb-16">
           {/* LEFT: Large Image */}

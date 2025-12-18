@@ -12,9 +12,9 @@ import {
 
 const TeamMember = () => {
   return (
-    <section className="relative w-full min-h-[600px] bg-[#3B82F6] flex items-center justify-center py-20 px-4 sm:px-6 lg:px-8 overflow-hidden font-sans">
+    <section className="relative w-full min-h-[600px] bg-[#3B82F6] flex items-center justify-center py-20 px-4 sm:px-6 lg:px-8 overflow-hidden font-sans ">
       {/* Background Circuit Pattern (Subtle Overlay) */}
-      <div className="absolute inset-0 pointer-events-none opacity-10">
+      <div className="absolute inset-0 pointer-events-none opacity-10 ">
         <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
           <pattern
             id="circuit"
@@ -38,7 +38,7 @@ const TeamMember = () => {
         </svg>
       </div>
 
-      <div className="relative z-10 w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2  items-stretch gap-8">
+      <div className="relative z-10 w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2  items-stretch gap-8 ">
         {/* LEFT COLUMN: Featured Member Card */}
         <div className="relative bg-white rounded-[40px] overflow-hidden shadow-2xl flex flex-col justify-end h-full min-h-[500px] lg:min-h-auto group lg:w-[80%] ">
           {/* Main Image */}
