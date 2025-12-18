@@ -6,6 +6,7 @@ import Image from "next/image";
 import { ArrowRight, CheckCircle, Zap } from "lucide-react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
+import type { ISourceOptions } from "@tsparticles/engine";
 
 // Component Imports
 import HomeService from "../components/Homeservices";
@@ -28,15 +29,14 @@ export default function Home() {
   }, []);
 
   // Configuration for the particles
-  const particlesOptions = useMemo(
+  const particlesOptions = useMemo<ISourceOptions>(
     () => ({
       fullScreen: { enable: false },
       background: {
-        color: {
-          value: "transparent",
-        },
+        color: { value: "transparent" },
       },
       fpsLimit: 120,
+
       interactivity: {
         events: {
           onClick: {
@@ -47,7 +47,9 @@ export default function Home() {
             enable: true,
             mode: "grab",
           },
-          resize: true,
+          resize: {
+            enable: true,
+          },
         },
         modes: {
           push: {
@@ -61,33 +63,30 @@ export default function Home() {
           },
         },
       },
+
       particles: {
-        color: {
-          value: "#3b82f6", // CHANGED: Blue Color
-        },
+        color: { value: "#3b82f6" },
         links: {
-          color: "#3b82f6", // CHANGED: Blue Links
+          color: "#3b82f6",
           distance: 150,
           enable: true,
           opacity: 0.5,
           width: 1,
         },
         move: {
-          direction: "none",
           enable: true,
+          direction: "none", // ✅ now correctly typed
           outModes: {
             default: "bounce",
           },
-          random: false,
-          speed: 3, // CHANGED: Speed increased (was 1.5)
-          straight: false,
+          speed: 3,
         },
         number: {
           density: {
             enable: true,
             area: 800,
           },
-          value: 160, // CHANGED: More particles (was 80)
+          value: 160,
         },
         opacity: {
           value: 0.5,
@@ -99,6 +98,7 @@ export default function Home() {
           value: { min: 1, max: 3 },
         },
       },
+
       detectRetina: true,
     }),
     []
