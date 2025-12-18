@@ -1,31 +1,135 @@
+"use client";
+
+import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, CheckCircle, Zap } from "lucide-react";
+import Particles, { initParticlesEngine } from "@tsparticles/react";
+import { loadSlim } from "@tsparticles/slim";
+
+// Component Imports
 import HomeService from "../components/Homeservices";
 import OurProcess from "../components/OurProcess";
 import OurProject from "../components/OurProject";
 import AppointmentHero from "../components/AppointmentHero";
 import Testimonial from "../components/Testimonial";
 import BlogsHero from "../components/BlogsHero";
-import Image from "next/image";
 
 export default function Home() {
+  const [init, setInit] = useState(false);
+
+  // Initialize the particles engine once
+  useEffect(() => {
+    initParticlesEngine(async (engine) => {
+      await loadSlim(engine);
+    }).then(() => {
+      setInit(true);
+    });
+  }, []);
+
+  // Configuration for the particles
+  const particlesOptions = useMemo(
+    () => ({
+      fullScreen: { enable: false },
+      background: {
+        color: {
+          value: "transparent",
+        },
+      },
+      fpsLimit: 120,
+      interactivity: {
+        events: {
+          onClick: {
+            enable: true,
+            mode: "push",
+          },
+          onHover: {
+            enable: true,
+            mode: "grab",
+          },
+          resize: true,
+        },
+        modes: {
+          push: {
+            quantity: 4,
+          },
+          grab: {
+            distance: 140,
+            links: {
+              opacity: 1,
+            },
+          },
+        },
+      },
+      particles: {
+        color: {
+          value: "#3b82f6", // CHANGED: Blue Color
+        },
+        links: {
+          color: "#3b82f6", // CHANGED: Blue Links
+          distance: 150,
+          enable: true,
+          opacity: 0.5,
+          width: 1,
+        },
+        move: {
+          direction: "none",
+          enable: true,
+          outModes: {
+            default: "bounce",
+          },
+          random: false,
+          speed: 3, // CHANGED: Speed increased (was 1.5)
+          straight: false,
+        },
+        number: {
+          density: {
+            enable: true,
+            area: 800,
+          },
+          value: 160, // CHANGED: More particles (was 80)
+        },
+        opacity: {
+          value: 0.5,
+        },
+        shape: {
+          type: "circle",
+        },
+        size: {
+          value: { min: 1, max: 3 },
+        },
+      },
+      detectRetina: true,
+    }),
+    []
+  );
+
   return (
     <div className="flex flex-col min-h-screen font-sans">
       {/* Hero Section */}
       <section
-        className="relative min-h-[80vh] md:min-h-[90vh] flex items-center text-white"
+        className="relative min-h-[80vh] md:min-h-[90vh] flex items-center text-white overflow-hidden"
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1519389950473-47ba0277781c')",
+          backgroundImage: "url('/herobg.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/70 to-transparent"></div>
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/70 to-transparent z-0"></div>
+
+        {/* PARTICLES */}
+        {init && (
+          <div className="absolute inset-0 z-0 pointer-events-none">
+            <Particles
+              id="tsparticles"
+              options={particlesOptions}
+              className="w-full h-full"
+            />
+          </div>
+        )}
 
         <div className="container mx-auto px-4 md:px-1 relative z-10">
-          {/* Added responsive margins and max-width */}
           <div className="max-w-3xl space-y-6 lg:ml-10 xl:ml-20">
             <span className="inline-block text-sm font-semibold tracking-widest text-blue-400 uppercase">
               Best IT Company
@@ -55,12 +159,6 @@ export default function Home() {
       {/* Feature/Service Highlight */}
       <section className="py-16 md:py-20 bg-white overflow-hidden">
         <div className="container mx-auto px-4 md:px-8">
-          {/* 
-            Grid Responsiveness: 
-            - Mobile: 1 Column
-            - Tablet: 2 Columns
-            - Desktop: 3 Columns
-          */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-8 items-center">
             {/* Left Column - Text with Icons */}
             <div className="space-y-8 md:space-y-6 lg:pl-14">
@@ -68,7 +166,6 @@ export default function Home() {
                 About Your Company
               </span>
 
-              {/* Fixed font size scaling */}
               <h2 className="text-3xl md:text-3xl lg:text-4xl font-extrabold leading-tight text-black">
                 We Execute Ideas From <br /> Start to Finish
               </h2>
@@ -141,7 +238,6 @@ export default function Home() {
 
             {/* Middle Column - US Image */}
             <div className="flex flex-col justify-center items-center md:items-start order-last md:order-none">
-              {/* Changed w-3/2 (invalid) to w-full for responsiveness */}
               <div className="relative w-full max-w-md mx-auto md:max-w-full">
                 <img
                   src="/us.png"
