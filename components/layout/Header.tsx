@@ -29,27 +29,49 @@ export function Header() {
       <div className="hidden md:flex justify-between items-center bg-white border-b px-6 h-10 text-sm text-slate-700">
         <div className="flex gap-6">
           <span className="flex items-center gap-2">
-            <Phone className="w-4 h-4" /> +123-456-32-23
+            <Phone className="w-4 h-4" /> +92 314 5372506
           </span>
           <span className="flex items-center gap-2">
-            <Mail className="w-4 h-4" /> techor@gmail.com
+            <Mail className="w-4 h-4" /> irtaza.madad@iwizsols.com
           </span>
           <span className="flex items-center gap-2">
-            <MapPin className="w-4 h-4" /> 371 7th Ave, New York, NY
+            <MapPin className="w-4 h-4" /> eEarn Innovation hub,Chamanzar
+            Colony,Rawalpindi,4600
           </span>
         </div>
 
         <div className="flex gap-3">
-          {[FaFacebookF, FaXTwitter, FaLinkedinIn, FaInstagram].map(
-            (Icon, i) => (
-              <span
-                key={i}
-                className="w-7 h-7 flex items-center justify-center rounded-full border text-slate-600 hover:text-blue-600 hover:border-blue-600 transition cursor-pointer"
-              >
-                <Icon size={12} />
-              </span>
-            )
-          )}
+          <Link
+            href="https://www.facebook.com/profile.php?id=61551482918436&_rdc=1&_rdr#"
+            target="_blank"
+            className="w-7 h-7 flex items-center justify-center rounded-full border text-slate-600 hover:text-blue-600 hover:border-blue-600 transition"
+          >
+            <FaFacebookF size={12} />
+          </Link>
+
+          <Link
+            href="https://x.com/IWIZSOLUTI8328"
+            target="_blank"
+            className="w-7 h-7 flex items-center justify-center rounded-full border text-slate-600 hover:text-black hover:border-black transition"
+          >
+            <FaXTwitter size={12} />
+          </Link>
+
+          <Link
+            href="https://www.linkedin.com/company/iwiz-solutions/"
+            target="_blank"
+            className="w-7 h-7 flex items-center justify-center rounded-full border text-slate-600 hover:text-blue-700 hover:border-blue-700 transition"
+          >
+            <FaLinkedinIn size={12} />
+          </Link>
+
+          <Link
+            href="https://www.instagram.com/iwizsol/"
+            target="_blank"
+            className="w-7 h-7 flex items-center justify-center rounded-full border text-slate-600 hover:text-pink-600 hover:border-pink-600 transition"
+          >
+            <FaInstagram size={12} />
+          </Link>
         </div>
       </div>
 
