@@ -102,7 +102,7 @@ const Footer = () => {
                   <Phone className="w-4 h-4 text-white group-hover:text-blue-500 transition-colors" />
                 </div>
                 <span className="text-gray-300 text-sm font-medium group-hover:text-white transition-colors">
-                  123-456-7890
+                  +92 314 5372506
                 </span>
               </div>
               <div className="flex items-center gap-3 group cursor-pointer">
@@ -110,7 +110,7 @@ const Footer = () => {
                   <Mail className="w-4 h-4 text-white group-hover:text-blue-500 transition-colors" />
                 </div>
                 <span className="text-gray-300 text-sm font-medium group-hover:text-white transition-colors">
-                  techor@example.com
+                  irtaza.madad@iwizsols.com
                 </span>
               </div>
             </div>
@@ -260,7 +260,7 @@ const Footer = () => {
           <div className="flex items-center gap-3">
             {/* Facebook (White Box, Dark Icon) */}
             <Link
-              href="#"
+              href="https://www.facebook.com/profile.php?id=61551482918436&_rdc=1&_rdr#"
               className="w-9 h-9 bg-white rounded flex items-center justify-center hover:bg-gray-200 transition-colors group"
             >
               <Facebook className="w-4 h-4 text-[#0F1113] group-hover:scale-110 transition-transform" />
@@ -268,7 +268,7 @@ const Footer = () => {
 
             {/* LinkedIn (Blue Box, White Icon - as per image) */}
             <Link
-              href="#"
+              href="https://www.linkedin.com/company/iwiz-solutions/"
               className="w-9 h-9 bg-[#3B82F6] rounded flex items-center justify-center hover:bg-blue-600 transition-colors group"
             >
               <Linkedin className="w-4 h-4 text-white group-hover:scale-110 transition-transform" />
@@ -276,7 +276,7 @@ const Footer = () => {
 
             {/* Twitter (White Box, Dark Icon) */}
             <Link
-              href="#"
+              href="https://x.com/IWIZSOLUTI8328"
               className="w-9 h-9 bg-white rounded flex items-center justify-center hover:bg-gray-200 transition-colors group"
             >
               <Twitter className="w-4 h-4 text-[#0F1113] group-hover:scale-110 transition-transform" />
@@ -284,7 +284,7 @@ const Footer = () => {
 
             {/* Instagram (White Box, Dark Icon) */}
             <Link
-              href="#"
+              href="https://www.instagram.com/iwizsol/"
               className="w-9 h-9 bg-white rounded flex items-center justify-center hover:bg-gray-200 transition-colors group"
             >
               <Instagram className="w-4 h-4 text-[#0F1113] group-hover:scale-110 transition-transform" />
