@@ -54,39 +54,51 @@ export default function OurProcess() {
       </div>
 
       {/* Process Section */}
+      {/* Process Section */}
+      {/* Process Section */}
       <div className="max-w-6xl mx-auto text-center px-4">
         <p className="text-sm text-blue-500 mb-2">Our Process</p>
-        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-12">
+        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-14">
           Features That Simplify The Ticketing Process
         </h2>
 
-        {/* Step badges connected by dashed line */}
-        <div className="relative flex flex-col items-center md:flex-row md:justify-between md:items-start mb-16">
-          {/* Dashed line behind badges */}
-          <div className="hidden md:block absolute top-4 left-0 right-0 h-0 border-t border-dashed border-gray-300 z-0"></div>
-
+        {/* Images */}
+        <div className="flex flex-col md:flex-row md:justify-between gap-10 mb-10">
           {steps.map((step, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center relative z-10 md:w-1/3"
-            >
-              {/* Step Badge */}
-              <div className="bg-blue-500 text-white text-[11px] font-semibold rounded-full px-3 py-1 mb-6 inline-block">
+            <div key={index} className="md:w-1/3 flex justify-center">
+              <Image
+                src={step.image}
+                alt={step.title}
+                width={128}
+                height={128}
+                className="object-contain"
+              />
+            </div>
+          ))}
+        </div>
+
+        {/* Dashed STEP Line */}
+        <div className="hidden md:flex items-center justify-between mb-10">
+          {steps.map((step, index) => (
+            <div key={index} className="flex items-center md:w-1/3">
+              {/* Left dash */}
+              <div className="flex-1 border-t border-dashed border-gray-300"></div>
+
+              {/* Step label */}
+              <span className="mx-3 bg-blue-500 text-white text-[11px] font-semibold rounded-full px-4 py-1 whitespace-nowrap">
                 {step.step}
-              </div>
+              </span>
 
-              {/* Step Illustration */}
-              <div className="w-32 h-32 mb-6">
-                <Image
-                  src={step.image}
-                  alt={step.title}
-                  width={128}
-                  height={128}
-                  className="mx-auto"
-                />
-              </div>
+              {/* Right dash */}
+              <div className="flex-1 border-t border-dashed border-gray-300"></div>
+            </div>
+          ))}
+        </div>
 
-              {/* Title & Description */}
+        {/* Titles & Descriptions */}
+        <div className="flex flex-col md:flex-row md:justify-between gap-10">
+          {steps.map((step, index) => (
+            <div key={index} className="md:w-1/3">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
                 {step.title}
               </h3>
