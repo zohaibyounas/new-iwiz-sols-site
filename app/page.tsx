@@ -254,11 +254,11 @@ export default function Home() {
 
             {/* Right Column - Why Us Image */}
             <div className="flex justify-center h-full">
-              <div className="w-full max-w-md mx-auto md:max-w-full h-[200px] md:h-[300px] relative rounded-2xl overflow-hidden shadow-lg">
+              <div className="w-full max-w-md mx-auto md:max-w-full h-[200px] md:h-[300px] relative rounded-2xl overflow-hidden shadow-lg mt-16">
                 <img
                   src="/whyus.png"
                   alt="Why Us"
-                  className="w-full h-full lg:h-[300px] object-cover mt-14"
+                  className="w-full h-full lg:h-[300px] object-cover  "
                 />
               </div>
             </div>
