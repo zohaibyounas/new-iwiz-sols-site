@@ -169,42 +169,58 @@ const Footer = () => {
             <ul className="space-y-3 text-gray-400 text-sm">
               <li>
                 <Link
-                  href="/ui-ux"
+                  href="/services/Product-Design-&-Prototyping"
                   className="hover:text-blue-500 transition-colors"
                 >
-                  UI/UX Design
+                  Product Design & Prototyping
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/app-dev"
+                  href="/services/Embedded-Systems-Security"
                   className="hover:text-blue-500 transition-colors"
                 >
-                  App Development
+                  Embedded Systems Security
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/marketing"
+                  href="/services/IoT-Solutions"
                   className="hover:text-blue-500 transition-colors"
                 >
-                  Digital Marketing
+                  IoT Solutions
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/web-dev"
+                  href="/services/Mobile-&-Desktop-Application-Development"
                   className="hover:text-blue-500 transition-colors"
                 >
-                  Web Development
+                  Mobile & Desktop Application Development
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/security"
+                  href="/services/Cloud-Software-Solutions"
                   className="hover:text-blue-500 transition-colors"
                 >
-                  Cyber Security
+                  Cloud Software Solutions
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services/POS-&-Retail-Automation"
+                  className="hover:text-blue-500 transition-colors"
+                >
+                  POS & Retail Automation
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services/Maintenance-&-Support"
+                  className="hover:text-blue-500 transition-colors"
+                >
+                  Maintenance & Support
                 </Link>
               </li>
             </ul>
