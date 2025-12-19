@@ -5,83 +5,154 @@ import { ChevronRight, ArrowUpRight } from "lucide-react";
 
 export const metadata = {
   title: "Our Projects",
-  description: "Check out our latest case studies and projects.",
+  description: "Explore our hardware, IoT, and embedded system projects.",
 };
 
+/* =========================
+   ALL HARDWARE PROJECTS
+========================= */
 const projects = [
   {
-    id: 1,
-    category: "Development, Marketing",
-    title: "Marketing Agency Website",
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+    image: "/nfc-dynamic-tag.png",
+    title: "NFC Dynamic Tag",
+    category: "Embedded / NFC",
+    content:
+      "STM32G030 + ST25DV64K based NFC tag with read/write firmware, LED and alarm for fire extinguisher maintenance safety.",
   },
   {
-    id: 2,
-    category: "UI/UX Design",
-    title: "Social Media App",
-    image:
-      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop",
+    image: "/inverter-chip-scope.png",
+    title: "Inverter Chip Scope",
+    category: "Embedded / Debugging",
+    content:
+      "STM32F765 based chip scope with UART logging, real-time variable capture and performance graph generation.",
   },
   {
-    id: 3,
-    category: "Web Development",
-    title: "E-Commerce Platform",
-    image:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop",
+    image: "/sleep-tracking-system.png",
+    title: "Sleep Tracking System",
+    category: "IoT / Healthcare",
+    content:
+      "Raspberry Pi 5 sleep tracking system using oxygen, pressure, temperature and audio sensors with app sync.",
   },
   {
-    id: 4,
-    category: "Software",
-    title: "SaaS Dashboard",
-    image:
-      "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop",
+    image: "/ble-controlled-shoe.png",
+    title: "BLE Controlled Shoe Soles",
+    category: "Wearables / BLE",
+    content:
+      "ESP32-C3 powered heated shoe soles with OTA updates, sensors, rechargeable battery and mobile app control.",
   },
   {
-    id: 5,
-    category: "Finance",
-    title: "Crypto Wallet App",
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop", // Reusing for placeholder similarity to screenshot
+    image: "/smart-parking-system.png",
+    title: "Smart Parking System",
+    category: "IoT / LoRaWAN",
+    content:
+      "STM32WL55 + LoRaWAN smart parking with app-based slot booking and OTA updates for large venues.",
   },
   {
-    id: 6,
-    category: "Consulting",
-    title: "Business Analysis",
-    image:
-      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070&auto=format&fit=crop",
+    image: "/ble-controlled-heatable.png",
+    title: "BLE Heatable Gloves",
+    category: "Wearables / IoT",
+    content:
+      "ESP32-C3 based heatable gloves with adjustable heating, battery monitoring, sleep mode and OTA updates.",
   },
   {
-    id: 7,
-    category: "Branding",
-    title: "Creative Studio",
-    image:
-      "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=2070&auto=format&fit=crop",
+    image: "/battery-management-system.png",
+    title: "Battery Management System",
+    category: "Power Electronics",
+    content:
+      "ATmega328P BMS with hall sensors, relay control, charge balancing and TFT SOC display.",
   },
   {
-    id: 8,
-    category: "Mobile App",
-    title: "Fitness Tracker",
-    image:
-      "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2070&auto=format&fit=crop",
+    image: "/ecoshower-monitor.png",
+    title: "EcoShower Monitor",
+    category: "IoT / AI",
+    content:
+      "STM32WB5MMG based water monitoring system using AI audio analysis and BLE for hotel water conservation.",
   },
   {
-    id: 9,
-    category: "Development",
-    title: "Tech Blog",
-    image:
-      "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2070&auto=format&fit=crop",
+    image: "/askona-sleeping-matress.png",
+    title: "Askona Sleeping Mattress",
+    category: "Smart Furniture",
+    content:
+      "ESP32-C3 BLE controlled heated mattress with side-based control, OTA updates and battery monitoring.",
+  },
+  {
+    image: "/heatable-vest.png",
+    title: "Heatable Vest",
+    category: "Wearables",
+    content:
+      "ESP32-C3 powered heatable vest with manual + BLE control, OTA updates and mobile monitoring.",
+  },
+  {
+    image: "/highPluse.avif",
+    title: "High Precision Pulse Monitor",
+    category: "Medical Electronics",
+    content:
+      "STM32H723ZG based pulse monitor capturing data every 100 microseconds for ultra-precise analysis.",
+  },
+  {
+    image: "/pic16f268a-based-lock.png",
+    title: "PIC16F268A Lock System",
+    category: "Security Systems",
+    content:
+      "Password-based electronic lock using PIC16F268A and 7-segment display with live password update.",
+  },
+  {
+    image: "/dro-and-deliver.png",
+    title: "DRO & Divider System",
+    category: "Industrial Automation",
+    content:
+      "CNC DRO system using RLC2IC encoder and RLS magnetic scales for precise measurements.",
+  },
+  {
+    image: "/x-nucleo-gfx01m2.png",
+    title: "X-NUCLEO Display GUI",
+    category: "Embedded GUI",
+    content:
+      "Custom GUI development for X-NUCLEO-GFX01M2 using NUCLEO-G431RB board.",
+  },
+  {
+    image: "/photo-time-lapse.png",
+    title: "Photo Time-Lapse System",
+    category: "Embedded Systems",
+    content:
+      "STM32F103C8T6 based RTC-controlled photo time-lapse capture system.",
+  },
+  {
+    image: "/vending-machine-interface.png",
+    title: "Vending Machine Interface",
+    category: "Embedded UI",
+    content:
+      "4x16 LCD based vending machine interface with button control and PC communication.",
+  },
+  // {
+  //   image: "/dino-google-game.png",
+  //   title: "Dino Google Game",
+  //   category: "Embedded Game",
+  //   content:
+  //     "Embedded implementation of the Google Dino game using LCD and button inputs.",
+  // },
+  {
+    image: "/pir-sensor-based.png",
+    title: "PIR Burglar Alarm",
+    category: "Security / IoT",
+    content:
+      "ATtiny13A based PIR motion detection alarm system with loud speaker alerts.",
+  },
+  {
+    image: "/autogate-pro.png",
+    title: "AutoGate Pro",
+    category: "IoT / Automation",
+    content:
+      "ESP32-WROOM garage automation using ESP-NOW for secure remote access control.",
   },
 ];
 
 export default function ProjectsPage() {
   return (
-    <div className="font-sans text-gray-700 bg-white">
-      {/* ========================
-          1. HEADER SECTION 
-         ======================== */}
+    <div className="bg-white text-gray-700">
+      {/* ================= HEADER ================= */}
       <section
-        className="relative h-[600px] flex items-center justify-center text-white"
+        className="relative h-[500px] flex items-center justify-center text-white"
         style={{
           backgroundImage:
             "url('https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=2070&auto=format&fit=crop')",
@@ -89,98 +160,72 @@ export default function ProjectsPage() {
           backgroundPosition: "center",
         }}
       >
-        {/* Dark Overlay for readability */}
-        <div className="absolute inset-0 bg-slate-900/70"></div>
-
-        <div className="container mx-auto px-4 relative z-10 text-center">
-          {/* Main Title */}
-          <h1 className="text-5xl md:text-6xl font-extrabold mb-6">Projects</h1>
-
-          {/* Breadcrumb: Home > About Us */}
-          <div className="flex items-center justify-center gap-3 text-lg font-medium">
-            <Link href="/" className="hover:text-blue-400 transition-colors">
+        <div className="absolute inset-0 bg-slate-900/70" />
+        <div className="relative z-10 text-center">
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-4">Projects</h1>
+          <div className="flex items-center justify-center gap-2 text-lg">
+            <Link href="/" className="hover:text-blue-400">
               Home
             </Link>
-
-            <ChevronRight className="w-5 h-5 text-blue-500" />
-
+            <ChevronRight className="w-5 h-5 text-blue-400" />
             <span className="text-blue-400">Projects</span>
           </div>
         </div>
       </section>
 
-      {/* ========================
-          2. PROJECTS GRID 
-         ======================== */}
-      <div className="container mx-auto px-4 py-20 lg:py-24 max-w-7xl">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {projects.map((project) => (
+      {/* ================= PROJECT GRID ================= */}
+      <section className="max-w-7xl mx-auto px-4 py-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          {projects.map((project, index) => (
             <div
-              key={project.id}
-              className="group relative w-full h-[450px] rounded-[40px] overflow-hidden cursor-pointer"
+              key={index}
+              className="group relative h-[420px] rounded-[36px] overflow-hidden"
             >
-              {/* Background Image */}
-              <img
+              {/* Image */}
+              <Image
                 src={project.image}
                 alt={project.title}
-                //   fill
+                fill
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
               />
 
-              {/* Dark Overlay on Hover (Optional, for better text contrast if needed) */}
-              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-500" />
+              {/* Dark Gradient Overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
 
-              {/* 
-                 HOVER CARD CONTENT 
-                 (Visible on hover, positioned at bottom)
-              */}
-              <div className="absolute bottom-6 left-6 right-6 translate-y-[120%] group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
-                {/* Floating Blue Arrow Button (Sits on top border of white card) */}
-                <div className="absolute -top-6 right-8 z-20">
-                  <button className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center shadow-lg hover:bg-blue-700 transition-colors">
-                    <ArrowUpRight className="w-6 h-6 text-white" />
-                  </button>
+              {/* ✅ ALWAYS VISIBLE PROJECT TITLE */}
+              <div className="absolute bottom-6 left-6 right-6 z-10">
+                <h3 className="text-xl font-bold text-white drop-shadow-lg">
+                  {project.title}
+                </h3>
+                <p className="text-sm text-blue-300 font-medium">
+                  {project.category}
+                </p>
+              </div>
+
+              {/* Hover Card */}
+              <div className="absolute bottom-6 left-6 right-6 translate-y-[140%] group-hover:translate-y-0 transition-transform duration-500 z-20">
+                <div className="absolute -top-6 right-6">
+                  <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center shadow-lg">
+                    <ArrowUpRight className="text-white w-6 h-6" />
+                  </div>
                 </div>
 
-                {/* White Info Box */}
-                <div className="bg-white rounded-[20px] p-6 pt-8 shadow-xl relative">
-                  <h3 className="text-lg font-extrabold text-[#1A1A1A] mb-1">
+                <div className="bg-white rounded-2xl p-6 pt-8 shadow-xl">
+                  <h3 className="text-lg font-extrabold text-black mb-1">
                     {project.title}
                   </h3>
-                  <p className="text-sm text-gray-500 font-medium">
+                  <p className="text-sm text-blue-600 font-medium mb-2">
                     {project.category}
+                  </p>
+                  <p className="text-sm text-gray-600 line-clamp-3">
+                    {project.content}
                   </p>
                 </div>
               </div>
             </div>
           ))}
         </div>
-
-        {/* ========================
-            3. PAGINATION 
-           ======================== */}
-        <div className="flex items-center justify-center gap-3">
-          {/* Active Page (1) */}
-          <button className="w-12 h-12 rounded-lg bg-blue-600 text-white font-bold flex items-center justify-center shadow-md hover:bg-blue-700 transition-colors">
-            1
-          </button>
-
-          {/* Inactive Page (2) */}
-          <button className="w-12 h-12 rounded-lg bg-[#F3F4F6] text-gray-600 font-bold flex items-center justify-center hover:bg-gray-200 transition-colors">
-            2
-          </button>
-
-          {/* Inactive Page (3) */}
-          <button className="w-12 h-12 rounded-lg bg-[#F3F4F6] text-gray-600 font-bold flex items-center justify-center hover:bg-gray-200 transition-colors">
-            3
-          </button>
-
-          {/* Next Button (>) */}
-          <button className="w-12 h-12 rounded-lg bg-[#F3F4F6] text-gray-600 font-bold flex items-center justify-center hover:bg-gray-200 transition-colors">
-            <ChevronRight className="w-5 h-5" />
-          </button>
-        </div>
-      </div>
+      </section>
     </div>
   );
 }
