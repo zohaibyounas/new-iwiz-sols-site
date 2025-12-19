@@ -35,8 +35,8 @@ export function Header() {
             <Mail className="w-4 h-4" /> irtaza.madad@iwizsols.com
           </span>
           <span className="flex items-center gap-2">
-            <MapPin className="w-4 h-4" /> eEarn Innovation hub,Chamanzar
-            Colony,Rawalpindi,4600
+            <MapPin className="w-4 h-4" /> Hasan Chowk, Mureer, Murree Rd,
+            Chamanzar Colony, Rawalpindi, 46000
           </span>
         </div>
 
