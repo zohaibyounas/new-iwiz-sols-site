@@ -22,12 +22,13 @@ export default function ServiceDetailsPage() {
   };
 
   const services = [
-    { name: "Managed IT Services", active: false },
-    { name: "Cloud Services", active: false },
-    { name: "Machine Learning", active: false },
-    { name: "Data Security", active: false }, // Highlighted Blue
-    { name: "Web Analysis", active: false },
-    { name: "Digital Marketing", active: false },
+    { name: "Product-Design-&-Prototyping", active: false },
+    { name: "Embedded-Systems-Security", active: false },
+    { name: "IoT-Solutions", active: false },
+    { name: "Mobile-&-Desktop-Application-Development", active: false }, // Highlighted Blue
+    { name: "Cloud-Software-Solutions", active: false },
+    { name: "POS-&-Retail-Automation", active: false },
+    { name: "Maintenance-&-Support", active: false },
   ];
 
   const faqs = [
