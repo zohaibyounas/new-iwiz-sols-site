@@ -85,13 +85,13 @@ export function Header() {
               style={{ backgroundImage: "url('/bg.png')" }}
             >
               <Image
-                src="/logo2.png"
+                src="/logo5.png"
                 alt="IWIZ Solutions"
-                width={160}
+                width={170}
                 height={40}
                 //  fill
                 priority
-                className="object-contain "
+                className="object-contain mb-3 "
               />
             </div>
           </Link>
