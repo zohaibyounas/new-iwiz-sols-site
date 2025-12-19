@@ -81,16 +81,17 @@ export function Header() {
           {/* LOGO WITH CURVED BLACK BACKGROUND */}
           <Link href="/" className="relative">
             <div
-              className="h-[66px] w-[260px]   flex items-center pl-6 bg-no-repeat bg-cover bg-center "
+              className="h-[66px] w-[260px]   flex items-center pl-6 bg-no-repeat bg-cover bg-center  "
               style={{ backgroundImage: "url('/bg.png')" }}
             >
               <Image
-                src="/logo.png"
+                src="/logo2.png"
                 alt="IWIZ Solutions"
                 width={160}
                 height={40}
+                //  fill
                 priority
-                className="object-contain"
+                className="object-contain "
               />
             </div>
           </Link>

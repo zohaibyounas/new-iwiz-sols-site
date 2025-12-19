@@ -136,14 +136,15 @@ export default function Home() {
             </span>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
-              Best IT Solution <br />
-              Agency For Your <br />
-              Business
+              Powering Businesses with <br />
+              Smart IT Products & <br />
+              Solutions
             </h1>
 
             <p className="text-slate-300 text-base md:text-lg max-w-xl leading-relaxed">
-              Leverage agile frameworks to provide a robust synopsis for high
-              level overviews. Iterative approaches bring table survival.
+              We specialize in smart IT products, embedded system solutions, and
+              scalable technologies that help businesses innovate, optimize
+              operations, and grow with confidence.”
             </p>
 
             <Link
@@ -186,8 +187,9 @@ export default function Home() {
                       Our Mission
                     </h3>
                     <p className="text-slate-600 text-sm leading-relaxed">
-                      Our mission is to push boundaries, engage audiences, and
-                      drive innovation through.
+                      Deliver smart IT products and scalable technology
+                      solutions empowering businesses across Middle East and
+                      worldwide.
                     </p>
                   </div>
                 </div>
@@ -207,8 +209,9 @@ export default function Home() {
                       Our Vision
                     </h3>
                     <p className="text-slate-600 text-sm leading-relaxed">
-                      Our vision is to inspire creativity and deliver remarkable
-                      digital experiences.
+                      To become a trusted IT products partner driving
+                      innovation, digital transformation, and sustainable growth
+                      worldwide.
                     </p>
                   </div>
                 </div>
@@ -228,8 +231,8 @@ export default function Home() {
                       Our Awards
                     </h3>
                     <p className="text-slate-600 text-sm leading-relaxed">
-                      Recognized for excellence and innovation across multiple
-                      domains.
+                      Our IT products stand as awards, successfully used by 100+
+                      customers across different countries worldwide.
                     </p>
                   </div>
                 </div>
@@ -246,9 +249,9 @@ export default function Home() {
                 />
               </div>
               <p className="text-slate-600 text-sm mt-6 leading-relaxed text-center md:text-left">
-                Repellendus autem ruibusdam et aut officiis debitis aut re
-                necessitatibus saepe eveniet ut et repudianda sint et molestiae
-                non recusandae.
+                Every successful deployment and satisfied customer represents
+                our commitment to quality, innovation, and delivering reliable
+                IT products worldwide.
               </p>
             </div>
 
