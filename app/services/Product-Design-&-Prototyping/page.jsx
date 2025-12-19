@@ -78,18 +78,21 @@ export default function ServiceDetailsPage() {
         <div className="container mx-auto px-4 relative z-10 text-center">
           {/* Main Title */}
           <h1 className="text-5xl md:text-6xl font-extrabold mb-6">
-            Managed IT Services
+            Product Design & Prototyping
           </h1>
 
           {/* Breadcrumb: Home > About Us */}
           <div className="flex items-center justify-center gap-3 text-lg font-medium">
-            <Link href="/" className="hover:text-blue-400 transition-colors">
+            <Link
+              href="/services"
+              className="hover:text-blue-400 transition-colors"
+            >
               Services
             </Link>
 
             <ChevronRight className="w-5 h-5 text-blue-500" />
 
-            <span className="text-blue-400">Managed IT Services</span>
+            <span className="text-blue-400"> Product Design & Prototyping</span>
           </div>
         </div>
       </section>

@@ -8,47 +8,47 @@ const services = [
     description:
       "Transforming concepts into tested, production-ready products.",
     icon: FaServer,
-    url: "/services/ManagedITServices",
+    url: "/services/Product-Design-&-Prototyping",
   },
   {
     title: "Embedded Systems Security",
     description:
       "Securing firmware, hardware, and data against evolving threats.",
     icon: FaCloud,
-    url: "/services/CloudServices",
+    url: "/services/Embedded-Systems-Security",
   },
   {
     title: "IoT Solutions",
     description:
       "Building connected systems with real-time monitoring and control.",
     icon: FaRobot,
-    url: "/services/MachineLearning", // No specific URL provided, using #
+    url: "/services/IoT-Solutions", // No specific URL provided, using #
   },
   {
     title: "Mobile & Desktop Application Development",
     description: "Crafting high-quality apps for Android and iOS platforms.",
     icon: FaShieldAlt,
-    url: "/services/DataSecurity",
+    url: "/services/Mobile-&-Desktop-Application-Development",
   },
   {
     title: "Cloud Software Solutions",
     description: "Scalable cloud platforms for modern digital experiences.",
     icon: FaServer,
-    url: "/services/ManagedITServices",
+    url: "/services/Cloud-Software-Solutions",
   },
   {
     title: "POS & Retail Automation",
     description:
       "Smart POS systems designed for retail and enterprise operations.",
     icon: FaRobot,
-    url: "#", // No specific URL provided, using #
+    url: "/services/POS-&-Retail-Automation", // No specific URL provided, using #
   },
   {
     title: "Maintenance & Support",
     description:
       "End-to-end technical support to keep your systems running smoothly.",
     icon: FaShieldAlt,
-    url: "/services/DataSecurity",
+    url: "/services/Maintenance-&-Support",
   },
 ];
 

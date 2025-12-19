@@ -78,18 +78,24 @@ export default function ServiceDetailsPage() {
         <div className="container mx-auto px-4 relative z-10 text-center">
           {/* Main Title */}
           <h1 className="text-5xl md:text-6xl font-extrabold mb-6">
-            Machine Learning
+            Mobile & Desktop Application Development
           </h1>
 
           {/* Breadcrumb: Home > About Us */}
           <div className="flex items-center justify-center gap-3 text-lg font-medium">
-            <Link href="/" className="hover:text-blue-400 transition-colors">
+            <Link
+              href="/services"
+              className="hover:text-blue-400 transition-colors"
+            >
               Services
             </Link>
 
             <ChevronRight className="w-5 h-5 text-blue-500" />
 
-            <span className="text-blue-400">Machine Learning</span>
+            <span className="text-blue-400">
+              {" "}
+              Mobile & Desktop Application Development{" "}
+            </span>
           </div>
         </div>
       </section>
@@ -234,7 +240,7 @@ export default function ServiceDetailsPage() {
                 <img
                   src="/s3.png"
                   alt="Worker Laptop"
-                  //  fill
+                  //    fill
                   className="object-cover"
                 />
               </div>
@@ -242,7 +248,7 @@ export default function ServiceDetailsPage() {
                 <img
                   src="/s2.png"
                   alt="Tech Visualization"
-                  //      fill
+                  //    fill
                   className="object-cover"
                 />
               </div>
