@@ -87,7 +87,7 @@ export function Header() {
               <Image
                 src="/logo5.png"
                 alt="IWIZ Solutions"
-                width={170}
+                width={160}
                 height={40}
                 //  fill
                 priority
