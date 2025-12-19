@@ -79,7 +79,7 @@ const Footer = () => {
         </div>
 
         {/* --- MAIN LINKS SECTION --- */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 mb-16 border-b border-gray-800 pb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-28 mb-16 border-b border-gray-800 pb-12">
           {/* Column 1: Brand & Contact (Spans 4 columns) */}
           <div className="lg:col-span-4 space-y-6">
             <Link href="/" className="inline-block relative w-40 h-12 mb-2">

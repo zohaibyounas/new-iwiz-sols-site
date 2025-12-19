@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -12,11 +12,21 @@ import {
   Plus,
   Minus,
 } from "lucide-react";
+import Particles, { initParticlesEngine } from "@tsparticles/react";
+import { loadSlim } from "@tsparticles/slim";
+import { ISourceOptions } from "@tsparticles/engine";
 
 export default function ServiceDetailsPage() {
   // State to manage FAQ accordion (Index 0 is open by default as per image)
   const [openFaq, setOpenFaq] = useState<number | null>(0);
-
+  const [init, setInit] = useState(false);
+  useEffect(() => {
+    initParticlesEngine(async (engine) => {
+      await loadSlim(engine);
+    }).then(() => {
+      setInit(true);
+    });
+  }, []);
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index);
   };
@@ -58,6 +68,80 @@ export default function ServiceDetailsPage() {
     },
   ];
 
+  const particlesOptions = useMemo<ISourceOptions>(
+    () => ({
+      fullScreen: { enable: false },
+      background: {
+        color: { value: "transparent" },
+      },
+      fpsLimit: 120,
+
+      interactivity: {
+        events: {
+          onClick: {
+            enable: true,
+            mode: "push",
+          },
+          onHover: {
+            enable: true,
+            mode: "grab",
+          },
+          resize: {
+            enable: true,
+          },
+        },
+        modes: {
+          push: {
+            quantity: 4,
+          },
+          grab: {
+            distance: 140,
+            links: {
+              opacity: 1,
+            },
+          },
+        },
+      },
+
+      particles: {
+        color: { value: "#3b82f6" },
+        links: {
+          color: "#3b82f6",
+          distance: 150,
+          enable: true,
+          opacity: 0.5,
+          width: 1,
+        },
+        move: {
+          enable: true,
+          direction: "none", // ✅ now correctly typed
+          outModes: {
+            default: "bounce",
+          },
+          speed: 3,
+        },
+        number: {
+          density: {
+            enable: true,
+            area: 800,
+          },
+          value: 160,
+        },
+        opacity: {
+          value: 0.5,
+        },
+        shape: {
+          type: "circle",
+        },
+        size: {
+          value: { min: 1, max: 3 },
+        },
+      },
+
+      detectRetina: true,
+    }),
+    []
+  );
   return (
     <div className="font-sans text-slate-600 bg-white">
       {/* ========================
@@ -66,14 +150,23 @@ export default function ServiceDetailsPage() {
       <section
         className="relative h-[600px] flex items-center justify-center text-white"
         style={{
-          backgroundImage:
-            "url('https://www.inflexion.com/media/2ylj5ili/jason-goodman-oalh2mojuuk-unsplash.jpg?width=1730&height=794&v=133845406422870000&format=webp')",
+          backgroundImage: "url('/hardwarebg.jpeg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
         {/* Dark Overlay for readability */}
         <div className="absolute inset-0 bg-slate-900/70"></div>
+        {/* PARTICLES */}
+        {init && (
+          <div className="absolute inset-0 z-0 pointer-events-none">
+            <Particles
+              id="tsparticles"
+              options={particlesOptions}
+              className="w-full h-full"
+            />
+          </div>
+        )}
 
         <div className="container mx-auto px-4 relative z-10 text-center">
           {/* Main Title */}
