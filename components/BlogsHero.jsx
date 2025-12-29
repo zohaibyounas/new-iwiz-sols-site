@@ -31,8 +31,8 @@ const BlogsHero = () => {
             {/* Reduced mb-6 to mb-4 */}
             <div className="relative w-full h-[300px] md:h-[350px] lg:h-[400px] overflow-hidden rounded-[30px] mb-4">
               <Image
-                src="/Benefits-of-retail-automation-for-modern-businesses.png"
-                alt="Startup Business Team"
+                src="/Cloud-IoT-building-scalable-connected-systems.png"
+                alt="Business Specialist"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -45,7 +45,7 @@ const BlogsHero = () => {
                 <span>27 May, 2024</span>
               </div>
               <h3 className="text-2xl md:text-3xl font-bold text-gray-900 leading-snug group-hover:text-blue-600 transition-colors">
-                Benefits of retail automation for modern businesses{" "}
+                Cloud IoT building scalable connected systems{" "}
               </h3>
             </div>
           </div>
@@ -53,15 +53,14 @@ const BlogsHero = () => {
           {/* SMALL CARD 1 (Middle) */}
           <div className="lg:col-span-1 group cursor-pointer flex flex-col h-full">
             {/* Reduced mb-5 to mb-3 */}
-            <div className="relative w-full h-[250px] overflow-hidden rounded-[30px] mb-3">
+            <div className="relative w-full h-[200px] overflow-hidden rounded-[30px] mb-3">
               <Image
-                src="/Cloud-IoT-building-scalable-connected-systems.png"
-                alt="Business Specialist"
+                src="/Benefits-of-retail-automation-for-modern-businesses.png"
+                alt="Startup Business Team"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>
-
             <div className="flex flex-col flex-grow">
               <div className="flex items-center text-gray-500 text-xs font-medium mb-2">
                 <span>Alom Khan</span>
@@ -69,7 +68,7 @@ const BlogsHero = () => {
                 <span>27 May, 2024</span>
               </div>
               <h3 className="text-lg md:text-xl font-bold text-gray-900 leading-snug group-hover:text-blue-600 transition-colors">
-                Cloud IoT building scalable connected systems{" "}
+                Benefits of retail automation for modern businesses{" "}
               </h3>
             </div>
           </div>
@@ -77,7 +76,7 @@ const BlogsHero = () => {
           {/* SMALL CARD 2 (Right) */}
           <div className="lg:col-span-1 group cursor-pointer flex flex-col h-full">
             {/* Reduced mb-5 to mb-3 */}
-            <div className="relative w-full h-[250px] overflow-hidden rounded-[30px] mb-3">
+            <div className="relative w-full h-[200px] overflow-hidden rounded-[30px] mb-3">
               <Image
                 src="/Embedded-security-for-automotive-medical-and-industrial-devices.png"
                 alt="Animation in Design"
