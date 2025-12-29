@@ -151,7 +151,7 @@ export default function Home() {
               href="/contact"
               className="inline-block px-8 py-4 rounded-tl-xl rounded-br-xl bg-gradient-to-r from-blue-500 to-blue-600 text-white text-sm font-semibold shadow-md hover:shadow-lg hover:from-blue-600 hover:to-blue-700 transition-all"
             >
-              Let’s Talk With Us
+              Let&rsquo;s Talk With Us
             </Link>
           </div>
         </div>
@@ -160,33 +160,39 @@ export default function Home() {
       {/* Feature/Service Highlight */}
       <section className="py-16 md:py-20 bg-white overflow-hidden">
         <div className="container mx-auto px-4 md:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-8 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12 items-center">
             {/* Left Column - Text with Icons */}
-            <div className="space-y-8 md:space-y-6 lg:pl-14">
-              <span className="text-[#028ADA] font-medium text-sm uppercase tracking-wider">
-                About Your Company
-              </span>
+            <div className="space-y-8">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div>
+                  <span className="text-[#028ADA] font-medium text-sm uppercase tracking-wider">
+                    About Your Company
+                  </span>
+                  <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-black mt-2">
+                    We Execute Ideas From Start to Finish
+                  </h2>
+                </div>
 
-              <h2 className="text-3xl md:text-3xl lg:text-4xl font-extrabold leading-tight text-black">
-                We Execute Ideas From <br /> Start to Finish
-              </h2>
+                {/* New Hero Image */}
+              </div>
 
               <div className="space-y-6 mt-6">
                 {/* Mission */}
-                <div className="flex items-start gap-4">
+                <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-all">
                   <div className="flex-shrink-0">
                     <Image
                       src="/homeicon.png"
                       alt="Mission Icon"
                       width={48}
                       height={48}
+                      className="w-10 h-10 md:w-12 md:h-12"
                     />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg text-black mb-1">
+                    <h3 className="font-bold text-lg md:text-xl text-black mb-2">
                       Our Mission
                     </h3>
-                    <p className="text-slate-600 text-sm leading-relaxed">
+                    <p className="text-slate-600 text-sm md:text-base leading-relaxed">
                       Deliver smart IT products and scalable technology
                       solutions empowering businesses across Middle East and
                       worldwide.
@@ -195,20 +201,21 @@ export default function Home() {
                 </div>
 
                 {/* Vision */}
-                <div className="flex items-start gap-4">
+                <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-all">
                   <div className="flex-shrink-0">
                     <Image
                       src="/homeicon1.png"
                       alt="Vision Icon"
                       width={48}
                       height={48}
+                      className="w-10 h-10 md:w-12 md:h-12"
                     />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg text-black mb-1">
+                    <h3 className="font-bold text-lg md:text-xl text-black mb-2">
                       Our Vision
                     </h3>
-                    <p className="text-slate-600 text-sm leading-relaxed">
+                    <p className="text-slate-600 text-sm md:text-base leading-relaxed">
                       To become a trusted IT products partner driving
                       innovation, digital transformation, and sustainable growth
                       worldwide.
@@ -217,20 +224,21 @@ export default function Home() {
                 </div>
 
                 {/* Awards */}
-                <div className="flex items-start gap-4">
+                <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-all">
                   <div className="flex-shrink-0">
                     <Image
                       src="/homeicon2.png"
                       alt="Awards Icon"
                       width={48}
                       height={48}
+                      className="w-10 h-10 md:w-12 md:h-12"
                     />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg text-black mb-1">
+                    <h3 className="font-bold text-lg md:text-xl text-black mb-2">
                       Our Awards
                     </h3>
-                    <p className="text-slate-600 text-sm leading-relaxed">
+                    <p className="text-slate-600 text-sm md:text-base leading-relaxed">
                       Our IT products stand as awards, successfully used by 100+
                       customers across different countries worldwide.
                     </p>
@@ -239,31 +247,20 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Middle Column - US Image */}
-            <div className="flex flex-col justify-center items-center md:items-start order-last md:order-none">
-              <div className="relative w-full max-w-md mx-auto md:max-w-full">
+            {/* Right Column - US Image */}
+            <div className="flex flex-col justify-center items-center">
+              <div className="relative w-full max-w-xl mx-auto">
                 <img
-                  src="/us.png"
+                  src="/newhero.png"
                   alt="Company Icon"
-                  className="w-full h-auto object-contain"
+                  className="w-full h-auto object-contain rounded-2xl shadow-lg"
                 />
               </div>
-              <p className="text-slate-600 text-sm mt-6 leading-relaxed text-center md:text-left">
+              <p className="text-slate-600 text-base md:text-lg mt-8 leading-relaxed text-center max-w-2xl">
                 Every successful deployment and satisfied customer represents
                 our commitment to quality, innovation, and delivering reliable
                 IT products worldwide.
               </p>
-            </div>
-
-            {/* Right Column - Why Us Image */}
-            <div className="flex justify-center h-full">
-              <div className="w-full max-w-md mx-auto md:max-w-full h-[200px] md:h-[300px] relative rounded-2xl overflow-hidden shadow-lg mt-16">
-                <img
-                  src="/whyus.png"
-                  alt="Why Us"
-                  className="w-full h-full lg:h-[300px] object-cover  "
-                />
-              </div>
             </div>
           </div>
         </div>

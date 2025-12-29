@@ -92,8 +92,9 @@ const Footer = () => {
               />
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed pr-6">
-              Each demo built with Teba will look different. You can customize
-              almost anythin appearance of your website with only a few.
+              Iwiz Solutions delivers innovative software, embedded systems, and
+              IoT solutions helping businesses build secure, scalable, and
+              future-ready technology.
             </p>
 
             <div className="space-y-3 pt-2">
