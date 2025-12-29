@@ -8,6 +8,7 @@ import {
   ArrowLeft,
   ArrowRight,
   Minus,
+  Mail,
 } from "lucide-react";
 
 const TeamMember = () => {
@@ -44,8 +45,8 @@ const TeamMember = () => {
           {/* Main Image */}
           <div className="absolute inset-0 lg:w-[100%] h-full">
             <img
-              src="/teammem.png"
-              alt="Rosy Gaggero"
+              src="/Irtaz-Madad-Naqvii.jpg"
+              alt="Irtaza Madad Naqvi"
               // fill
               className="object-cover object-top"
             />
@@ -54,28 +55,42 @@ const TeamMember = () => {
           {/* Social Media Sidebar (Floating Right) */}
           <div className="absolute right-6 top-1/2 -translate-y-1/2 flex flex-col gap-3">
             {/* Facebook */}
-            <button className="w-10 h-10 bg-white rounded-md flex items-center justify-center text-blue-600 shadow-md hover:bg-gray-50 transition-colors">
+            {/* <button className="w-10 h-10 bg-white rounded-md flex items-center justify-center text-blue-600 shadow-md hover:bg-gray-50 transition-colors">
               <Facebook className="w-5 h-5 fill-current" />
-            </button>
+            </button> */}
             {/* LinkedIn (Blue Background) */}
-            <button className="w-10 h-10 bg-blue-600 rounded-md flex items-center justify-center text-white shadow-md hover:bg-blue-700 transition-colors">
+            <a
+              href="https://www.linkedin.com/in/irtaza-madad-naqvi-798b5715a/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 bg-blue-600 rounded-md flex items-center justify-center text-white shadow-md hover:bg-blue-700 transition-colors"
+              aria-label="LinkedIn Profile"
+            >
               <Linkedin className="w-5 h-5 fill-current" />
-            </button>
+            </a>
             {/* Twitter */}
-            <button className="w-10 h-10 bg-white rounded-md flex items-center justify-center text-blue-400 shadow-md hover:bg-gray-50 transition-colors">
+            {/* <button className="w-10 h-10 bg-white rounded-md flex items-center justify-center text-blue-400 shadow-md hover:bg-gray-50 transition-colors">
               <Twitter className="w-5 h-5 fill-current" />
-            </button>
+            </button> */}
             {/* Instagram */}
-            <button className="w-10 h-10 bg-white rounded-md flex items-center justify-center text-pink-600 shadow-md hover:bg-gray-50 transition-colors">
-              <Instagram className="w-5 h-5" />
-            </button>
+            <a
+              href="mailto:irtaza.madad@iwizsols.com"
+              className="w-10 h-10 bg-white rounded-md flex items-center justify-center text-blue-600 shadow-md hover:bg-gray-50 transition-colors"
+              aria-label="Send Email to irtaza.madad@iwizsols.com"
+            >
+              <Mail className="w-5 h-5" />
+            </a>
           </div>
 
           {/* Floating Info Card (Bottom Left) */}
           <div className="relative m-6 mb-8 bg-white rounded-2xl p-5 shadow-lg flex items-center justify-between max-w-[85%]">
             <div>
-              <h3 className="text-xl font-bold text-blue-600">Rosy Gaggero</h3>
-              <p className="text-gray-500 text-sm font-medium">Web Developer</p>
+              <h3 className="text-xl font-bold text-blue-600">
+                Irtaza Madad Naqvi
+              </h3>
+              <p className="text-gray-500 text-sm font-medium">
+                Managing Director
+              </p>
             </div>
             <button className="w-8 h-8 bg-blue-50 rounded-full flex items-center justify-center text-blue-600 hover:bg-blue-100 transition-colors">
               <Minus className="w-4 h-4" />
@@ -93,14 +108,14 @@ const TeamMember = () => {
               </span>
 
               {/* Navigation Arrows */}
-              <div className="flex gap-3">
+              {/* <div className="flex gap-3">
                 <button className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-blue-900 shadow-lg hover:bg-gray-100 transition-colors">
                   <ArrowLeft className="w-5 h-5" />
                 </button>
                 <button className="w-10 h-10 bg-blue-500/50 rounded-full flex items-center justify-center text-white backdrop-blur-sm hover:bg-blue-500 transition-colors">
                   <ArrowRight className="w-5 h-5" />
                 </button>
-              </div>
+              </div> */}
             </div>
 
             <h2 className="text-4xl font-bold leading-tight mb-6">
@@ -108,8 +123,9 @@ const TeamMember = () => {
             </h2>
 
             <p className="text-blue-100 text-sm leading-relaxed max-w-md mb-10">
-              It is a long established fact that a reader will be distracted the
-              readable content of a page when looking.
+              A dedicated team of IT professionals, developers, and innovators
+              working together to deliver exceptional solutions for your
+              business challenges.
             </p>
           </div>
 
@@ -118,7 +134,7 @@ const TeamMember = () => {
             {/* Thumb 1 (Active) */}
             <div className="relative aspect-square rounded-2xl overflow-hidden border-4 border-white cursor-pointer transition-transform hover:scale-105">
               <img
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=2574&auto=format&fit=crop"
+                src="/aqib.JPG"
                 alt="Member 1"
                 // fill
                 className="object-cover"
@@ -128,7 +144,7 @@ const TeamMember = () => {
             {/* Thumb 2 */}
             <div className="relative aspect-square rounded-2xl overflow-hidden cursor-pointer opacity-80 hover:opacity-100 transition-all hover:scale-105">
               <img
-                src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=2574&auto=format&fit=crop"
+                src="/younas.JPG"
                 alt="Member 2"
                 //  fill
                 className="object-cover"
@@ -138,7 +154,7 @@ const TeamMember = () => {
             {/* Thumb 3 */}
             <div className="relative aspect-square rounded-2xl overflow-hidden cursor-pointer opacity-80 hover:opacity-100 transition-all hover:scale-105">
               <img
-                src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=2574&auto=format&fit=crop"
+                src="/munsif.JPG "
                 alt="Member 3"
                 // fill
                 className="object-cover"

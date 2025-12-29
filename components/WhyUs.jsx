@@ -71,13 +71,15 @@ const WhyUs = () => {
               Why Choose Us
             </span>
             <h2 className="text-3xl md:text-5xl font-extrabold text-[#0F172A] leading-tight mb-6">
-              IT Solutions Designed to <br className="hidden md:block" />
-              Drive Results
+              From Idea to Impact — We Build It Right{" "}
+              <br className="hidden md:block" />
             </h2>
             <p className="text-slate-500 text-base md:text-lg leading-relaxed max-w-xl">
-              Monotonectally synergize granular markets and front market
-              Collaboratively visualize strat fomediaries after based models,
-              Synergistically task state of the art infrastructures.
+              We partner with businesses to design, develop, and deliver
+              reliable technology solutions that solve real problems. From
+              embedded systems and IoT to cloud software and automation, every
+              solution is engineered for performance, scalability, and
+              long-term value.
             </p>
           </div>
         </div>
@@ -95,8 +97,8 @@ const WhyUs = () => {
                 Our Mission
               </h3>
               <p className="text-slate-500 text-sm leading-relaxed">
-                Our mission is push engage boundaries, enga audiences, and driv
-                engage innovation through innovation
+                Deliver smart IT products and scalable technology solutions
+                empowering businesses across Middle East and worldwide.
               </p>
             </div>
 
@@ -109,8 +111,8 @@ const WhyUs = () => {
                 Our Vision
               </h3>
               <p className="text-slate-500 text-sm leading-relaxed">
-                Our mission is push engage boundaries, enga audiences, and driv
-                engage innovation through innovation
+                To become a trusted IT products partner driving innovation,
+                digital transformation, and sustainable growth worldwide.
               </p>
             </div>
 
@@ -123,8 +125,8 @@ const WhyUs = () => {
                 Our Awards
               </h3>
               <p className="text-slate-500 text-sm leading-relaxed">
-                Our mission is push engage boundaries, enga audiences, and driv
-                engage innovation through innovation
+                Our IT products stand as awards, successfully used by 100+
+                customers across different countries worldwide.
               </p>
             </div>
           </div>
@@ -162,7 +164,7 @@ const WhyUs = () => {
                 {/* 2. Center Blue Circle */}
                 <div className="relative z-10 w-20 h-20 md:w-24 md:h-24 bg-[#2563EB] rounded-full border-[5px] border-[#F8F9FC] flex items-center justify-center shadow-lg">
                   <span className="text-white text-3xl md:text-4xl font-bold">
-                    25
+                    10
                   </span>
                 </div>
               </div>
