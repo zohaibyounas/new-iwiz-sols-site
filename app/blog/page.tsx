@@ -23,8 +23,7 @@ const blogPosts = [
     category: "Product Development",
     date: "30 Dec, 2025",
     title: "From Idea to Prototype: Step-by-Step Product Development Process",
-    image:
-      "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2664&auto=format&fit=crop",
+    image: "/risk.webp",
   },
   {
     id: 3,
@@ -32,8 +31,7 @@ const blogPosts = [
     category: "Cyber Security",
     date: "30 Dec, 2025",
     title: "Best Practices for Securing Firmware and Hardware",
-    image:
-      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070&auto=format&fit=crop",
+    image: "/best-practices.webp",
   },
   {
     id: 4,
@@ -41,8 +39,7 @@ const blogPosts = [
     category: "Embedded Systems",
     date: "30 Dec, 2025",
     title: "Embedded Security for Automotive, Medical, and Industrial Devices",
-    image:
-      "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=2070&auto=format&fit=crop",
+    image: "/embedded.jpg",
   },
   {
     id: 5,
@@ -50,8 +47,7 @@ const blogPosts = [
     category: "IoT",
     date: "30 Dec, 2025",
     title: "IoT Security Challenges and Best Practices",
-    image:
-      "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop",
+    image: "/blog5.jpg",
   },
   {
     id: 6,
@@ -59,8 +55,7 @@ const blogPosts = [
     category: "Cloud & IoT",
     date: "30 Dec, 2025",
     title: "Cloud + IoT: Building Scalable Connected Systems",
-    image:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop",
+    image: "/blog6.webp",
   },
   {
     id: 7,
@@ -68,8 +63,7 @@ const blogPosts = [
     category: "UI/UX Design",
     date: "30 Dec, 2025",
     title: "UI/UX Trends in Mobile and Desktop Applications",
-    image:
-      "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?q=80&w=2070&auto=format&fit=crop",
+    image: "/Top-UI-UX-Design-Trends-in-2025-To-Follow-1.jpg",
   },
   {
     id: 8,
@@ -77,8 +71,7 @@ const blogPosts = [
     category: "Retail Tech",
     date: "30 Dec, 2025",
     title: "Benefits of Retail Automation for Modern Businesses",
-    image:
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop",
+    image: "/Retail-Automation-02.webp",
   },
   {
     id: 9,
@@ -86,8 +79,7 @@ const blogPosts = [
     category: "Business Support",
     date: "30 Dec, 2025",
     title: "SLA-Driven Support: What Businesses Should Expect",
-    image:
-      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop",
+    image: "/blog9.png",
   },
 ];
 
@@ -129,7 +121,7 @@ export default function BlogPage() {
           2. BLOG GRID SECTION 
          ======================== */}
       <div className="container mx-auto px-4 py-20 lg:py-24 max-w-7xl">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 lg:mx-12">
           {blogPosts.map((post) => (
             <Link
               key={post.id}

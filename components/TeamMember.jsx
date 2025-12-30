@@ -144,7 +144,7 @@ const TeamMember = () => {
             {/* Thumb 2 */}
             <div className="relative aspect-square rounded-2xl overflow-hidden cursor-pointer opacity-80 hover:opacity-100 transition-all hover:scale-105">
               <img
-                src="/younas.JPG"
+                src="/younas.jpg"
                 alt="Member 2"
                 //  fill
                 className="object-cover"
@@ -154,7 +154,7 @@ const TeamMember = () => {
             {/* Thumb 3 */}
             <div className="relative aspect-square rounded-2xl overflow-hidden cursor-pointer opacity-80 hover:opacity-100 transition-all hover:scale-105">
               <img
-                src="/munsif.JPG "
+                src="/munsif.jpg "
                 alt="Member 3"
                 // fill
                 className="object-cover"

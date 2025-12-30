@@ -30,7 +30,7 @@ export default function BlogDetailsPage() {
       <section
         className="relative h-[600px] flex items-center justify-center text-white"
         style={{
-          backgroundImage: "url('/rapid-prototyping.webp')",
+          backgroundImage: "url('/Retail-Automation-02.webp')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -67,7 +67,7 @@ export default function BlogDetailsPage() {
             {/* Featured Image */}
             <div className="relative w-full h-[300px] md:h-[450px] rounded-[30px] overflow-hidden mb-8">
               <img
-                src="/rapid-prototyping.webp"
+                src="/Retail-Automation-02.webp"
                 alt="Typing on laptop"
                 // fill
                 className="object-cover"
@@ -92,29 +92,30 @@ export default function BlogDetailsPage() {
 
             {/* Main Text Content */}
             <h1 className="text-5xl md:text-5xl font-extrabold mb-6 text-black">
-              How Rapid Prototyping Reduces Development Cost and Risk
+              Benefits of retail automation for modern businesses{" "}
             </h1>
 
             <div className="space-y-6 text-[15px] leading-relaxed mb-10">
               <p>
-                Rapid prototyping accelerates the design process, allowing teams
-                to test ideas quickly without heavy investment. Early feedback
-                identifies potential flaws before full-scale production. This
-                approach saves both time and money.
+                Retail automation is transforming how businesses operate. From
+                inventory management to checkout processes, automation
+                streamlines operations. Modern retailers gain efficiency,
+                accuracy, and cost savings.
               </p>
               <p>
-                By visualizing concepts early, developers can make informed
-                decisions and avoid costly mistakes. Prototypes serve as a
-                bridge between idea and implementation. Stakeholders gain
-                clarity and confidence in the project direction.
+                Automated inventory tracking reduces stockouts and overstock
+                situations. Point-of-sale systems integrated with AI analytics
+                provide real-time insights into customer behavior. Self-checkout
+                and smart kiosks enhance the shopping experience while reducing
+                wait times.
               </p>
             </div>
 
             {/* Two Images Row */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-              <div className="relative h-[250px] rounded-[20px] overflow-hidden">
+              <div className="relative h-[200px] rounded-[20px] overflow-hidden">
                 <img
-                  src="/prototyping.jpg"
+                  src="/ai2.jpg"
                   alt="Team meeting"
                   //   fill
                   className="object-cover"
@@ -122,20 +123,21 @@ export default function BlogDetailsPage() {
               </div>
               <div className="relative h-[250px] rounded-[20px] overflow-hidden">
                 <img
-                  src="/cost-risk.jpg"
+                  src="/blog8.jpeG"
                   alt="Consultation"
                   //   fill
-                  className="object-cover"
+                  className="object-cover h-[200px] "
                 />
               </div>
             </div>
 
             <p className="text-[15px] leading-relaxed mb-10">
-              Reducing iterations in the final product lowers manufacturing
-              costs significantly. Prototyping helps detect design flaws,
-              technical challenges, and usability issues early. Teams can
-              experiment without fear of failure. It ultimately minimizes
-              financial and operational risks.
+              Data-driven automation enables personalized marketing and loyalty
+              programs. Predictive analytics help retailers forecast demand and
+              optimize pricing strategies. Employees are freed from repetitive
+              tasks to focus on higher-value activities. Automation ensures
+              consistent operations, reduces human error, and increases
+              profitability.
             </p>
 
             {/* Blockquote */}
@@ -145,23 +147,24 @@ export default function BlogDetailsPage() {
               </div>
               <div>
                 <p className="text-lg font-bold text-gray-900 italic leading-relaxed">
-                  &quot;A prototype is worth a thousand assumptions – test,
-                  iterate, and save before you invest&quot;
+                  &quot;Retail automation empowers businesses to work smarter,
+                  not harder&quot;
                 </p>
               </div>
             </div>
 
             <div className="space-y-6 text-[15px] leading-relaxed mb-12">
               <p>
-                Early prototypes prevent scope creep and ensure realistic
-                project timelines. They help allocate resources efficiently and
-                reduce unexpected expenses.
+                From small stores to large chains, automation boosts efficiency
+                and scalability. It ensures faster service and a more satisfying
+                customer experience
               </p>
               <p>
-                From concept to market-ready product, rapid prototyping shortens
-                development cycles. It empowers innovation while keeping budgets
-                under control. By embracing prototyping, companies transform
-                risks into opportunities for smarter decision-making.
+                By embracing retail automation, businesses improve operational
+                efficiency and reduce costs. Enhanced analytics and smarter
+                workflows drive growth and innovation. Modern retailers
+                leveraging automation gain a competitive edge in a fast-paced
+                market.
               </p>
             </div>
 

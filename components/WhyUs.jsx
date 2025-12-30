@@ -71,7 +71,7 @@ const WhyUs = () => {
               Why Choose Us
             </span>
             <h2 className="text-3xl md:text-5xl font-extrabold text-[#0F172A] leading-tight mb-6">
-              From Idea to Impact — We Build It Right{" "}
+              From Idea to Impact We Build It Right{" "}
               <br className="hidden md:block" />
             </h2>
             <p className="text-slate-500 text-base md:text-lg leading-relaxed max-w-xl">

@@ -30,7 +30,7 @@ export default function BlogDetailsPage() {
       <section
         className="relative h-[600px] flex items-center justify-center text-white"
         style={{
-          backgroundImage: "url('/rapid-prototyping.webp')",
+          backgroundImage: "url('/best-practices.webp')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -60,14 +60,14 @@ export default function BlogDetailsPage() {
       {/* ========================
           2. MAIN CONTENT 
          ======================== */}
-      <div className="container mx-auto px-4 py-20 lg:py-24 max-w-7xl">
+      <div className="container mx-auto px-4 py-20 lg:py-24 max-w-7xl  ">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 lg:mx-24">
           {/* --- LEFT COLUMN: ARTICLE (Span 8) --- */}
           <div className="lg:col-span-8">
             {/* Featured Image */}
-            <div className="relative w-full h-[300px] md:h-[450px] rounded-[30px] overflow-hidden mb-8">
+            <div className="relative w-full h-[300px] md:h-[300px] rounded-[30px] overflow-hidden mb-8">
               <img
-                src="/rapid-prototyping.webp"
+                src="/best-practices.webp"
                 alt="Typing on laptop"
                 // fill
                 className="object-cover"
@@ -92,50 +92,51 @@ export default function BlogDetailsPage() {
 
             {/* Main Text Content */}
             <h1 className="text-5xl md:text-5xl font-extrabold mb-6 text-black">
-              How Rapid Prototyping Reduces Development Cost and Risk
+              Best Practices for Securing Firmware and Hardware{" "}
             </h1>
 
             <div className="space-y-6 text-[15px] leading-relaxed mb-10">
               <p>
-                Rapid prototyping accelerates the design process, allowing teams
-                to test ideas quickly without heavy investment. Early feedback
-                identifies potential flaws before full-scale production. This
-                approach saves both time and money.
+                Firmware and hardware are the backbone of modern devices.
+                Ensuring their security protects against cyberattacks and
+                unauthorized access. Implementing best practices reduces
+                vulnerabilities from the start.
               </p>
               <p>
-                By visualizing concepts early, developers can make informed
-                decisions and avoid costly mistakes. Prototypes serve as a
-                bridge between idea and implementation. Stakeholders gain
-                clarity and confidence in the project direction.
+                Start with secure boot mechanisms to verify firmware integrity
+                at startup. Regular firmware updates and patch management
+                prevent exploitation of known vulnerabilities. Hardware-level
+                protections like trusted platform modules (TPMs) add an extra
+                layer of defense.
               </p>
             </div>
 
             {/* Two Images Row */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-">
               <div className="relative h-[250px] rounded-[20px] overflow-hidden">
                 <img
-                  src="/prototyping.jpg"
+                  src="/best1.png"
                   alt="Team meeting"
                   //   fill
-                  className="object-cover"
+                  className="object-cover h-[182px]"
                 />
               </div>
               <div className="relative h-[250px] rounded-[20px] overflow-hidden">
                 <img
-                  src="/cost-risk.jpg"
+                  src="/November-Business-RichText-Firmware.jpg"
                   alt="Consultation"
                   //   fill
-                  className="object-cover"
+                  className="object-cover h-[182px]"
                 />
               </div>
             </div>
 
             <p className="text-[15px] leading-relaxed mb-10">
-              Reducing iterations in the final product lowers manufacturing
-              costs significantly. Prototyping helps detect design flaws,
-              technical challenges, and usability issues early. Teams can
-              experiment without fear of failure. It ultimately minimizes
-              financial and operational risks.
+              Encrypt sensitive data in memory and storage to prevent leaks. Use
+              code signing to authenticate firmware before deployment. Conduct
+              regular security audits and penetration tests to identify
+              weaknesses. A proactive security strategy ensures device
+              reliability and user trust.
             </p>
 
             {/* Blockquote */}
@@ -145,23 +146,24 @@ export default function BlogDetailsPage() {
               </div>
               <div>
                 <p className="text-lg font-bold text-gray-900 italic leading-relaxed">
-                  &quot;A prototype is worth a thousand assumptions – test,
-                  iterate, and save before you invest&quot;
+                  &quot;Secure hardware is only as strong as the firmware it
+                  runs; protect both, protect everything&quot;
                 </p>
               </div>
             </div>
 
             <div className="space-y-6 text-[15px] leading-relaxed mb-12">
               <p>
-                Early prototypes prevent scope creep and ensure realistic
-                project timelines. They help allocate resources efficiently and
-                reduce unexpected expenses.
+                Access control and authentication protocols are critical to
+                prevent tampering. Combining software and hardware security
+                creates a robust defense system.
               </p>
+
               <p>
-                From concept to market-ready product, rapid prototyping shortens
-                development cycles. It empowers innovation while keeping budgets
-                under control. By embracing prototyping, companies transform
-                risks into opportunities for smarter decision-making.
+                From embedded systems to IoT devices, prioritizing security
+                minimizes risk. Following these best practices ensures long-term
+                device integrity and safeguards sensitive information. Investing
+                in security today prevents costly breaches tomorrow.
               </p>
             </div>
 

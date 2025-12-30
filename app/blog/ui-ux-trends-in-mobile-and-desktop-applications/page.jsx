@@ -30,7 +30,8 @@ export default function BlogDetailsPage() {
       <section
         className="relative h-[600px] flex items-center justify-center text-white"
         style={{
-          backgroundImage: "url('/rapid-prototyping.webp')",
+          backgroundImage:
+            "url('/Top-UI-UX-Design-Trends-in-2025-To-Follow-1.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -67,7 +68,7 @@ export default function BlogDetailsPage() {
             {/* Featured Image */}
             <div className="relative w-full h-[300px] md:h-[450px] rounded-[30px] overflow-hidden mb-8">
               <img
-                src="/rapid-prototyping.webp"
+                src="/Top-UI-UX-Design-Trends-in-2025-To-Follow-1.jpg"
                 alt="Typing on laptop"
                 // fill
                 className="object-cover"
@@ -92,29 +93,30 @@ export default function BlogDetailsPage() {
 
             {/* Main Text Content */}
             <h1 className="text-5xl md:text-5xl font-extrabold mb-6 text-black">
-              How Rapid Prototyping Reduces Development Cost and Risk
+              UI/UX trends in mobile and desktop applications{" "}
             </h1>
 
             <div className="space-y-6 text-[15px] leading-relaxed mb-10">
               <p>
-                Rapid prototyping accelerates the design process, allowing teams
-                to test ideas quickly without heavy investment. Early feedback
-                identifies potential flaws before full-scale production. This
-                approach saves both time and money.
+                UI/UX design is evolving rapidly to meet user expectations.
+                Mobile and desktop applications must focus on intuitive
+                interfaces and seamless experiences. Staying updated with design
+                trends enhances engagement and satisfaction.
               </p>
               <p>
-                By visualizing concepts early, developers can make informed
-                decisions and avoid costly mistakes. Prototypes serve as a
-                bridge between idea and implementation. Stakeholders gain
-                clarity and confidence in the project direction.
+                Minimalistic designs, dark mode, and adaptive layouts are
+                gaining popularity across platforms. Microinteractions and
+                animations make apps feel responsive and alive. Voice interfaces
+                and gesture controls are becoming essential for accessibility
+                and convenience.
               </p>
             </div>
 
             {/* Two Images Row */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-              <div className="relative h-[250px] rounded-[20px] overflow-hidden">
+              <div className="relative h-[200px] rounded-[20px] overflow-hidden">
                 <img
-                  src="/prototyping.jpg"
+                  src="/mobile1.webp"
                   alt="Team meeting"
                   //   fill
                   className="object-cover"
@@ -122,20 +124,21 @@ export default function BlogDetailsPage() {
               </div>
               <div className="relative h-[250px] rounded-[20px] overflow-hidden">
                 <img
-                  src="/cost-risk.jpg"
+                  src="/mobile-app-design.png"
                   alt="Consultation"
                   //   fill
-                  className="object-cover"
+                  className="object-cover h-[200px] "
                 />
               </div>
             </div>
 
             <p className="text-[15px] leading-relaxed mb-10">
-              Reducing iterations in the final product lowers manufacturing
-              costs significantly. Prototyping helps detect design flaws,
-              technical challenges, and usability issues early. Teams can
-              experiment without fear of failure. It ultimately minimizes
-              financial and operational risks.
+              Personalization through AI-driven recommendations improves user
+              retention. Consistent design systems across devices ensure brand
+              identity and usability. Mobile-first and responsive design
+              approaches cater to diverse screen sizes and user behaviors.
+              Continuous testing and feedback loops refine the user experience
+              over time.
             </p>
 
             {/* Blockquote */}
@@ -145,23 +148,23 @@ export default function BlogDetailsPage() {
               </div>
               <div>
                 <p className="text-lg font-bold text-gray-900 italic leading-relaxed">
-                  &quot;A prototype is worth a thousand assumptions – test,
-                  iterate, and save before you invest&quot;
+                  &quot;Great UI/UX is invisible — users feel the experience,
+                  not the design.&quot;
                 </p>
               </div>
             </div>
 
             <div className="space-y-6 text-[15px] leading-relaxed mb-12">
               <p>
-                Early prototypes prevent scope creep and ensure realistic
-                project timelines. They help allocate resources efficiently and
-                reduce unexpected expenses.
+                Accessibility, speed, and clarity remain central to effective
+                design. User-centric trends drive adoption and loyalty.
               </p>
               <p>
-                From concept to market-ready product, rapid prototyping shortens
-                development cycles. It empowers innovation while keeping budgets
-                under control. By embracing prototyping, companies transform
-                risks into opportunities for smarter decision-making.
+                From sleek mobile apps to feature-rich desktop software,
+                following UI/UX trends creates meaningful interactions.
+                Designers who embrace innovation while prioritizing usability
+                deliver products that resonate. A modern, intuitive interface is
+                the key to long-term user engagement.
               </p>
             </div>
 

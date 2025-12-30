@@ -30,7 +30,7 @@ export default function BlogDetailsPage() {
       <section
         className="relative h-[600px] flex items-center justify-center text-white"
         style={{
-          backgroundImage: "url('/rapid-prototyping.webp')",
+          backgroundImage: "url('/blog5.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -67,7 +67,7 @@ export default function BlogDetailsPage() {
             {/* Featured Image */}
             <div className="relative w-full h-[300px] md:h-[450px] rounded-[30px] overflow-hidden mb-8">
               <img
-                src="/rapid-prototyping.webp"
+                src="/blog5.jpg"
                 alt="Typing on laptop"
                 // fill
                 className="object-cover"
@@ -92,21 +92,22 @@ export default function BlogDetailsPage() {
 
             {/* Main Text Content */}
             <h1 className="text-5xl md:text-5xl font-extrabold mb-6 text-black">
-              How Rapid Prototyping Reduces Development Cost and Risk
+              IoT security challenges and best practices
             </h1>
 
             <div className="space-y-6 text-[15px] leading-relaxed mb-10">
               <p>
-                Rapid prototyping accelerates the design process, allowing teams
-                to test ideas quickly without heavy investment. Early feedback
-                identifies potential flaws before full-scale production. This
-                approach saves both time and money.
+                The Internet of Things (IoT) connects billions of devices
+                worldwide. With increased connectivity comes higher security
+                risks. Protecting IoT devices is critical for privacy and
+                reliability.
               </p>
               <p>
-                By visualizing concepts early, developers can make informed
-                decisions and avoid costly mistakes. Prototypes serve as a
-                bridge between idea and implementation. Stakeholders gain
-                clarity and confidence in the project direction.
+                IoT devices often face vulnerabilities like weak passwords,
+                outdated firmware, and insecure communication channels. Hackers
+                can exploit these flaws to access sensitive data or disrupt
+                operations. Network segmentation, strong authentication, and
+                encryption are essential to mitigate these risks.
               </p>
             </div>
 
@@ -114,7 +115,7 @@ export default function BlogDetailsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
               <div className="relative h-[250px] rounded-[20px] overflow-hidden">
                 <img
-                  src="/prototyping.jpg"
+                  src="/iot.jpg"
                   alt="Team meeting"
                   //   fill
                   className="object-cover"
@@ -122,7 +123,7 @@ export default function BlogDetailsPage() {
               </div>
               <div className="relative h-[250px] rounded-[20px] overflow-hidden">
                 <img
-                  src="/cost-risk.jpg"
+                  src="/iot1.jpg"
                   alt="Consultation"
                   //   fill
                   className="object-cover"
@@ -131,11 +132,12 @@ export default function BlogDetailsPage() {
             </div>
 
             <p className="text-[15px] leading-relaxed mb-10">
-              Reducing iterations in the final product lowers manufacturing
-              costs significantly. Prototyping helps detect design flaws,
-              technical challenges, and usability issues early. Teams can
-              experiment without fear of failure. It ultimately minimizes
-              financial and operational risks.
+              Regular updates, device monitoring, and vulnerability testing
+              reduce exposure. Implementing security by design ensures safety
+              from the start. Multi-layered security strategies combine
+              hardware, software, and network protections for robust defense.
+              User education and compliance with industry standards further
+              strengthen device security.
             </p>
 
             {/* Blockquote */}
@@ -145,23 +147,24 @@ export default function BlogDetailsPage() {
               </div>
               <div>
                 <p className="text-lg font-bold text-gray-900 italic leading-relaxed">
-                  &quot;A prototype is worth a thousand assumptions – test,
-                  iterate, and save before you invest&quot;
+                  &quot;IoT security is a continuous journey — safeguard every
+                  device, every connection&quot;
                 </p>
               </div>
             </div>
 
             <div className="space-y-6 text-[15px] leading-relaxed mb-12">
               <p>
-                Early prototypes prevent scope creep and ensure realistic
-                project timelines. They help allocate resources efficiently and
-                reduce unexpected expenses.
+                Failing to secure IoT devices can lead to data breaches, service
+                interruptions, and financial loss. Proactive measures protect
+                both users and organizations.
               </p>
               <p>
-                From concept to market-ready product, rapid prototyping shortens
-                development cycles. It empowers innovation while keeping budgets
-                under control. By embracing prototyping, companies transform
-                risks into opportunities for smarter decision-making.
+                From smart homes to industrial IoT, following best practices is
+                essential. Prioritizing encryption, secure firmware, and
+                real-time monitoring prevents cyberattacks. By embracing strong
+                IoT security strategies, organizations can innovate confidently
+                without compromising safety or privacy.
               </p>
             </div>
 

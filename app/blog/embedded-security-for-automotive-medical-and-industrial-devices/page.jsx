@@ -30,7 +30,7 @@ export default function BlogDetailsPage() {
       <section
         className="relative h-[600px] flex items-center justify-center text-white"
         style={{
-          backgroundImage: "url('/rapid-prototyping.webp')",
+          backgroundImage: "url('/embedded.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -65,9 +65,9 @@ export default function BlogDetailsPage() {
           {/* --- LEFT COLUMN: ARTICLE (Span 8) --- */}
           <div className="lg:col-span-8">
             {/* Featured Image */}
-            <div className="relative w-full h-[300px] md:h-[450px] rounded-[30px] overflow-hidden mb-8">
+            <div className="relative w-full h-[300px] md:h-[400px] rounded-[30px] overflow-hidden ">
               <img
-                src="/rapid-prototyping.webp"
+                src="/embedded.jpg"
                 alt="Typing on laptop"
                 // fill
                 className="object-cover"
@@ -92,21 +92,22 @@ export default function BlogDetailsPage() {
 
             {/* Main Text Content */}
             <h1 className="text-5xl md:text-5xl font-extrabold mb-6 text-black">
-              How Rapid Prototyping Reduces Development Cost and Risk
+              Embedded security for automotive, medical, and industrial devices.{" "}
             </h1>
 
             <div className="space-y-6 text-[15px] leading-relaxed mb-10">
               <p>
-                Rapid prototyping accelerates the design process, allowing teams
-                to test ideas quickly without heavy investment. Early feedback
-                identifies potential flaws before full-scale production. This
-                approach saves both time and money.
+                Embedded security is crucial in devices that control critical
+                systems. Automotive, medical, and industrial devices face high
+                stakes if compromised. Strong security safeguards safety,
+                privacy, and reliability.
               </p>
               <p>
-                By visualizing concepts early, developers can make informed
-                decisions and avoid costly mistakes. Prototypes serve as a
-                bridge between idea and implementation. Stakeholders gain
-                clarity and confidence in the project direction.
+                In automotive systems, embedded security prevents unauthorized
+                access to vehicle control units. Medical devices rely on secure
+                firmware to protect patient data and ensure life-saving
+                operations. Industrial devices use security measures to prevent
+                sabotage and maintain operational continuity.
               </p>
             </div>
 
@@ -114,7 +115,7 @@ export default function BlogDetailsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
               <div className="relative h-[250px] rounded-[20px] overflow-hidden">
                 <img
-                  src="/prototyping.jpg"
+                  src="/car.jpg"
                   alt="Team meeting"
                   //   fill
                   className="object-cover"
@@ -122,7 +123,7 @@ export default function BlogDetailsPage() {
               </div>
               <div className="relative h-[250px] rounded-[20px] overflow-hidden">
                 <img
-                  src="/cost-risk.jpg"
+                  src="/car1.png"
                   alt="Consultation"
                   //   fill
                   className="object-cover"
@@ -131,11 +132,12 @@ export default function BlogDetailsPage() {
             </div>
 
             <p className="text-[15px] leading-relaxed mb-10">
-              Reducing iterations in the final product lowers manufacturing
-              costs significantly. Prototyping helps detect design flaws,
-              technical challenges, and usability issues early. Teams can
-              experiment without fear of failure. It ultimately minimizes
-              financial and operational risks.
+              Implementing encryption, secure boot, and authentication protocols
+              strengthens device resilience. Regular updates, vulnerability
+              assessments, and hardware-based protections reduce risk.
+              Collaboration between software and hardware engineers ensures
+              robust security. Comprehensive monitoring detects anomalies before
+              they escalate into serious threats.
             </p>
 
             {/* Blockquote */}
@@ -145,23 +147,24 @@ export default function BlogDetailsPage() {
               </div>
               <div>
                 <p className="text-lg font-bold text-gray-900 italic leading-relaxed">
-                  &quot;A prototype is worth a thousand assumptions – test,
-                  iterate, and save before you invest&quot;
+                  &quot;Embedded security is not optional — it’s the foundation
+                  of trust in critical systems.&quot;
                 </p>
               </div>
             </div>
 
             <div className="space-y-6 text-[15px] leading-relaxed mb-12">
               <p>
-                Early prototypes prevent scope creep and ensure realistic
-                project timelines. They help allocate resources efficiently and
-                reduce unexpected expenses.
+                Failing to secure embedded devices can result in safety hazards
+                and regulatory penalties. Investing in proactive security
+                strategies protects both users and organizations.
               </p>
               <p>
-                From concept to market-ready product, rapid prototyping shortens
-                development cycles. It empowers innovation while keeping budgets
-                under control. By embracing prototyping, companies transform
-                risks into opportunities for smarter decision-making.
+                From connected cars to medical implants and industrial control
+                systems, embedded security ensures operational safety. Following
+                best practices in design, implementation, and testing creates
+                reliable devices. Secure devices build trust, protect lives, and
+                prevent costly breaches.
               </p>
             </div>
 

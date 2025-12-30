@@ -30,7 +30,7 @@ export default function BlogDetailsPage() {
       <section
         className="relative h-[600px] flex items-center justify-center text-white"
         style={{
-          backgroundImage: "url('/rapid-prototyping.webp')",
+          backgroundImage: "url('/blog9.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -67,7 +67,7 @@ export default function BlogDetailsPage() {
             {/* Featured Image */}
             <div className="relative w-full h-[300px] md:h-[450px] rounded-[30px] overflow-hidden mb-8">
               <img
-                src="/rapid-prototyping.webp"
+                src="/blog9.png"
                 alt="Typing on laptop"
                 // fill
                 className="object-cover"
@@ -92,21 +92,23 @@ export default function BlogDetailsPage() {
 
             {/* Main Text Content */}
             <h1 className="text-5xl md:text-5xl font-extrabold mb-6 text-black">
-              How Rapid Prototyping Reduces Development Cost and Risk
+              SLA-driven support: what businesses should expect{" "}
             </h1>
 
             <div className="space-y-6 text-[15px] leading-relaxed mb-10">
               <p>
-                Rapid prototyping accelerates the design process, allowing teams
-                to test ideas quickly without heavy investment. Early feedback
-                identifies potential flaws before full-scale production. This
-                approach saves both time and money.
+                Service Level Agreements (SLAs) define the expectations between
+                businesses and their service providers. SLA-driven support
+                ensures accountability and transparency in service delivery.
+                Businesses can measure performance against clear standards.
               </p>
               <p>
-                By visualizing concepts early, developers can make informed
-                decisions and avoid costly mistakes. Prototypes serve as a
-                bridge between idea and implementation. Stakeholders gain
-                clarity and confidence in the project direction.
+                Key metrics in SLA-driven support include response time,
+                resolution time, and uptime guarantees. Regular reporting and
+                monitoring help track compliance. Businesses gain confidence
+                knowing support is structured and measurable. SLAs also outline
+                penalties for missed commitments, protecting organizational
+                interests.
               </p>
             </div>
 
@@ -114,15 +116,15 @@ export default function BlogDetailsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
               <div className="relative h-[250px] rounded-[20px] overflow-hidden">
                 <img
-                  src="/prototyping.jpg"
+                  src="/sla.webp"
                   alt="Team meeting"
                   //   fill
                   className="object-cover"
                 />
               </div>
-              <div className="relative h-[250px] rounded-[20px] overflow-hidden">
+              <div className="relative h-[220px] rounded-[20px] overflow-hidden">
                 <img
-                  src="/cost-risk.jpg"
+                  src="/sla1.jpeg"
                   alt="Consultation"
                   //   fill
                   className="object-cover"
@@ -131,11 +133,12 @@ export default function BlogDetailsPage() {
             </div>
 
             <p className="text-[15px] leading-relaxed mb-10">
-              Reducing iterations in the final product lowers manufacturing
-              costs significantly. Prototyping helps detect design flaws,
-              technical challenges, and usability issues early. Teams can
-              experiment without fear of failure. It ultimately minimizes
-              financial and operational risks.
+              Proactive support under SLA agreements reduces downtime and
+              operational risks. Communication channels, escalation procedures,
+              and dedicated account management improve efficiency. Predictable
+              support leads to higher customer satisfaction and stronger
+              business relationships. Clear documentation ensures accountability
+              and continuous improvement.
             </p>
 
             {/* Blockquote */}
@@ -145,23 +148,24 @@ export default function BlogDetailsPage() {
               </div>
               <div>
                 <p className="text-lg font-bold text-gray-900 italic leading-relaxed">
-                  &quot;A prototype is worth a thousand assumptions – test,
-                  iterate, and save before you invest&quot;
+                  &quot;SLA-driven support transforms reactive service into a
+                  proactive business advantage.&quot;
                 </p>
               </div>
             </div>
 
             <div className="space-y-6 text-[15px] leading-relaxed mb-12">
               <p>
-                Early prototypes prevent scope creep and ensure realistic
-                project timelines. They help allocate resources efficiently and
-                reduce unexpected expenses.
+                Businesses should expect timely responses, problem resolution,
+                and regular performance updates. SLAs create a framework for
+                trust and reliability.
               </p>
               <p>
-                From concept to market-ready product, rapid prototyping shortens
-                development cycles. It empowers innovation while keeping budgets
-                under control. By embracing prototyping, companies transform
-                risks into opportunities for smarter decision-making.
+                From IT services to cloud solutions, SLA-driven support ensures
+                consistent performance. By setting clear expectations, companies
+                reduce risk and enhance operational stability. Transparent,
+                measurable, and proactive support keeps businesses running
+                smoothly and efficiently.
               </p>
             </div>
 

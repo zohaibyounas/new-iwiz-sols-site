@@ -30,7 +30,7 @@ export default function BlogDetailsPage() {
       <section
         className="relative h-[600px] flex items-center justify-center text-white"
         style={{
-          backgroundImage: "url('/rapid-prototyping.webp')",
+          backgroundImage: "url('/blog6.webp')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -67,7 +67,7 @@ export default function BlogDetailsPage() {
             {/* Featured Image */}
             <div className="relative w-full h-[300px] md:h-[450px] rounded-[30px] overflow-hidden mb-8">
               <img
-                src="/rapid-prototyping.webp"
+                src="/blog6.webp"
                 alt="Typing on laptop"
                 // fill
                 className="object-cover"
@@ -92,21 +92,23 @@ export default function BlogDetailsPage() {
 
             {/* Main Text Content */}
             <h1 className="text-5xl md:text-5xl font-extrabold mb-6 text-black">
-              How Rapid Prototyping Reduces Development Cost and Risk
+              Cloud + IoT: building scalable connected systems{" "}
             </h1>
 
             <div className="space-y-6 text-[15px] leading-relaxed mb-10">
               <p>
-                Rapid prototyping accelerates the design process, allowing teams
-                to test ideas quickly without heavy investment. Early feedback
-                identifies potential flaws before full-scale production. This
-                approach saves both time and money.
+                Combining cloud computing with IoT enables powerful, scalable
+                systems. Data from connected devices can be processed, stored,
+                and analyzed in real-time. This integration drives smarter
+                decision-making and operational efficiency.
               </p>
               <p>
-                By visualizing concepts early, developers can make informed
-                decisions and avoid costly mistakes. Prototypes serve as a
-                bridge between idea and implementation. Stakeholders gain
-                clarity and confidence in the project direction.
+                Cloud platforms provide flexible infrastructure to handle
+                massive IoT device networks. Edge computing complements this by
+                processing data closer to devices, reducing latency. Scalable
+                architectures ensure performance even as the number of devices
+                grows exponentially. Security and data privacy remain central to
+                maintaining trust.
               </p>
             </div>
 
@@ -114,7 +116,7 @@ export default function BlogDetailsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
               <div className="relative h-[250px] rounded-[20px] overflow-hidden">
                 <img
-                  src="/prototyping.jpg"
+                  src="/Iot-and-cloud.webp"
                   alt="Team meeting"
                   //   fill
                   className="object-cover"
@@ -122,20 +124,21 @@ export default function BlogDetailsPage() {
               </div>
               <div className="relative h-[250px] rounded-[20px] overflow-hidden">
                 <img
-                  src="/cost-risk.jpg"
+                  src="/Benefits.jpg"
                   alt="Consultation"
                   //   fill
-                  className="object-cover"
+                  className="object-con h-[218px]"
                 />
               </div>
             </div>
 
             <p className="text-[15px] leading-relaxed mb-10">
-              Reducing iterations in the final product lowers manufacturing
-              costs significantly. Prototyping helps detect design flaws,
-              technical challenges, and usability issues early. Teams can
-              experiment without fear of failure. It ultimately minimizes
-              financial and operational risks.
+              APIs and microservices simplify integration and interoperability
+              between IoT devices and cloud services. Monitoring, analytics, and
+              automated responses optimize system performance. Redundant systems
+              and load balancing ensure reliability during peak usage.
+              Cloud-based IoT platforms accelerate innovation and reduce
+              operational costs.
             </p>
 
             {/* Blockquote */}
@@ -145,23 +148,24 @@ export default function BlogDetailsPage() {
               </div>
               <div>
                 <p className="text-lg font-bold text-gray-900 italic leading-relaxed">
-                  &quot;A prototype is worth a thousand assumptions – test,
-                  iterate, and save before you invest&quot;
+                  &quot;Cloud and IoT together transform isolated devices into
+                  intelligent, scalable ecosystems.&quot;
                 </p>
               </div>
             </div>
 
             <div className="space-y-6 text-[15px] leading-relaxed mb-12">
               <p>
-                Early prototypes prevent scope creep and ensure realistic
-                project timelines. They help allocate resources efficiently and
-                reduce unexpected expenses.
+                Building scalable IoT systems requires careful planning of
+                architecture, data flow, and security. Efficient device
+                management ensures seamless communication across networks.
               </p>
               <p>
-                From concept to market-ready product, rapid prototyping shortens
-                development cycles. It empowers innovation while keeping budgets
-                under control. By embracing prototyping, companies transform
-                risks into opportunities for smarter decision-making.
+                From smart cities to industrial automation, cloud-enabled IoT
+                empowers organizations to innovate. Scalable connected systems
+                improve efficiency, enable predictive maintenance, and unlock
+                actionable insights. With the right strategies, businesses can
+                harness the full potential of IoT and cloud synergy.
               </p>
             </div>
 

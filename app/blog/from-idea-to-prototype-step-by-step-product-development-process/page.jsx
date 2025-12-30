@@ -30,7 +30,7 @@ export default function BlogDetailsPage() {
       <section
         className="relative h-[600px] flex items-center justify-center text-white"
         style={{
-          backgroundImage: "url('/rapid-prototyping.webp')",
+          backgroundImage: "url('/risk.webp')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -60,14 +60,14 @@ export default function BlogDetailsPage() {
       {/* ========================
           2. MAIN CONTENT 
          ======================== */}
-      <div className="container mx-auto px-4 py-20 lg:py-24 max-w-7xl">
+      <div className="container mx-auto px-4 py-20 lg:py-24 max-w-7xl  ">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 lg:mx-24">
           {/* --- LEFT COLUMN: ARTICLE (Span 8) --- */}
           <div className="lg:col-span-8">
             {/* Featured Image */}
             <div className="relative w-full h-[300px] md:h-[450px] rounded-[30px] overflow-hidden mb-8">
               <img
-                src="/rapid-prototyping.webp"
+                src="/risk.webp"
                 alt="Typing on laptop"
                 // fill
                 className="object-cover"
@@ -92,21 +92,20 @@ export default function BlogDetailsPage() {
 
             {/* Main Text Content */}
             <h1 className="text-5xl md:text-5xl font-extrabold mb-6 text-black">
-              How Rapid Prototyping Reduces Development Cost and Risk
+              From Idea to Prototype: Step-by-Step Product Development Process{" "}
             </h1>
 
             <div className="space-y-6 text-[15px] leading-relaxed mb-10">
               <p>
-                Rapid prototyping accelerates the design process, allowing teams
-                to test ideas quickly without heavy investment. Early feedback
-                identifies potential flaws before full-scale production. This
-                approach saves both time and money.
+                Every great product begins with a simple idea. Turning that idea
+                into reality requires careful planning and execution.
+                Prototyping is the bridge between concept and creation.
               </p>
               <p>
-                By visualizing concepts early, developers can make informed
-                decisions and avoid costly mistakes. Prototypes serve as a
-                bridge between idea and implementation. Stakeholders gain
-                clarity and confidence in the project direction.
+                The first step is thorough research to understand market needs
+                and user pain points. Brainstorming sessions generate multiple
+                solutions before narrowing down the best approach. Concept
+                sketches and wireframes visualize initial ideas.
               </p>
             </div>
 
@@ -114,7 +113,7 @@ export default function BlogDetailsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
               <div className="relative h-[250px] rounded-[20px] overflow-hidden">
                 <img
-                  src="/prototyping.jpg"
+                  src="/step.avif"
                   alt="Team meeting"
                   //   fill
                   className="object-cover"
@@ -122,20 +121,20 @@ export default function BlogDetailsPage() {
               </div>
               <div className="relative h-[250px] rounded-[20px] overflow-hidden">
                 <img
-                  src="/cost-risk.jpg"
+                  src="/step2.jpg"
                   alt="Consultation"
                   //   fill
-                  className="object-cover"
+                  className="object-cover h-[182px]"
                 />
               </div>
             </div>
 
             <p className="text-[15px] leading-relaxed mb-10">
-              Reducing iterations in the final product lowers manufacturing
-              costs significantly. Prototyping helps detect design flaws,
-              technical challenges, and usability issues early. Teams can
-              experiment without fear of failure. It ultimately minimizes
-              financial and operational risks.
+              Next comes building a functional prototype to test usability and
+              feasibility. Feedback from stakeholders and early users helps
+              refine the design. Iterations improve the product without heavy
+              costs. Testing ensures that the final product aligns with
+              expectations and solves real problems.
             </p>
 
             {/* Blockquote */}
@@ -145,23 +144,24 @@ export default function BlogDetailsPage() {
               </div>
               <div>
                 <p className="text-lg font-bold text-gray-900 italic leading-relaxed">
-                  &quot;A prototype is worth a thousand assumptions – test,
-                  iterate, and save before you invest&quot;
+                  &quot;A well-crafted prototype saves months of guesswork and
+                  thousands in development costs&quot;
                 </p>
               </div>
             </div>
 
             <div className="space-y-6 text-[15px] leading-relaxed mb-12">
               <p>
-                Early prototypes prevent scope creep and ensure realistic
-                project timelines. They help allocate resources efficiently and
-                reduce unexpected expenses.
+                Rapid iteration in the prototyping phase reduces technical risks
+                and identifies potential flaws early. It ensures a smoother
+                transition to full-scale production.
               </p>
+
               <p>
-                From concept to market-ready product, rapid prototyping shortens
-                development cycles. It empowers innovation while keeping budgets
-                under control. By embracing prototyping, companies transform
-                risks into opportunities for smarter decision-making.
+                From ideation to a tangible prototype, following a structured
+                process minimizes errors. It encourages collaboration, enhances
+                innovation, and delivers products that resonate with users. Step
+                by step, ideas become impactful solutions.
               </p>
             </div>
 

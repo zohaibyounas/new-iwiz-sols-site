@@ -142,9 +142,9 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-16 md:py-20 bg-white overflow-hidden">
-        <div className="container mx-auto px-4 md:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12 items-center">
+      <section className="py-16 md:py-20 bg-white overflow-hidden lg">
+        <div className="container mx-auto px-4 md:px-8 ">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12 items-center mx-12">
             {/* Left Column - Text with Icons */}
             <div className="space-y-8">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
@@ -159,7 +159,7 @@ export default function About() {
               </div>
 
               <div className="space-y-6 mt-6">
-                <p className="text-slate-600 text-base md:text-lg leading-relaxed max-w-2xl">
+                <p className="text-slate-600 text-base md:text-base leading-relaxed max-w-2xl">
                   At IWIZ Solutions, we&apos;re a team of experts dedicated to
                   solving your toughest challenges, from production issues to
                   team struggles, and product design. We offer tailored
@@ -168,14 +168,14 @@ export default function About() {
                   you&apos;re not just getting a service provider—you&apos;re
                   gaining a committed partner.
                 </p>
-                <p className="text-slate-600 text-base md:text-lg leading-relaxed max-w-2xl">
+                <p className="text-slate-600 text-base md:text-base leading-relaxed max-w-2xl">
                   In just one and a half years, IWIZ Solutions has grown from a
                   small team of 4 to a dynamic company with over 30 skilled
                   professionals. We&apos;ve completed over 100 projects,
                   dedicating more than 50,000 hours to delivering exceptional
                   services.
                 </p>
-                <p className="text-slate-600 text-base md:text-lg leading-relaxed max-w-2xl">
+                <p className="text-slate-600 text-base md:text-base leading-relaxed max-w-2xl">
                   Our expertise spans both software and hardware, enabling us to
                   provide comprehensive solutions for your unique needs. We
                   offer a free 30-minute support call to help you tackle your
