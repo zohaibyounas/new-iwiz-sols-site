@@ -170,7 +170,7 @@ const AboutTestimonial = () => {
                   activeCard === index ? "text-blue-50" : "text-gray-700"
                 }`}
               >
-                "{item.text}"
+                &quot;{item.text}&quot;
               </p>
 
               {/* Footer: Profile & Icon */}

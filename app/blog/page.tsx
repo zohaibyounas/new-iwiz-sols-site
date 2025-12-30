@@ -11,7 +11,7 @@ export const metadata = {
 const blogPosts = [
   {
     id: 1,
-    slug: "TestBlog",
+    slug: "how-rapid-prototyping-reduces-development-cost-and-risk",
     category: "Business solution",
     date: "27 May, 2024",
     title: "Boost your startup business with our digital agency",

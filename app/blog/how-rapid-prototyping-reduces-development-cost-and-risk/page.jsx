@@ -68,7 +68,7 @@ export default function BlogDetailsPage() {
             {/* Featured Image */}
             <div className="relative w-full h-[300px] md:h-[450px] rounded-[30px] overflow-hidden mb-8">
               <img
-                src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop"
+                src="/rapid-prototyping.webp"
                 alt="Typing on laptop"
                 // fill
                 className="object-cover"
@@ -79,7 +79,7 @@ export default function BlogDetailsPage() {
             <div className="flex flex-wrap items-center gap-6 mb-6 text-sm font-medium text-gray-500">
               <div className="flex items-center gap-2">
                 <Calendar className="w-4 h-4 text-blue-600" />
-                <span>28 June 2024</span>
+                <span>30 Dec 2025</span>
               </div>
               <div className="flex items-center gap-2">
                 <Folder className="w-4 h-4 text-blue-600" />
@@ -92,20 +92,22 @@ export default function BlogDetailsPage() {
             </div>
 
             {/* Main Text Content */}
+            <h1 className="text-5xl md:text-5xl font-extrabold mb-6 text-black">
+              How Rapid Prototyping Reduces Development Cost and Risk
+            </h1>
+
             <div className="space-y-6 text-[15px] leading-relaxed mb-10">
               <p>
-                Consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore of magna aliqua. Ut enim ad minim veniam,
-                made of owl the quis nostrud exercitation ullamco laboris nisi
-                ut aliquip ex ea dolor commodo consequat. Duis aute irure and
-                dolor in reprehenderit.
+                Rapid prototyping accelerates the design process, allowing teams
+                to test ideas quickly without heavy investment. Early feedback
+                identifies potential flaws before full-scale production. This
+                approach saves both time and money.
               </p>
               <p>
-                Use both direct conversations and indirect observations to get
-                visibility into employees’ challenges and concerns. Use every
-                opportunity to make clear to employees that you support and care
-                them. To facilitate regular conversations between managers and
-                employees, provide.
+                By visualizing concepts early, developers can make informed
+                decisions and avoid costly mistakes. Prototypes serve as a
+                bridge between idea and implementation. Stakeholders gain
+                clarity and confidence in the project direction.
               </p>
             </div>
 
@@ -113,7 +115,7 @@ export default function BlogDetailsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
               <div className="relative h-[250px] rounded-[20px] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070&auto=format&fit=crop"
+                  src="/prototyping.jpg"
                   alt="Team meeting"
                   //   fill
                   className="object-cover"
@@ -121,7 +123,7 @@ export default function BlogDetailsPage() {
               </div>
               <div className="relative h-[250px] rounded-[20px] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2664&auto=format&fit=crop"
+                  src="/cost-risk.jpg"
                   alt="Consultation"
                   //   fill
                   className="object-cover"
@@ -130,12 +132,11 @@ export default function BlogDetailsPage() {
             </div>
 
             <p className="text-[15px] leading-relaxed mb-10">
-              The third Monday of January is supposed to be the most depressing
-              day of the year. Whether you believe that or not, the long nights,
-              cold weather, and trying to keep to new year resolutions are all
-              probably getting to you a little by now. To make matters worse
-              many will still be recovering from their Christmas spending. So
-              how can you make today.
+              Reducing iterations in the final product lowers manufacturing
+              costs significantly. Prototyping helps detect design flaws,
+              technical challenges, and usability issues early. Teams can
+              experiment without fear of failure. It ultimately minimizes
+              financial and operational risks.
             </p>
 
             {/* Blockquote */}
@@ -145,26 +146,23 @@ export default function BlogDetailsPage() {
               </div>
               <div>
                 <p className="text-lg font-bold text-gray-900 italic leading-relaxed">
-                  &quot;We appreciate the consistent high-quality service
-                  provided by their team goes above and beyond concerns
-                  promptly&quot;
+                  &quot;A prototype is worth a thousand assumptions – test,
+                  iterate, and save before you invest&quot;
                 </p>
               </div>
             </div>
 
             <div className="space-y-6 text-[15px] leading-relaxed mb-12">
               <p>
-                Vast numbers of employees now work remotely, and it’s too late
-                to develop a set of remote-work policies if you didn’t already
-                have one. But there are ways to make the remote-work experience
-                productive and engaging for employees.
+                Early prototypes prevent scope creep and ensure realistic
+                project timelines. They help allocate resources efficiently and
+                reduce unexpected expenses.
               </p>
               <p>
-                Use both direct conversations and indirect observations to get
-                visibility into employees’ challenges and concerns. Use every
-                opportunity to make clear to employees that you support and care
-                them. To facilitate regular conversations between managers and
-                employees.
+                From concept to market-ready product, rapid prototyping shortens
+                development cycles. It empowers innovation while keeping budgets
+                under control. By embracing prototyping, companies transform
+                risks into opportunities for smarter decision-making.
               </p>
             </div>
 
@@ -330,29 +328,57 @@ export default function BlogDetailsPage() {
             {/* Categories Widget */}
             <div className="bg-[#F8F9FA] p-8 rounded-[20px]">
               <h4 className="font-bold text-gray-900 mb-6 text-lg">
-                Categories
+                Services{" "}
               </h4>
               <ul className="space-y-3">
-                <li className="flex justify-between items-center bg-white p-3 rounded text-sm text-gray-600 hover:bg-white/80 cursor-pointer">
-                  <span>Technology</span>
-                  <span>(03)</span>
-                </li>
-                <li className="flex justify-between items-center bg-blue-600 text-white p-3 rounded text-sm shadow-md cursor-pointer">
-                  <span>Apps Development</span>
-                  <span>(07)</span>
-                </li>
-                <li className="flex justify-between items-center bg-white p-3 rounded text-sm text-gray-600 hover:bg-white/80 cursor-pointer">
-                  <span>Business</span>
-                  <span>(05)</span>
-                </li>
-                <li className="flex justify-between items-center bg-white p-3 rounded text-sm text-gray-600 hover:bg-white/80 cursor-pointer">
-                  <span>Social Marketing</span>
-                  <span>(02)</span>
-                </li>
-                <li className="flex justify-between items-center bg-white p-3 rounded text-sm text-gray-600 hover:bg-white/80 cursor-pointer">
-                  <span>Business Intelligence</span>
-                  <span>(04)</span>
-                </li>
+                <Link href="/services/Product-Design-&-Prototyping">
+                  <li className="flex justify-between items-center bg-white p-3 rounded text-sm text-gray-600 hover:bg-white/80 cursor-pointer">
+                    <span>Product Design & Prototyping</span>
+                    {/* <span>(03)</span> */}
+                  </li>
+                </Link>
+
+                <Link href="/services/Embedded-Systems-Security">
+                  <li className="flex justify-between items-center bg-blue-600 text-white p-3 rounded text-sm shadow-md cursor-pointer">
+                    <span>Embedded Systems Security</span>
+                    {/* <span>(07)</span> */}
+                  </li>
+                </Link>
+
+                <Link href="/services/IoT-Solutions">
+                  <li className="flex justify-between items-center bg-white p-3 rounded text-sm text-gray-600 hover:bg-white/80 cursor-pointer">
+                    <span>IoT Solutions</span>
+                    {/* <span>(05)</span> */}
+                  </li>
+                </Link>
+
+                <Link href="/services/Mobile-&-Desktop-Application-Development">
+                  <li className="flex justify-between items-center bg-white p-3 rounded text-sm text-gray-600 hover:bg-white/80 cursor-pointer">
+                    <span>Mobile & Desktop Application Development</span>
+                    {/* <span>(02)</span> */}
+                  </li>
+                </Link>
+
+                <Link href="/services/Cloud-Software-Solutions">
+                  <li className="flex justify-between items-center bg-white p-3 rounded text-sm text-gray-600 hover:bg-white/80 cursor-pointer">
+                    <span>Cloud Software Solutions</span>
+                    {/* <span>(04)</span> */}
+                  </li>
+                </Link>
+
+                <Link href="/services/POS-&-Retail-Automation">
+                  <li className="flex justify-between items-center bg-white p-3 rounded text-sm text-gray-600 hover:bg-white/80 cursor-pointer">
+                    <span>POS & Retail Automation</span>
+                    {/* <span>(04)</span> */}
+                  </li>
+                </Link>
+
+                <Link href="/services/Maintenance-&-Support">
+                  <li className="flex justify-between items-center bg-white p-3 rounded text-sm text-gray-600 hover:bg-white/80 cursor-pointer">
+                    <span>Maintenance & Support</span>
+                    {/* <span>(04)</span> */}
+                  </li>
+                </Link>
               </ul>
             </div>
 
@@ -374,10 +400,11 @@ export default function BlogDetailsPage() {
                   </div>
                   <div>
                     <h5 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors mb-1">
-                      Boost your startup business with our digital agency
+                      From idea to prototype: step-by-step product development
+                      process{" "}
                     </h5>
                     <span className="text-[11px] text-gray-400">
-                      26 June 2024
+                      30 Dec 2025
                     </span>
                   </div>
                 </div>
@@ -393,10 +420,10 @@ export default function BlogDetailsPage() {
                   </div>
                   <div>
                     <h5 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors mb-1">
-                      Boost your startup business with our digital agency
+                      Best practices for securing firmware and hardware.
                     </h5>
                     <span className="text-[11px] text-gray-400">
-                      March 26, 2024
+                      30 Dec 2025{" "}
                     </span>
                   </div>
                 </div>
@@ -412,10 +439,11 @@ export default function BlogDetailsPage() {
                   </div>
                   <div>
                     <h5 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors mb-1">
-                      Data Backup and Recovery Best Practices Small
+                      Embedded security for automotive, medical, and industrial
+                      devices.
                     </h5>
                     <span className="text-[11px] text-gray-400">
-                      March 20, 2024
+                      30 Dec 2025{" "}
                     </span>
                   </div>
                 </div>
