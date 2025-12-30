@@ -12,81 +12,80 @@ const blogPosts = [
   {
     id: 1,
     slug: "how-rapid-prototyping-reduces-development-cost-and-risk",
-    category: "Business solution",
-    date: "27 May, 2024",
-    title: "Boost your startup business with our digital agency",
-    image:
-      "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop",
+    category: "Technology",
+    date: "30 Dec, 2025",
+    title: "How Rapid Prototyping Reduces Development Cost and Risk",
+    image: "/rapid-prototyping.webp",
   },
   {
     id: 2,
-    slug: "TestBlog",
-    category: "Business solution",
-    date: "27 May, 2024",
-    title: "Boost your Startup Business With our Digital Agency",
+    slug: "from-idea-to-prototype-step-by-step-product-development-process",
+    category: "Product Development",
+    date: "30 Dec, 2025",
+    title: "From Idea to Prototype: Step-by-Step Product Development Process",
     image:
       "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2664&auto=format&fit=crop",
   },
   {
     id: 3,
-    slug: "TestBlog",
-    category: "Business solution",
-    date: "27 May, 2024",
-    title: "Data Backup and Recovery Best Practices Small",
+    slug: "best-practices-for-securing-firmware-and-hardware",
+    category: "Cyber Security",
+    date: "30 Dec, 2025",
+    title: "Best Practices for Securing Firmware and Hardware",
     image:
       "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070&auto=format&fit=crop",
   },
   {
     id: 4,
-    slug: "TestBlog",
-    category: "Business solution",
-    date: "27 May, 2024",
-    title: "Maximizing Productivity with IT Support Service",
+    slug: "embedded-security-for-automotive-medical-and-industrial-devices",
+    category: "Embedded Systems",
+    date: "30 Dec, 2025",
+    title: "Embedded Security for Automotive, Medical, and Industrial Devices",
     image:
       "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=2070&auto=format&fit=crop",
   },
   {
     id: 5,
-    slug: "TestBlog",
-    category: "Business solution",
-    date: "27 May, 2024",
-    title: "Leaves Should Be Shredded Before Used As Mulch",
+    slug: "iot-security-challenges-and-best-practices",
+    category: "IoT",
+    date: "30 Dec, 2025",
+    title: "IoT Security Challenges and Best Practices",
     image:
       "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop",
   },
   {
     id: 6,
-    slug: "TestBlog",
-    category: "Business solution",
-    date: "27 May, 2024",
-    title: "It's Time To Design Your Dream Outdoor Living Space",
+    slug: "cloud-plus-iot-building-scalable-connected-systems",
+    category: "Cloud & IoT",
+    date: "30 Dec, 2025",
+    title: "Cloud + IoT: Building Scalable Connected Systems",
     image:
       "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop",
   },
   {
     id: 7,
-    slug: "TestBlog",
-    category: "Business solution",
-    date: "27 May, 2024",
-    title: "Distinctively revolutionary for chang the Seamlessly",
+    slug: "ui-ux-trends-in-mobile-and-desktop-applications",
+    category: "UI/UX Design",
+    date: "30 Dec, 2025",
+    title: "UI/UX Trends in Mobile and Desktop Applications",
     image:
       "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?q=80&w=2070&auto=format&fit=crop",
   },
   {
     id: 8,
-    slug: "TestBlog",
-    category: "Business solution",
-    date: "27 May, 2024",
-    title: "Distinctively revolutionary for chang the Seamlessly",
+    slug: "benefits-of-retail-automation-for-modern-businesses",
+    category: "Retail Tech",
+    date: "30 Dec, 2025",
+    title: "Benefits of Retail Automation for Modern Businesses",
     image:
       "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop",
   },
   {
     id: 9,
-    slug: "TestBlog",
-    category: "Business solution",
-    date: "27 May, 2024",
-    title: "The website of your dream can be Built easily",
+    slug: "sla-driven-support-what-businesses-should-expect",
+    category: "Business Support",
+    date: "30 Dec, 2025",
+    title: "SLA-Driven Support: What Businesses Should Expect",
     image:
       "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop",
   },
@@ -132,9 +131,10 @@ export default function BlogPage() {
       <div className="container mx-auto px-4 py-20 lg:py-24 max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {blogPosts.map((post) => (
-            <div
+            <Link
               key={post.id}
-              className="bg-[#F8F9FA] rounded-[30px] overflow-hidden group hover:shadow-xl transition-all duration-300 flex flex-col"
+              href={`/blog/${post.slug}`}
+              className="group block bg-[#F8F9FA] rounded-[30px] overflow-hidden hover:shadow-xl transition-all duration-300"
             >
               {/* Card Image */}
               <div className="relative w-full h-[240px] overflow-hidden">
@@ -148,7 +148,7 @@ export default function BlogPage() {
               </div>
 
               {/* Card Content */}
-              <div className="p-8 flex flex-col flex-grow">
+              <div className="p-8 flex flex-col h-full">
                 {/* Meta Data */}
                 <div className="flex items-center gap-2 text-xs md:text-[13px] text-gray-500 font-medium mb-3 uppercase tracking-wide">
                   <span>{post.category}</span>
@@ -161,18 +161,13 @@ export default function BlogPage() {
                   {post.title}
                 </h3>
 
-                {/* Read More Link */}
-                <div className="mt-auto">
-                  <Link
-                    href={`/blog/${post.slug}`}
-                    className="inline-flex items-center gap-1 text-blue-500 text-sm font-bold hover:text-blue-700 transition-colors"
-                  >
-                    Read More
-                    <ArrowRight className="w-4 h-4 ml-1" />
-                  </Link>
+                {/* Read More (visual only) */}
+                <div className="mt-auto inline-flex items-center gap-1 text-blue-500 text-sm font-bold group-hover:text-blue-700">
+                  Read More
+                  <ArrowRight className="w-4 h-4 ml-1" />
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
