@@ -33,29 +33,29 @@ export default function ServiceDetailsPage() {
 
   const faqs = [
     {
-      question: "What is vision for the future?",
+      question: "What platforms do you develop applications for?",
       answer:
-        "Augue enim ut sem vulputate nunc eu ultrices nec bibendum. Nullam non at eu tincidunt non purus vitae. Leo nam quam elit imperdiet. Sit malesuada massa scelerisque tincidunt. Facilisis Sit dolor ultricies phasellus viverra feugiat enim nisl.",
+        " We develop apps for Android, iOS, Windows, and macOS platforms.",
     },
     {
-      question: "Do you offer free resources?",
+      question: "Can you create both mobile and desktop applications?",
       answer:
-        "Yes, we offer a variety of free resources to help you get started with our services.",
+        " Yes, we build high-performance apps for both mobile devices and desktop systems.",
     },
     {
-      question: "Can help to find investors?",
+      question: "Do you provide custom app development?",
       answer:
-        "We have a dedicated network of partners that can help connect you with potential investors.",
+        " Yes, all applications are fully customized to meet specific business requirements.",
     },
     {
-      question: "Can help to find investors?",
+      question: "How long does it take to develop an application?",
       answer:
-        "Our team provides consultancy to prepare your pitch and strategy for finding investors.",
+        " Development timelines vary by complexity, typically ranging from a few weeks to several months.",
     },
     {
-      question: "What services do you offer?",
+      question: " Do you offer app maintenance and updates?",
       answer:
-        "We offer comprehensive IT solutions including security, cloud computing, and development.",
+        " Yes, we provide ongoing support, updates, and performance optimization for all apps.",
     },
   ];
 
@@ -67,8 +67,7 @@ export default function ServiceDetailsPage() {
       <section
         className="relative h-[600px] flex items-center justify-center text-white"
         style={{
-          backgroundImage:
-            "url('https://www.inflexion.com/media/2ylj5ili/jason-goodman-oalh2mojuuk-unsplash.jpg?width=1730&height=794&v=133845406422870000&format=webp')",
+          backgroundImage: "url('/mobile-hero.webp')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -151,7 +150,7 @@ export default function ServiceDetailsPage() {
                   <div>
                     <p className="text-xs text-gray-500 font-medium">Call Us</p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      +123 456 7890
+                      +92 314 5372506
                     </p>
                   </div>
                 </div>
@@ -164,7 +163,7 @@ export default function ServiceDetailsPage() {
                   <div>
                     <p className="text-xs text-gray-500 font-medium">Email</p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      info@example.com
+                      irtaza.madad@iwizsols.com
                     </p>
                   </div>
                 </div>
@@ -179,7 +178,8 @@ export default function ServiceDetailsPage() {
                       Office Address
                     </p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      125 Berlin, Germany
+                      Hasan Chowk, Mureer, Murree Rd, Chamanzar Colony,
+                      Rawalpindi, 46000
                     </p>
                   </div>
                 </div>
@@ -190,9 +190,9 @@ export default function ServiceDetailsPage() {
           {/* --- RIGHT CONTENT (Span 8) --- */}
           <div className="lg:col-span-8">
             {/* Main Featured Image */}
-            <div className="relative w-full h-[300px] md:h-[420px] mb-8 overflow-hidden ">
+            <div className="relative w-[700px] h-[300px] md:h-[420px] mb-8 overflow-hidden  rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px]">
               <img
-                src="/serviceser.png"
+                src="/mobile-app-development-1.jpg"
                 alt="Data Security Technology"
                 //   fill
                 className="object-cover"
@@ -201,30 +201,29 @@ export default function ServiceDetailsPage() {
 
             {/* Main Title & Text */}
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">
-              Data Security
+              Mobile & Desktop Application Development{" "}
             </h2>
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-6">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year anddey unknown printer took scrambled.
+              Deliver engaging digital experiences with our mobile and desktop
+              application development services. We build high-performance,
+              user-friendly apps for Android, iOS, Windows, and macOS platforms.
+              Our solutions enhance productivity and improve customer engagement
+              through innovative technology.
             </p>
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-8">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year unknown printer took galley anddey
-              scrambled.
+              Our development process covers UI/UX design, responsive
+              interfaces, and seamless integration with existing systems. We
+              specialize in creating apps that are secure, scalable, and
+              tailored to your business needs. Performance, reliability, and
+              usability are at the core of our development approach.
             </p>
 
             {/* Checkmark List */}
             <div className="space-y-4 mb-10">
               {[
-                "Sed nisl fusce est consequat mollis habitasse facilisi rutrum nisl.",
-                "Cubilia quisque ad accumsan lorem platea elementum nisl curabitur dapibus.",
-                "Egestas magnis sapien hack vehicula condimentum dui enim justo site.",
+                "Custom app development for multiple platforms",
+                "UI/UX design and performance optimization",
+                "Integration with APIs and enterprise systems",
               ].map((text, idx) => (
                 <div key={idx} className="flex items-center gap-3">
                   <CheckCircle2 className="w-5 h-5 text-blue-600 fill-blue-100 flex-shrink-0" />
@@ -239,34 +238,35 @@ export default function ServiceDetailsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="relative h-[280px] overflow-hidden ">
                 <img
-                  src="/s3.png"
+                  src="/ui-ux.jpg"
                   alt="Worker Laptop"
                   //    fill
-                  className="object-cover"
+                  className="object-cover object-cover w-[380px] h-[300px] rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px]"
                 />
               </div>
               <div className="relative h-[280px]  overflow-hidden ">
                 <img
-                  src="/s2.png"
+                  src="/app-dev-services.jpg"
                   alt="Tech Visualization"
                   //    fill
-                  className="object-cover"
+                  className="object-cover object-cover w-[380px] h-[300px] rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px]"
                 />
               </div>
             </div>
 
             {/* Bottom Text */}
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-12">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year anddey unknown printer took scrambled.
+              Our applications help businesses streamline operations, boost
+              efficiency, and deliver superior digital experiences. We leverage
+              modern frameworks and agile methodologies to deliver apps on time
+              and within budget. Whether for enterprise or consumer use, our
+              apps are crafted to drive engagement and results.
             </p>
 
             {/* FAQ Section */}
             <h3 className="text-2xl font-extrabold text-gray-900 mb-8">
-              Frequently Asked Question
+              Frequently Asked Questions – Mobile & Desktop Application
+              Development{" "}
             </h3>
             <div className="space-y-4">
               {faqs.map((faq, index) => {

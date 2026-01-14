@@ -33,29 +33,29 @@ export default function ServiceDetailsPage() {
 
   const faqs = [
     {
-      question: "What is vision for the future?",
+      question: "What are IoT solutions?",
       answer:
-        "Augue enim ut sem vulputate nunc eu ultrices nec bibendum. Nullam non at eu tincidunt non purus vitae. Leo nam quam elit imperdiet. Sit malesuada massa scelerisque tincidunt. Facilisis Sit dolor ultricies phasellus viverra feugiat enim nisl.",
+        " IoT solutions connect smart devices to collect, monitor, and analyze data in real time.",
     },
     {
-      question: "Do you offer free resources?",
+      question: " How do IoT solutions benefit businesses?",
       answer:
-        "Yes, we offer a variety of free resources to help you get started with our services.",
+        " They improve efficiency, automation, monitoring, and data-driven decision-making.",
     },
     {
-      question: "Can help to find investors?",
+      question: " What industries use IoT solutions?",
       answer:
-        "We have a dedicated network of partners that can help connect you with potential investors.",
+        " IoT is widely used in healthcare, manufacturing, smart cities, agriculture, and logistics.",
     },
     {
-      question: "Can help to find investors?",
+      question: "Are IoT systems secure?",
       answer:
-        "Our team provides consultancy to prepare your pitch and strategy for finding investors.",
+        " Yes, IoT security includes encryption, authentication, and secure cloud integration.",
     },
     {
-      question: "What services do you offer?",
+      question: "Can IoT solutions be customized?",
       answer:
-        "We offer comprehensive IT solutions including security, cloud computing, and development.",
+        " Yes, IoT solutions can be fully customized based on business and industry requirements.",
     },
   ];
 
@@ -262,7 +262,7 @@ export default function ServiceDetailsPage() {
 
             {/* FAQ Section */}
             <h3 className="text-2xl font-extrabold text-gray-900 mb-8">
-              Frequently Asked Question
+              Frequently Asked Questions – IoT Solutions{" "}
             </h3>
             <div className="space-y-4">
               {faqs.map((faq, index) => {

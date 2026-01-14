@@ -33,29 +33,29 @@ export default function ServiceDetailsPage() {
 
   const faqs = [
     {
-      question: "What is vision for the future?",
+      question: "What is included in maintenance and support services?",
       answer:
-        "Augue enim ut sem vulputate nunc eu ultrices nec bibendum. Nullam non at eu tincidunt non purus vitae. Leo nam quam elit imperdiet. Sit malesuada massa scelerisque tincidunt. Facilisis Sit dolor ultricies phasellus viverra feugiat enim nisl.",
+        " We provide system updates, troubleshooting, monitoring, and technical assistance for smooth operations.",
     },
     {
-      question: "Do you offer free resources?",
+      question: "Why is regular maintenance important?",
       answer:
-        "Yes, we offer a variety of free resources to help you get started with our services.",
+        " Regular maintenance prevents downtime, improves performance, and extends system lifespan.",
     },
     {
-      question: "Can help to find investors?",
+      question: "Do you offer 24/7 support?",
       answer:
-        "We have a dedicated network of partners that can help connect you with potential investors.",
+        "Yes, we provide round-the-clock support to address urgent issues anytime.",
     },
     {
-      question: "Can help to find investors?",
+      question: "Can you support both software and hardware systems?",
       answer:
-        "Our team provides consultancy to prepare your pitch and strategy for finding investors.",
+        " Yes, our maintenance covers software updates, hardware checks, and system optimization.",
     },
     {
-      question: "What services do you offer?",
+      question: "How do maintenance services benefit businesses?",
       answer:
-        "We offer comprehensive IT solutions including security, cloud computing, and development.",
+        "They ensure uninterrupted operations, minimize risks, and increase overall efficiency.",
     },
   ];
 
@@ -67,8 +67,7 @@ export default function ServiceDetailsPage() {
       <section
         className="relative h-[600px] flex items-center justify-center text-white"
         style={{
-          backgroundImage:
-            "url('https://www.inflexion.com/media/2ylj5ili/jason-goodman-oalh2mojuuk-unsplash.jpg?width=1730&height=794&v=133845406422870000&format=webp')",
+          backgroundImage: "url('/maintenance-hero.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -148,7 +147,7 @@ export default function ServiceDetailsPage() {
                   <div>
                     <p className="text-xs text-gray-500 font-medium">Call Us</p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      +123 456 7890
+                      +92 314 5372506
                     </p>
                   </div>
                 </div>
@@ -161,7 +160,7 @@ export default function ServiceDetailsPage() {
                   <div>
                     <p className="text-xs text-gray-500 font-medium">Email</p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      info@example.com
+                      irtaza.madad@iwizsols.com
                     </p>
                   </div>
                 </div>
@@ -176,7 +175,8 @@ export default function ServiceDetailsPage() {
                       Office Address
                     </p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      125 Berlin, Germany
+                      Hasan Chowk, Mureer, Murree Rd, Chamanzar Colony,
+                      Rawalpindi, 46000
                     </p>
                   </div>
                 </div>
@@ -187,9 +187,9 @@ export default function ServiceDetailsPage() {
           {/* --- RIGHT CONTENT (Span 8) --- */}
           <div className="lg:col-span-8">
             {/* Main Featured Image */}
-            <div className="relative w-full h-[300px] md:h-[420px] mb-8 overflow-hidden ">
+            <div className="relative w-[700px] h-[300px] md:h-[420px] mb-8 overflow-hidden  rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px] ">
               <img
-                src="/serviceser.png"
+                src="/software-maintenance.jpg"
                 alt="Data Security Technology"
                 // fill
                 className="object-cover"
@@ -198,30 +198,29 @@ export default function ServiceDetailsPage() {
 
             {/* Main Title & Text */}
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">
-              Data Security
+              Maintenance & Support{" "}
             </h2>
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-6">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year anddey unknown printer took scrambled.
+              Ensure uninterrupted business operations with our professional
+              maintenance and support services. We provide timely updates,
+              troubleshooting, and system monitoring to keep your technology
+              infrastructure running smoothly. Our team ensures that downtime is
+              minimized, and performance is optimized.
             </p>
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-8">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year unknown printer took galley anddey
-              scrambled.
+              Our services cover software updates, hardware maintenance, and
+              remote or on-site technical support. We proactively identify
+              issues and implement solutions before they impact your operations.
+              Our approach prioritizes reliability, efficiency, and customer
+              satisfaction.
             </p>
 
             {/* Checkmark List */}
             <div className="space-y-4 mb-10">
               {[
-                "Sed nisl fusce est consequat mollis habitasse facilisi rutrum nisl.",
-                "Cubilia quisque ad accumsan lorem platea elementum nisl curabitur dapibus.",
-                "Egestas magnis sapien hack vehicula condimentum dui enim justo site.",
+                "24/7 technical support and troubleshooting",
+                "Regular system maintenance and updates",
+                "Proactive monitoring and performance optimization",
               ].map((text, idx) => (
                 <div key={idx} className="flex items-center gap-3">
                   <CheckCircle2 className="w-5 h-5 text-blue-600 fill-blue-100 flex-shrink-0" />
@@ -236,34 +235,34 @@ export default function ServiceDetailsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="relative h-[280px] overflow-hidden ">
                 <img
-                  src="/s3.png"
+                  src="/maintenance-and-it-support-Johannesburg.jpg"
                   alt="Worker Laptop"
                   //   fill
-                  className="object-cover"
+                  className="object-cover object-cover w-[380px] h-[300px] rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px]"
                 />
               </div>
               <div className="relative h-[280px]  overflow-hidden ">
                 <img
-                  src="/s2.png"
+                  src="/support-1.jpg"
                   alt="Tech Visualization"
                   //     fill
-                  className="object-cover"
+                  className="object-cover object-cover w-[380px] h-[300px] rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px]"
                 />
               </div>
             </div>
 
             {/* Bottom Text */}
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-12">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year anddey unknown printer took scrambled.
+              Our maintenance and support services ensure that your systems
+              remain secure, efficient, and up-to-date. We reduce risks
+              associated with system failures and improve overall operational
+              reliability. Businesses can focus on growth while we handle
+              technical complexities and system health.
             </p>
 
             {/* FAQ Section */}
             <h3 className="text-2xl font-extrabold text-gray-900 mb-8">
-              Frequently Asked Question
+              Frequently Asked Question- Maintenance & Support
             </h3>
             <div className="space-y-4">
               {faqs.map((faq, index) => {

@@ -33,29 +33,29 @@ export default function ServiceDetailsPage() {
 
   const faqs = [
     {
-      question: "What is vision for the future?",
+      question: " What is POS and retail automation?",
       answer:
-        "Augue enim ut sem vulputate nunc eu ultrices nec bibendum. Nullam non at eu tincidunt non purus vitae. Leo nam quam elit imperdiet. Sit malesuada massa scelerisque tincidunt. Facilisis Sit dolor ultricies phasellus viverra feugiat enim nisl.",
+        "POS and retail automation streamline sales, inventory, and customer management using smart systems.",
     },
     {
-      question: "Do you offer free resources?",
+      question: "How can retail automation benefit my business?",
       answer:
-        "Yes, we offer a variety of free resources to help you get started with our services.",
+        "It improves efficiency, reduces errors, and provides real-time insights for better decision-making.",
     },
     {
-      question: "Can help to find investors?",
+      question: " Do you provide custom POS solutions?",
       answer:
-        "We have a dedicated network of partners that can help connect you with potential investors.",
+        " Yes, our POS systems are tailored to meet the unique needs of each business.",
     },
     {
-      question: "Can help to find investors?",
+      question: "Can POS systems integrate with other business software?",
       answer:
-        "Our team provides consultancy to prepare your pitch and strategy for finding investors.",
+        " Yes, our POS solutions seamlessly integrate with inventory, accounting, and CRM systems..",
     },
     {
-      question: "What services do you offer?",
+      question: "Is support available for POS and retail automation systems?",
       answer:
-        "We offer comprehensive IT solutions including security, cloud computing, and development.",
+        "Yes, we offer full maintenance, troubleshooting, and technical support for all systems.",
     },
   ];
 
@@ -67,8 +67,7 @@ export default function ServiceDetailsPage() {
       <section
         className="relative h-[600px] flex items-center justify-center text-white"
         style={{
-          backgroundImage:
-            "url('https://www.inflexion.com/media/2ylj5ili/jason-goodman-oalh2mojuuk-unsplash.jpg?width=1730&height=794&v=133845406422870000&format=webp')",
+          backgroundImage: "url('/Tech-innovation-380.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -148,7 +147,7 @@ export default function ServiceDetailsPage() {
                   <div>
                     <p className="text-xs text-gray-500 font-medium">Call Us</p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      +123 456 7890
+                      +92 314 5372506
                     </p>
                   </div>
                 </div>
@@ -161,7 +160,7 @@ export default function ServiceDetailsPage() {
                   <div>
                     <p className="text-xs text-gray-500 font-medium">Email</p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      info@example.com
+                      irtaza.madad@iwizsols.com
                     </p>
                   </div>
                 </div>
@@ -176,7 +175,8 @@ export default function ServiceDetailsPage() {
                       Office Address
                     </p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      125 Berlin, Germany
+                      Hasan Chowk, Mureer, Murree Rd, Chamanzar Colony,
+                      Rawalpindi, 46000
                     </p>
                   </div>
                 </div>
@@ -187,9 +187,9 @@ export default function ServiceDetailsPage() {
           {/* --- RIGHT CONTENT (Span 8) --- */}
           <div className="lg:col-span-8">
             {/* Main Featured Image */}
-            <div className="relative w-full h-[300px] md:h-[420px] mb-8 overflow-hidden ">
+            <div className="relative w-[700px] h-[300px] md:h-[420px] mb-8 overflow-hidden  rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px] ">
               <img
-                src="/serviceser.png"
+                src="/POS-System.webp"
                 alt="Data Security Technology"
                 // fill
                 className="object-cover"
@@ -198,30 +198,29 @@ export default function ServiceDetailsPage() {
 
             {/* Main Title & Text */}
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">
-              Data Security
+              POS & Retail Automation{" "}
             </h2>
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-6">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year anddey unknown printer took scrambled.
+              Revolutionize your retail operations with our POS and retail
+              automation services. We provide intelligent solutions that
+              streamline sales, inventory management, and customer engagement.
+              Our systems improve accuracy, reduce manual errors, and boost
+              operational efficiency.
             </p>
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-8">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year unknown printer took galley anddey
-              scrambled.
+              Our solutions include advanced POS systems, automated inventory
+              tracking, and integrated reporting dashboards. Retailers can make
+              data-driven decisions and enhance the shopping experience for
+              customers. We ensure smooth integration with your existing
+              business processes.
             </p>
 
             {/* Checkmark List */}
             <div className="space-y-4 mb-10">
               {[
-                "Sed nisl fusce est consequat mollis habitasse facilisi rutrum nisl.",
-                "Cubilia quisque ad accumsan lorem platea elementum nisl curabitur dapibus.",
-                "Egestas magnis sapien hack vehicula condimentum dui enim justo site.",
+                "Smart POS system setup and configuration",
+                "Automated inventory and sales tracking",
+                "Reporting and analytics dashboards",
               ].map((text, idx) => (
                 <div key={idx} className="flex items-center gap-3">
                   <CheckCircle2 className="w-5 h-5 text-blue-600 fill-blue-100 flex-shrink-0" />
@@ -236,34 +235,34 @@ export default function ServiceDetailsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="relative h-[280px] overflow-hidden ">
                 <img
-                  src="/s3.png"
+                  src="/Types-of-POS-systems.webp"
                   alt="Worker Laptop"
                   //   fill
-                  className="object-cover"
+                  className="object-cover object-cover w-[380px] h-[300px] rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px]"
                 />
               </div>
               <div className="relative h-[280px]  overflow-hidden ">
                 <img
-                  src="/s2.png"
+                  src="/poiny-of-sale.jpg"
                   alt="Tech Visualization"
                   //     fill
-                  className="object-cover"
+                  className="object-cover object-cover w-[380px] h-[300px] rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px]"
                 />
               </div>
             </div>
 
             {/* Bottom Text */}
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-12">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year anddey unknown printer took scrambled.
+              Our retail automation solutions help businesses stay competitive
+              in a fast-paced market. We enable faster transactions, accurate
+              reporting, and enhanced customer satisfaction. With automation,
+              retailers save time, reduce operational costs, and focus on growth
+              strategies.
             </p>
 
             {/* FAQ Section */}
             <h3 className="text-2xl font-extrabold text-gray-900 mb-8">
-              Frequently Asked Question
+              Frequently Asked Questions – POS & Retail Automation{" "}
             </h3>
             <div className="space-y-4">
               {faqs.map((faq, index) => {

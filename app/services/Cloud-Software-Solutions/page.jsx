@@ -33,29 +33,29 @@ export default function ServiceDetailsPage() {
 
   const faqs = [
     {
-      question: "What is vision for the future?",
+      question: "What are cloud software solutions?",
       answer:
-        "Augue enim ut sem vulputate nunc eu ultrices nec bibendum. Nullam non at eu tincidunt non purus vitae. Leo nam quam elit imperdiet. Sit malesuada massa scelerisque tincidunt. Facilisis Sit dolor ultricies phasellus viverra feugiat enim nisl.",
+        " Cloud software solutions provide applications, storage, and services hosted on secure cloud platforms.",
     },
     {
-      question: "Do you offer free resources?",
+      question: "Why should businesses use cloud software??",
       answer:
-        "Yes, we offer a variety of free resources to help you get started with our services.",
+        " Cloud software improves scalability, reduces infrastructure costs, and enables remote access to systems.",
     },
     {
-      question: "Can help to find investors?",
+      question: "What types of cloud services do you offer?",
       answer:
-        "We have a dedicated network of partners that can help connect you with potential investors.",
+        " We offer cloud migration, SaaS development, cloud hosting, and system integration services.",
     },
     {
-      question: "Can help to find investors?",
+      question: "Are cloud software solutions secure?",
       answer:
-        "Our team provides consultancy to prepare your pitch and strategy for finding investors.",
+        " Yes, they use encryption, access control, and compliance standards to ensure data security.",
     },
     {
-      question: "What services do you offer?",
+      question: " Can cloud solutions scale with business growth?",
       answer:
-        "We offer comprehensive IT solutions including security, cloud computing, and development.",
+        " Yes, cloud platforms are highly scalable and can grow with your business needs.",
     },
   ];
 
@@ -187,7 +187,7 @@ export default function ServiceDetailsPage() {
           {/* --- RIGHT CONTENT (Span 8) --- */}
           <div className="lg:col-span-8">
             {/* Main Featured Image */}
-            <div className="relative w-full h-[300px] md:h-[420px] mb-8 overflow-hidden ">
+            <div className="relative w-[700px] h-[300px] md:h-[420px] mb-8 overflow-hidden  rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px] ">
               <img
                 src="/cloude-service.jpg"
                 alt="Data Security Technology"
@@ -262,7 +262,7 @@ export default function ServiceDetailsPage() {
 
             {/* FAQ Section */}
             <h3 className="text-2xl font-extrabold text-gray-900 mb-8">
-              Frequently Asked Question
+              Frequently Asked Questions – Cloud Software Solutions{" "}
             </h3>
             <div className="space-y-4">
               {faqs.map((faq, index) => {

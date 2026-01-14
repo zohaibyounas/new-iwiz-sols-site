@@ -43,29 +43,29 @@ export default function ServiceDetailsPage() {
 
   const faqs = [
     {
-      question: "What is vision for the future?",
+      question: "What services are included in your main offerings?",
       answer:
-        "Augue enim ut sem vulputate nunc eu ultrices nec bibendum. Nullam non at eu tincidunt non purus vitae. Leo nam quam elit imperdiet. Sit malesuada massa scelerisque tincidunt. Facilisis Sit dolor ultricies phasellus viverra feugiat enim nisl.",
+        " Our main services include product design, prototyping, IoT, embedded security, app development, cloud solutions, retail automation, and maintenance.",
     },
     {
-      question: "Do you offer free resources?",
+      question: "How can your services benefit my business?",
       answer:
-        "Yes, we offer a variety of free resources to help you get started with our services.",
+        " They help businesses innovate, streamline operations, secure systems, and scale efficiently.",
     },
     {
-      question: "Can help to find investors?",
+      question: "Are your services suitable for all industries?",
       answer:
-        "We have a dedicated network of partners that can help connect you with potential investors.",
+        " Yes, we provide solutions for startups, enterprises, and industries like automotive, healthcare, retail, and IoT.",
     },
     {
-      question: "Can help to find investors?",
+      question: " Do you offer end-to-end support for projects?",
       answer:
-        "Our team provides consultancy to prepare your pitch and strategy for finding investors.",
+        " Yes, we handle everything from concept, development, and security to deployment and maintenance.",
     },
     {
-      question: "What services do you offer?",
+      question: "Can services be customized according to business needs?",
       answer:
-        "We offer comprehensive IT solutions including security, cloud computing, and development.",
+        " Yes, all services are fully tailored to meet specific business requirements and goals.",
     },
   ];
 
@@ -351,7 +351,7 @@ export default function ServiceDetailsPage() {
 
             {/* FAQ Section */}
             <h3 className="text-2xl font-extrabold text-gray-900 mb-8">
-              Frequently Asked Question
+              Frequently Asked Questions – Main Services{" "}
             </h3>
             <div className="space-y-4">
               {faqs.map((faq, index) => {

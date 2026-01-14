@@ -33,29 +33,29 @@ export default function ServiceDetailsPage() {
 
   const faqs = [
     {
-      question: "What is vision for the future?",
+      question: "What is embedded systems security?",
       answer:
-        "Augue enim ut sem vulputate nunc eu ultrices nec bibendum. Nullam non at eu tincidunt non purus vitae. Leo nam quam elit imperdiet. Sit malesuada massa scelerisque tincidunt. Facilisis Sit dolor ultricies phasellus viverra feugiat enim nisl.",
+        " Embedded systems security protects hardware, firmware, and communication from cyber threats and unauthorized access.",
     },
     {
-      question: "Do you offer free resources?",
+      question: "Why is security important in embedded systems?",
       answer:
-        "Yes, we offer a variety of free resources to help you get started with our services.",
+        " It prevents data breaches, device manipulation, and system failures in critical applications.",
     },
     {
-      question: "Can help to find investors?",
+      question: "What security measures are used in embedded systems?",
       answer:
-        "We have a dedicated network of partners that can help connect you with potential investors.",
+        "Common measures include secure boot, encryption, authentication, and firmware protection.",
     },
     {
-      question: "Can help to find investors?",
+      question: " Which industries require embedded systems security?",
       answer:
-        "Our team provides consultancy to prepare your pitch and strategy for finding investors.",
+        " Automotive, medical, industrial, IoT, and consumer electronics industries require strong embedded security.",
     },
     {
-      question: "What services do you offer?",
+      question: "Can embedded system security be added to existing devices?",
       answer:
-        "We offer comprehensive IT solutions including security, cloud computing, and development.",
+        " Yes, security can be enhanced through firmware updates, encryption, and secure communication protocols.",
     },
   ];
 
@@ -262,7 +262,7 @@ export default function ServiceDetailsPage() {
 
             {/* FAQ Section */}
             <h3 className="text-2xl font-extrabold text-gray-900 mb-8">
-              Frequently Asked Question
+              Frequently Asked Questions – Embedded Systems Security
             </h3>
             <div className="space-y-4">
               {faqs.map((faq, index) => {

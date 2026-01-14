@@ -33,29 +33,29 @@ export default function ServiceDetailsPage() {
 
   const faqs = [
     {
-      question: "What is vision for the future?",
+      question: "What is product design and prototyping?",
       answer:
-        "Augue enim ut sem vulputate nunc eu ultrices nec bibendum. Nullam non at eu tincidunt non purus vitae. Leo nam quam elit imperdiet. Sit malesuada massa scelerisque tincidunt. Facilisis Sit dolor ultricies phasellus viverra feugiat enim nisl.",
+        " It is the process of converting an idea into a functional, testable model before final production.",
     },
     {
-      question: "Do you offer free resources?",
+      question: " Why is prototyping important before development?",
       answer:
-        "Yes, we offer a variety of free resources to help you get started with our services.",
+        " Prototyping helps identify design issues early, reducing risk, cost, and development time.",
     },
     {
-      question: "Can help to find investors?",
+      question: ". What types of prototypes do you provide?",
       answer:
-        "We have a dedicated network of partners that can help connect you with potential investors.",
+        " We provide low-fidelity, high-fidelity, and functional prototypes based on project needs.",
     },
     {
-      question: "Can help to find investors?",
+      question: "How long does product design and prototyping take?",
       answer:
-        "Our team provides consultancy to prepare your pitch and strategy for finding investors.",
+        "The timeline depends on complexity, typically ranging from a few weeks to a few months.",
     },
     {
-      question: "What services do you offer?",
+      question: "Does prototyping help reduce product development cost?",
       answer:
-        "We offer comprehensive IT solutions including security, cloud computing, and development.",
+        " Yes, it minimizes costly errors by validating design and functionality before production.",
     },
   ];
 
@@ -67,8 +67,7 @@ export default function ServiceDetailsPage() {
       <section
         className="relative h-[600px] flex items-center justify-center text-white"
         style={{
-          backgroundImage:
-            "url('https://www.inflexion.com/media/2ylj5ili/jason-goodman-oalh2mojuuk-unsplash.jpg?width=1730&height=794&v=133845406422870000&format=webp')",
+          backgroundImage: "url('/product-prototyping.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -148,7 +147,7 @@ export default function ServiceDetailsPage() {
                   <div>
                     <p className="text-xs text-gray-500 font-medium">Call Us</p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      +123 456 7890
+                      +92 314 5372506
                     </p>
                   </div>
                 </div>
@@ -161,7 +160,7 @@ export default function ServiceDetailsPage() {
                   <div>
                     <p className="text-xs text-gray-500 font-medium">Email</p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      info@example.com
+                      irtaza.madad@iwizsols.com
                     </p>
                   </div>
                 </div>
@@ -176,7 +175,8 @@ export default function ServiceDetailsPage() {
                       Office Address
                     </p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      125 Berlin, Germany
+                      Hasan Chowk, Mureer, Murree Rd, Chamanzar Colony,
+                      Rawalpindi, 46000
                     </p>
                   </div>
                 </div>
@@ -187,9 +187,9 @@ export default function ServiceDetailsPage() {
           {/* --- RIGHT CONTENT (Span 8) --- */}
           <div className="lg:col-span-8">
             {/* Main Featured Image */}
-            <div className="relative w-full h-[300px] md:h-[420px] mb-8 overflow-hidden ">
+            <div className="relative w-[700px] h-[300px] md:h-[420px] mb-8 overflow-hidden  rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px] ">
               <img
-                src="/serviceser.png"
+                src="/prototyping-img.jpg"
                 alt="Data Security Technology"
                 //     fill
                 className="object-cover"
@@ -198,30 +198,29 @@ export default function ServiceDetailsPage() {
 
             {/* Main Title & Text */}
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">
-              Data Security
+              Product Design & Prototyping{" "}
             </h2>
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-6">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year anddey unknown printer took scrambled.
+              Transform your ideas into tangible products with our comprehensive
+              product design and prototyping services. We help businesses
+              visualize concepts, refine designs, and create functional
+              prototypes quickly and efficiently. Our solutions reduce
+              development costs while accelerating time-to-market.
             </p>
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-8">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year unknown printer took galley anddey
-              scrambled.
+              Using advanced tools and iterative design processes, we ensure
+              your product meets user expectations and industry standards. From
+              initial sketches to fully functional prototypes, we provide
+              end-to-end support for every stage of product development. Our
+              services bridge creativity and technology seamlessly.
             </p>
 
             {/* Checkmark List */}
             <div className="space-y-4 mb-10">
               {[
-                "Sed nisl fusce est consequat mollis habitasse facilisi rutrum nisl.",
-                "Cubilia quisque ad accumsan lorem platea elementum nisl curabitur dapibus.",
-                "Egestas magnis sapien hack vehicula condimentum dui enim justo site.",
+                "Rapid prototyping for early-stage concepts",
+                "CAD modeling and 3D printing services",
+                "Usability testing and design validation",
               ].map((text, idx) => (
                 <div key={idx} className="flex items-center gap-3">
                   <CheckCircle2 className="w-5 h-5 text-blue-600 fill-blue-100 flex-shrink-0" />
@@ -236,34 +235,35 @@ export default function ServiceDetailsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="relative h-[280px] overflow-hidden ">
                 <img
-                  src="/s3.png"
+                  src="/service-one.webp"
                   alt="Worker Laptop"
                   //       fill
-                  className="object-cover"
+                  className="object-cover object-cover w-[380px] h-[300px] rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px]"
                 />
               </div>
               <div className="relative h-[280px]  overflow-hidden ">
                 <img
-                  src="/s2.png"
+                  src="/service-two.jpg"
                   alt="Tech Visualization"
                   //   fill
-                  className="object-cover"
+                  className="object-cover object-cover w-[380px] h-[300px] rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px]"
                 />
               </div>
             </div>
 
             {/* Bottom Text */}
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-12">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year anddey unknown printer took scrambled.
+              Our product design services are ideal for startups and enterprises
+              aiming to launch innovative solutions. By integrating user
+              feedback into every design iteration, we minimize risks and
+              optimize functionality. We focus on both aesthetic appeal and
+              practical performance. Trust us to turn your vision into a
+              market-ready product efficiently.
             </p>
 
             {/* FAQ Section */}
             <h3 className="text-2xl font-extrabold text-gray-900 mb-8">
-              Frequently Asked Question
+              Frequently Asked Questions – Product Design & Prototyping{" "}
             </h3>
             <div className="space-y-4">
               {faqs.map((faq, index) => {
