@@ -67,8 +67,7 @@ export default function ServiceDetailsPage() {
       <section
         className="relative h-[600px] flex items-center justify-center text-white"
         style={{
-          backgroundImage:
-            "url('https://www.inflexion.com/media/2ylj5ili/jason-goodman-oalh2mojuuk-unsplash.jpg?width=1730&height=794&v=133845406422870000&format=webp')",
+          backgroundImage: "url('/security-img.jpeg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -148,7 +147,7 @@ export default function ServiceDetailsPage() {
                   <div>
                     <p className="text-xs text-gray-500 font-medium">Call Us</p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      +123 456 7890
+                      +92 314 5372506
                     </p>
                   </div>
                 </div>
@@ -161,7 +160,7 @@ export default function ServiceDetailsPage() {
                   <div>
                     <p className="text-xs text-gray-500 font-medium">Email</p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      info@example.com
+                      irtaza.madad@iwizsols.com
                     </p>
                   </div>
                 </div>
@@ -176,7 +175,8 @@ export default function ServiceDetailsPage() {
                       Office Address
                     </p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      125 Berlin, Germany
+                      Hasan Chowk, Mureer, Murree Rd, Chamanzar Colony,
+                      Rawalpindi, 46000
                     </p>
                   </div>
                 </div>
@@ -200,27 +200,26 @@ export default function ServiceDetailsPage() {
               Data Security
             </h2>
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-6">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year anddey unknown printer took scrambled.
+              Protect your embedded devices with our robust embedded systems
+              security solutions. We specialize in safeguarding firmware,
+              hardware, and communication channels from cyber threats and
+              vulnerabilities. Our approach ensures secure operation in critical
+              environments like automotive, medical, and industrial sectors.
             </p>
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-8">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year unknown printer took galley anddey
-              scrambled.
+              Our experts implement advanced encryption, secure boot mechanisms,
+              and tamper detection techniques to enhance device security. We
+              also provide thorough penetration testing and compliance
+              verification to prevent unauthorized access. Security is embedded
+              at every layer of your device architecture.
             </p>
 
             {/* Checkmark List */}
             <div className="space-y-4 mb-10">
               {[
-                "Sed nisl fusce est consequat mollis habitasse facilisi rutrum nisl.",
-                "Cubilia quisque ad accumsan lorem platea elementum nisl curabitur dapibus.",
-                "Egestas magnis sapien hack vehicula condimentum dui enim justo site.",
+                "Firmware and hardware vulnerability assessments",
+                "Secure communication and encryption protocols",
+                "Compliance with industry security standards",
               ].map((text, idx) => (
                 <div key={idx} className="flex items-center gap-3">
                   <CheckCircle2 className="w-5 h-5 text-blue-600 fill-blue-100 flex-shrink-0" />
@@ -235,29 +234,30 @@ export default function ServiceDetailsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="relative h-[280px] overflow-hidden ">
                 <img
-                  src="/s3.png"
+                  src="/s4.jpeg"
                   alt="Worker Laptop"
                   // fill
-                  className="object-cover"
+                  className="object-cover w-[380px] h-[300px] rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px]"
                 />
               </div>
               <div className="relative h-[280px]  overflow-hidden ">
                 <img
-                  src="/s2.png"
+                  src="/images.jpg"
                   alt="Tech Visualization"
                   //  fill
-                  className="object-cover"
+                  className="object-cover object-cover w-[380px] h-[300px] rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px]"
                 />
               </div>
             </div>
 
             {/* Bottom Text */}
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-12">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year anddey unknown printer took scrambled.
+              Embedded systems security is essential for protecting sensitive
+              data and maintaining trust in connected devices. Our solutions
+              help prevent costly breaches and system failures. We focus on
+              delivering scalable security that adapts as your technology
+              evolves. Partner with us to build resilient, cyber-secure embedded
+              systems.
             </p>
 
             {/* FAQ Section */}

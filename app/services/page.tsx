@@ -151,7 +151,7 @@ export default function ServiceDetailsPage() {
       <section
         className="relative h-[600px] flex items-center justify-center text-white"
         style={{
-          backgroundImage: "url('/hardwarebg.jpeg')",
+          backgroundImage: "url('/embedded-system-scaled.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -236,7 +236,7 @@ export default function ServiceDetailsPage() {
                   <div>
                     <p className="text-xs text-gray-500 font-medium">Call Us</p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      +123 456 7890
+                      +92 314 5372506
                     </p>
                   </div>
                 </div>
@@ -249,7 +249,7 @@ export default function ServiceDetailsPage() {
                   <div>
                     <p className="text-xs text-gray-500 font-medium">Email</p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      info@example.com
+                      irtaza.madad@iwizsols.com
                     </p>
                   </div>
                 </div>
@@ -264,7 +264,8 @@ export default function ServiceDetailsPage() {
                       Office Address
                     </p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      125 Berlin, Germany
+                      Hasan Chowk, Mureer, Murree Rd, Chamanzar Colony,
+                      Rawalpindi, 46000
                     </p>
                   </div>
                 </div>
@@ -289,27 +290,29 @@ export default function ServiceDetailsPage() {
               Main Services
             </h2>
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-6">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year anddey unknown printer took scrambled.
+              we provide comprehensive technology solutions to help businesses
+              innovate, secure, and scale efficiently. From product design and
+              prototyping to embedded systems security, IoT, mobile and desktop
+              applications, cloud software, retail automation, and ongoing
+              maintenance, we cover the full spectrum of digital transformation.
+              Our expert team ensures every solution is reliable, scalable, and
+              tailored to your business needs.
             </p>
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-8">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year unknown printer took galley anddey
-              scrambled.
+              We focus on delivering innovative, secure, and efficient solutions
+              that drive measurable results. By integrating modern technologies
+              with strategic insights, we help businesses reduce costs, enhance
+              productivity, and stay ahead of the competition. Our end-to-end
+              services are designed to support every stage of your growth
+              journey.
             </p>
 
             {/* Checkmark List */}
             <div className="space-y-4 mb-10">
               {[
-                "Sed nisl fusce est consequat mollis habitasse facilisi rutrum nisl.",
-                "Cubilia quisque ad accumsan lorem platea elementum nisl curabitur dapibus.",
-                "Egestas magnis sapien hack vehicula condimentum dui enim justo site.",
+                "Product design, prototyping, IoT solutions, and mobile/desktop/cloud application development to bring your ideas to life.",
+                "Embedded systems security, POS, and retail automation to safeguard operations and streamline workflows.",
+                "Maintenance, technical support, system monitoring, and updates to ensure smooth, uninterrupted business performance.",
               ].map((text, idx) => (
                 <div key={idx} className="flex items-center gap-3">
                   <CheckCircle2 className="w-5 h-5 text-blue-600 fill-blue-100 flex-shrink-0" />
@@ -324,15 +327,15 @@ export default function ServiceDetailsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="relative h-[280px] overflow-hidden ">
                 <img
-                  src="/s3.png"
+                  src="/embedded-main.jpg"
                   alt="Worker Laptop"
                   // fill
                   className="object-cover"
                 />
               </div>
-              <div className="relative h-[280px]  overflow-hidden ">
+              <div className="relative h-[255px]  overflow-hidden ">
                 <img
-                  src="/s2.png"
+                  src="/s5.jpg"
                   alt="Tech Visualization"
                   //   fill
                   className="object-cover"
@@ -342,11 +345,8 @@ export default function ServiceDetailsPage() {
 
             {/* Bottom Text */}
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-12">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year anddey unknown printer took scrambled.
+              Partner with us to transform your ideas into practical, secure,
+              and future-ready solutions that drive innovation and growth.
             </p>
 
             {/* FAQ Section */}

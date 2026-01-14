@@ -67,8 +67,7 @@ export default function ServiceDetailsPage() {
       <section
         className="relative h-[600px] flex items-center justify-center text-white"
         style={{
-          backgroundImage:
-            "url('https://www.inflexion.com/media/2ylj5ili/jason-goodman-oalh2mojuuk-unsplash.jpg?width=1730&height=794&v=133845406422870000&format=webp')",
+          backgroundImage: "url('/Frame-23.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -148,7 +147,7 @@ export default function ServiceDetailsPage() {
                   <div>
                     <p className="text-xs text-gray-500 font-medium">Call Us</p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      +123 456 7890
+                      +92 314 5372506
                     </p>
                   </div>
                 </div>
@@ -161,7 +160,7 @@ export default function ServiceDetailsPage() {
                   <div>
                     <p className="text-xs text-gray-500 font-medium">Email</p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      info@example.com
+                      irtaza.madad@iwizsols.com
                     </p>
                   </div>
                 </div>
@@ -176,7 +175,8 @@ export default function ServiceDetailsPage() {
                       Office Address
                     </p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      125 Berlin, Germany
+                      Hasan Chowk, Mureer, Murree Rd, Chamanzar Colony,
+                      Rawalpindi, 46000
                     </p>
                   </div>
                 </div>
@@ -189,7 +189,7 @@ export default function ServiceDetailsPage() {
             {/* Main Featured Image */}
             <div className="relative w-full h-[300px] md:h-[420px] mb-8 overflow-hidden ">
               <img
-                src="/serviceser.png"
+                src="/cloude-service.jpg"
                 alt="Data Security Technology"
                 //  fill
                 className="object-cover"
@@ -198,30 +198,29 @@ export default function ServiceDetailsPage() {
 
             {/* Main Title & Text */}
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">
-              Data Security
+              Cloud Software Solutions{" "}
             </h2>
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-6">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year anddey unknown printer took scrambled.
+              Optimize your business operations with our cloud software
+              solutions. We provide scalable, secure, and reliable cloud
+              platforms for data storage, collaboration, and application
+              hosting. Our solutions enable businesses to access information
+              anytime, anywhere, without infrastructure constraints.
             </p>
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-8">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year unknown printer took galley anddey
-              scrambled.
+              We specialize in cloud migration, custom SaaS applications, and
+              hybrid cloud setups. Our experts ensure seamless integration with
+              your existing systems while enhancing data security and
+              accessibility. We focus on maximizing efficiency and minimizing
+              operational costs.
             </p>
 
             {/* Checkmark List */}
             <div className="space-y-4 mb-10">
               {[
-                "Sed nisl fusce est consequat mollis habitasse facilisi rutrum nisl.",
-                "Cubilia quisque ad accumsan lorem platea elementum nisl curabitur dapibus.",
-                "Egestas magnis sapien hack vehicula condimentum dui enim justo site.",
+                "Cloud migration and deployment services",
+                "SaaS application development and management",
+                "Data security and disaster recovery solutions",
               ].map((text, idx) => (
                 <div key={idx} className="flex items-center gap-3">
                   <CheckCircle2 className="w-5 h-5 text-blue-600 fill-blue-100 flex-shrink-0" />
@@ -254,11 +253,11 @@ export default function ServiceDetailsPage() {
 
             {/* Bottom Text */}
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-12">
-              When an unknown printer took a galley of type and scrambled make
-              sewer specimen a book bethes survived not only five-when anner
-              year unknown printer eed. Ittle help from friend from time to
-              time. Although we offer the one-stop convenience. unknown printer
-              took galley type year anddey unknown printer took scrambled.
+              Our cloud software solutions empower organizations to become more
+              agile, collaborative, and data-driven. By leveraging the cloud, we
+              reduce downtime, improve scalability, and enhance business
+              continuity. We ensure optimal performance, security, and
+              cost-efficiency for all cloud implementations.
             </p>
 
             {/* FAQ Section */}
