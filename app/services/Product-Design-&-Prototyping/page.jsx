@@ -43,7 +43,7 @@ export default function ServiceDetailsPage() {
         " Prototyping helps identify design issues early, reducing risk, cost, and development time.",
     },
     {
-      question: ". What types of prototypes do you provide?",
+      question: "What types of prototypes do you provide?",
       answer:
         " We provide low-fidelity, high-fidelity, and functional prototypes based on project needs.",
     },

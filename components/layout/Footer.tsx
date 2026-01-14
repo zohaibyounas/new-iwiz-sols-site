@@ -270,7 +270,7 @@ const Footer = () => {
         {/* --- FOOTER BOTTOM --- */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 pt-2">
           <p className="text-gray-500 text-sm text-center md:text-left">
-            Copyright © {new Date().getFullYear()} Hurraytheme. All rights
+            Copyright © {new Date().getFullYear()} Iwiz Solutions. All rights
             reserved.
           </p>
 
