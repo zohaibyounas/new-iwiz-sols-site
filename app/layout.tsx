@@ -8,7 +8,8 @@ import { ToastBar } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "iWiz - Modern Web Solutions",
+  title:
+    "IWIZ Solutions // Excellence in Hardware and Software - Modern Web Solutions",
   description: "Building the future of the web with iWiz.",
 };
 
