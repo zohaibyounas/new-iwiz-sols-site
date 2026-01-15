@@ -1,23 +1,19 @@
 "use client";
 
-import { useState } from "react";
-import { Paperclip, CheckCircle, XCircle } from "lucide-react";
+import { useState, FormEvent } from "react";
+import { Paperclip } from "lucide-react";
+import { toast, Toaster } from "react-hot-toast";
 
 export default function CareerPage() {
   const [loading, setLoading] = useState(false);
-  const [toast, setToast] = useState(null);
   const [fileName, setFileName] = useState("");
 
-  const showToast = (type, text) => {
-    setToast({ type, text });
-    setTimeout(() => setToast(null), 3500); // auto-hide after 3.5s
-  };
-
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
 
-    const formData = new FormData(e.target);
+    const form = e.currentTarget;
+    const formData = new FormData(form);
 
     try {
       const res = await fetch("/api/career", {
@@ -28,14 +24,15 @@ export default function CareerPage() {
       const data = await res.json();
 
       if (res.ok) {
-        showToast("success", data.message || "Resume sent successfully!");
-        e.target.reset();
+        toast.success(data.message || "Resume sent successfully!");
+        form.reset();
         setFileName("");
       } else {
-        showToast("error", data.message || "Something went wrong");
+        toast.error(data.message || "Something went wrong!");
       }
-    } catch {
-      showToast("error", "Network error. Please try again.");
+    } catch (err) {
+      console.error(err);
+      toast.error("Network error. Please try again.");
     } finally {
       setLoading(false);
     }
@@ -43,36 +40,21 @@ export default function CareerPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white flex items-center justify-center relative px-4 py-16">
-      {/* Toast */}
-      {toast && (
-        <div
-          className={`
-            fixed top-6 right-6 px-6 py-4 rounded-xl shadow-xl text-white text-sm font-semibold flex items-center gap-2 animate-slideIn
-            ${toast.type === "success" ? "bg-green-600" : "bg-red-600"}
-          `}
-        >
-          {toast.type === "success" ? (
-            <CheckCircle className="w-5 h-5" />
-          ) : (
-            <XCircle className="w-5 h-5" />
-          )}
-          <span>{toast.text}</span>
-        </div>
-      )}
+      {/* Toast container */}
+      <Toaster position="top-center" />
 
       <div className="max-w-6xl w-full grid lg:grid-cols-2 gap-12 items-center">
         {/* LEFT: Text + Form */}
         <div className="space-y-8">
-          {/* Header */}
           <div>
             <h1 className="text-3xl font-extrabold text-gray-900 mb-2">
-              Careers at iWiz Solutions
+              Careers at IWIZ Solutions
             </h1>
             <p className="text-2xl text-blue-600 font-semibold mb-4">
               Join a Team That Builds the Future of Technology
             </p>
             <p className="text-gray-700 text-base leading-relaxed">
-              At iWiz Solutions, we believe in innovation, creativity, and
+              At IWIZ Solutions, we believe in innovation, creativity, and
               teamwork. We are a rapidly growing technology company focused on
               embedded systems, IoT solutions, cloud applications, and digital
               product development. Our mission is to empower businesses with
@@ -83,11 +65,11 @@ export default function CareerPage() {
               We foster a work environment that values growth, curiosity,
               collaboration, and excellence. If you are passionate about
               technology, love solving complex problems, and want to make an
-              impact — iWiz Solutions is the right place for you.
+              impact — IWIZ Solutions is the right place for you.
             </p>
           </div>
 
-          {/* Form Card */}
+          {/* Form */}
           <div className="bg-white rounded-3xl shadow-2xl p-8 space-y-5">
             <form onSubmit={handleSubmit} className="space-y-4">
               <input
@@ -109,11 +91,10 @@ export default function CareerPage() {
               <textarea
                 name="message"
                 placeholder="Cover Message"
-                rows="4"
+                rows={4}
                 className="w-full border px-4 py-3 rounded-xl text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
               />
 
-              {/* File Upload */}
               <label
                 htmlFor="resumeUpload"
                 className="w-full flex items-center justify-center border-2 border-dashed rounded-xl px-4 py-3 cursor-pointer hover:border-blue-500 transition"
@@ -145,7 +126,7 @@ export default function CareerPage() {
         </div>
 
         {/* RIGHT: Hero Image */}
-        <div className="hidden lg:block relative bottom-56">
+        <div className="hidden lg:block relative lg:bottom-52">
           <img
             src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format&fit=crop"
             alt="Team at work"
@@ -158,23 +139,6 @@ export default function CareerPage() {
           </div>
         </div>
       </div>
-
-      {/* Toast Animation */}
-      <style jsx>{`
-        @keyframes slideIn {
-          0% {
-            transform: translateX(100%);
-            opacity: 0;
-          }
-          100% {
-            transform: translateX(0);
-            opacity: 1;
-          }
-        }
-        .animate-slideIn {
-          animation: slideIn 0.3s ease-out forwards;
-        }
-      `}</style>
     </div>
   );
 }
