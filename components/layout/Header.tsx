@@ -17,7 +17,8 @@ const navItems = [
   { name: "Services", href: "/services" },
   { name: "Projects", href: "/projects" },
   { name: "Blog", href: "/blog" },
-  { name: "Pricing Plan", href: "/pricing" },
+  // { name: "Pricing Plan", href: "/pricing" },
+  { name: "Career", href: "/career" },
 ];
 
 export function Header() {
