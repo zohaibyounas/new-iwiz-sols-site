@@ -39,11 +39,11 @@ export default function CareerPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white flex items-center justify-center relative px-4 py-16">
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white flex flex-col items-center relative px-4 py-16">
       {/* Toast container */}
       <Toaster position="top-center" />
 
-      <div className="max-w-6xl w-full grid lg:grid-cols-2 gap-12 items-center">
+      <div className="max-w-6xl w-full grid lg:grid-cols-2 gap-12 items-start">
         {/* LEFT: Text + Form */}
         <div className="space-y-8">
           <div>
@@ -65,7 +65,7 @@ export default function CareerPage() {
               We foster a work environment that values growth, curiosity,
               collaboration, and excellence. If you are passionate about
               technology, love solving complex problems, and want to make an
-              impact — IWIZ Solutions is the right place for you.
+              impact — IWIZ Solutions is the right place for you.
             </p>
           </div>
 
@@ -132,12 +132,12 @@ export default function CareerPage() {
             alt="Team at work"
             className="rounded-3xl shadow-2xl object-cover w-full h-[500px] hover:scale-105 transition-transform duration-500"
           />
-          <div className="absolute bottom-8 left-8 bg-white/80 rounded-xl p-4 shadow-md">
-            <p className="font-semibold text-gray-900">
-              Innovation. Collaboration. Excellence.
-            </p>
-          </div>
         </div>
+      </div>
+
+      {/* FULL-WIDTH BLUE BOX BELOW GRID */}
+      <div className="mt-8 w-full max-w-6xl bg-blue-600 text-white text-center rounded-xl py-4 px-6 font-semibold shadow-md">
+        No positions open
       </div>
     </div>
   );
