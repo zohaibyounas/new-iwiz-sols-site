@@ -3,9 +3,9 @@ import MobileDesktopContent from "./MobileDesktopContent";
 
 export const metadata = {
   title:
-    "Mobile & Desktop Application Development Services | Scalable Apps – IWIZ Solutions",
+    "Maintenance & IT Support Services | 24/7 Technical Assistance – IWIZ Solutions",
   description:
-    "Develop high-performance mobile and desktop applications with IWIZ Solutions. We build secure, scalable, and user-centric apps for iOS, Android, Windows, and macOS.",
+    "Ensure uninterrupted business operations with IWIZ Solutions' Maintenance & Support services. We provide 24/7 technical assistance, system monitoring, updates, and troubleshooting for software and hardware solutions.",
 };
 
 export default function ServicePage() {
