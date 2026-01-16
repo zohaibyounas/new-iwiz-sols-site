@@ -17,8 +17,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Blog Details",
-  description: "Read our latest article details.",
+  title: "IoT Security Challenges & Best Practices | IWIZ Solutions",
+  description:
+    "Learn about major IoT security challenges and proven best practices to protect connected devices, networks, and sensitive data.",
 };
 
 export default function BlogDetailsPage() {

@@ -17,8 +17,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Blog Details",
-  description: "Read our latest article details.",
+  title: "From Idea to Prototype: Product Development Process | IWIZ Solutions",
+  description:
+    "Explore a step-by-step product development process from idea validation to prototype creation, ensuring faster innovation and better product outcomes.",
 };
 
 export default function BlogDetailsPage() {

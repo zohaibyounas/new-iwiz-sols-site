@@ -17,8 +17,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Blog Details",
-  description: "Read our latest article details.",
+  title: "Best Practices for Securing Firmware & Hardware | IWIZ Solutions",
+  description:
+    "Discover essential best practices for securing firmware and hardware systems against cyber threats, vulnerabilities, and unauthorized access.",
 };
 
 export default function BlogDetailsPage() {

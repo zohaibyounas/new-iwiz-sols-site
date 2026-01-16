@@ -17,8 +17,10 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Blog Details",
-  description: "Read our latest article details.",
+  title:
+    "How Rapid Prototyping Reduces Development Cost & Risk | IWIZ Solutions",
+  description:
+    "Learn how rapid prototyping helps reduce product development costs, minimize risks, and accelerate time-to-market with real-world engineering insights.",
 };
 
 export default function BlogDetailsPage() {

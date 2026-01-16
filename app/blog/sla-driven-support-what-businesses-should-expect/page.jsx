@@ -17,8 +17,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Blog Details",
-  description: "Read our latest article details.",
+  title: "SLA-Driven Support: What Businesses Should Expect | IWIZ Solutions",
+  description:
+    "Understand SLA-driven support models, service expectations, response times, and how they ensure reliable business operations.",
 };
 
 export default function BlogDetailsPage() {

@@ -17,8 +17,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Blog Details",
-  description: "Read our latest article details.",
+  title: "UI/UX Trends in Mobile & Desktop Applications | IWIZ Solutions",
+  description:
+    "Explore the latest UI/UX design trends for mobile and desktop applications that improve user experience, usability, and engagement.",
 };
 
 export default function BlogDetailsPage() {

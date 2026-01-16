@@ -92,8 +92,7 @@ export default function BlogContent() {
       <section
         className="relative h-[600px] flex items-center justify-center text-white"
         style={{
-          backgroundImage:
-            "url('https://www.inflexion.com/media/2ylj5ili/jason-goodman-oalh2mojuuk-unsplash.jpg?width=1730&height=794&v=133845406422870000&format=webp')",
+          backgroundImage: "url('/teamwork-making-an-online-blog-scaled.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

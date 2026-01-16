@@ -17,8 +17,10 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Blog Details",
-  description: "Read our latest article details.",
+  title:
+    "Embedded Security for Automotive, Medical & Industrial Devices | IWIZ Solutions",
+  description:
+    "Understand embedded security strategies for automotive, medical, and industrial devices to ensure safety, compliance, and data protection.",
 };
 
 export default function BlogDetailsPage() {

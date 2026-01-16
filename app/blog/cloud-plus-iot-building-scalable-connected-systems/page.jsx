@@ -17,8 +17,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Blog Details",
-  description: "Read our latest article details.",
+  title: "Cloud + IoT: Building Scalable Connected Systems | IWIZ Solutions",
+  description:
+    "Discover how integrating cloud computing with IoT enables scalable, efficient connected systems for smarter decision-making and operational excellence.",
 };
 
 export default function BlogDetailsPage() {

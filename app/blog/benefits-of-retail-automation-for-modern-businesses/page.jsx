@@ -17,8 +17,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Blog Details",
-  description: "Read our latest article details.",
+  title: "Benefits of Retail Automation for Modern Businesses | IWIZ Solutions",
+  description:
+    "Learn how retail automation improves efficiency, customer experience, inventory management, and business scalability.",
 };
 
 export default function BlogDetailsPage() {
