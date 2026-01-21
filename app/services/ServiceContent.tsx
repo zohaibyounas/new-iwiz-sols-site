@@ -141,21 +141,23 @@ export default function ServiceContent() {
 
       detectRetina: true,
     }),
-    []
+    [],
   );
   return (
     <div className="font-sans text-slate-600 bg-white">
       {/* ========================
           1. PAGE HEADER SECTION 
          ======================== */}
-      <section
-        className="relative h-[600px] flex items-center justify-center text-white"
-        style={{
-          backgroundImage: "url('/embedded-system-scaled.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+      <section className="relative min-h-[80vh] md:min-h-[90vh] flex items-center overflow-hidden">
+        {/* Background Image */}
+        <Image
+          src="/embedded-system-scaled.jpg"
+          alt="Hero Background"
+          fill
+          priority
+          quality={70}
+          className="object-cover"
+        />
         {/* Dark Overlay for readability */}
         <div className="absolute inset-0 bg-slate-900/70"></div>
         {/* PARTICLES */}
@@ -171,17 +173,19 @@ export default function ServiceContent() {
 
         <div className="container mx-auto px-4 relative z-10 text-center">
           {/* Main Title */}
-          <h1 className="text-5xl md:text-6xl font-extrabold mb-6">Services</h1>
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-6 text-white">
+            Services
+          </h1>
 
           {/* Breadcrumb: Home > About Us */}
           <div className="flex items-center justify-center gap-3 text-lg font-medium">
-            <Link href="/" className="hover:text-blue-400 transition-colors">
+            <Link href="/" className="text-white transition-colors">
               Home
             </Link>
 
-            <ChevronRight className="w-5 h-5 text-blue-500" />
+            <ChevronRight className="w-5 h-5 text-white" />
 
-            <span className="text-blue-400">Services</span>
+            <span className="text-blue-600">Services</span>
           </div>
         </div>
       </section>

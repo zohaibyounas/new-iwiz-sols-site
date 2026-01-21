@@ -89,14 +89,16 @@ export default function BlogContent() {
       {/* ========================
           1. PAGE HEADER SECTION 
          ======================== */}
-      <section
-        className="relative h-[600px] flex items-center justify-center text-white"
-        style={{
-          backgroundImage: "url('/teamwork-making-an-online-blog-scaled.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+      <section className="relative h-[600px] flex items-center justify-center text-white">
+        <Image
+          src="/teamwork-making-an-online-blog-scaled.jpg"
+          alt="Projects Hero Background"
+          fill
+          priority
+          quality={70}
+          className="object-cover"
+        />
+
         {/* Dark Overlay for readability */}
         <div className="absolute inset-0 bg-slate-900/70"></div>
 

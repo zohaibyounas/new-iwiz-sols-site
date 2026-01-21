@@ -151,15 +151,15 @@ export default function ProjectsContent() {
   return (
     <div className="bg-white text-gray-700">
       {/* ================= HEADER ================= */}
-      <section
-        className="relative h-[500px] flex items-center justify-center text-white"
-        style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=2070&auto=format&fit=crop')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+      <section className="relative h-[500px] flex items-center justify-center text-white">
+        <Image
+          src="/projecthero.avif"
+          alt="Projects Hero Background"
+          fill
+          priority
+          quality={70}
+          className="object-cover"
+        />
         <div className="absolute inset-0 bg-slate-900/70" />
         <div className="relative z-10 text-center">
           <h1 className="text-5xl md:text-6xl font-extrabold mb-4">Projects</h1>

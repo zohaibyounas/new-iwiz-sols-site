@@ -101,20 +101,22 @@ export default function Home() {
 
       detectRetina: true,
     }),
-    []
+    [],
   );
 
   return (
     <div className="flex flex-col min-h-screen font-sans">
       {/* Hero Section */}
-      <section
-        className="relative min-h-[80vh] md:min-h-[90vh] flex items-center text-white overflow-hidden"
-        style={{
-          backgroundImage: "url('/herobg.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+      <section className="relative min-h-[80vh] md:min-h-[90vh] flex items-center overflow-hidden">
+        {/* Background Image */}
+        <Image
+          src="/herobg.jpg"
+          alt="Hero Background"
+          fill
+          priority
+          quality={70}
+          className="object-cover"
+        />
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/70 to-transparent z-0"></div>
 

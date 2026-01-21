@@ -128,7 +128,7 @@ export default function CareerPage() {
         {/* RIGHT: Hero Image */}
         <div className="hidden lg:block relative mt-2">
           <img
-            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format&fit=crop"
+            src="/careerimg.avif"
             alt="Team at work"
             className="rounded-3xl shadow-2xl object-cover w-full h-[500px] hover:scale-105 transition-transform duration-500"
           />

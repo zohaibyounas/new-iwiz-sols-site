@@ -96,7 +96,7 @@ export default function AboutContent() {
 
       detectRetina: true,
     }),
-    []
+    [],
   );
   return (
     <>
@@ -115,15 +115,16 @@ export default function AboutContent() {
         - Content centered
         - Text changed to "About Us" with Breadcrumb
       */}
-        <section
-          className="relative h-[600px] flex items-center justify-center text-white"
-          style={{
-            backgroundImage:
-              "url('https://www.inflexion.com/media/2ylj5ili/jason-goodman-oalh2mojuuk-unsplash.jpg?width=1730&height=794&v=133845406422870000&format=webp')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        >
+        <section className="relative min-h-[80vh] md:min-h-[90vh] flex items-center overflow-hidden">
+          {/* Background Image */}
+          <Image
+            src="/abouthero.webp"
+            alt="Hero Background"
+            fill
+            priority
+            quality={70}
+            className="object-cover"
+          />
           {/* Dark Overlay for readability */}
           <div className="absolute inset-0 bg-slate-900/70"></div>
           {/* PARTICLES */}
