@@ -76,15 +76,15 @@ export default function MaintenanceSupportContent() {
          ======================== */}
       <section className="relative h-[600px] flex items-center justify-center text-white">
         <Image
-          src="/maintenance-hero.jpg"
-          alt="Hero Background"
+          src="/Maintainence-and-support-main-image.png"
+          alt="Maintenance & Support Hero Background"
           fill
           priority
           quality={70}
           className="object-cover"
         />
         {/* Dark Overlay for readability */}
-        <div className="absolute inset-0 bg-slate-900/70"></div>
+        <div className="absolute inset-0 bg-slate-900/40"></div>
 
         <div className="container mx-auto px-4 relative z-10 text-center">
           {/* Main Title */}
@@ -171,7 +171,7 @@ export default function MaintenanceSupportContent() {
                   <div>
                     <p className="text-xs text-gray-500 font-medium">Email</p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      irtaza.madad@iwizsols.com
+                      info@iwizsols.com
                     </p>
                   </div>
                 </div>

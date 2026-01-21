@@ -66,15 +66,15 @@ export default function ProductDesign() {
          ======================== */}
       <section className="relative h-[600px] flex items-center justify-center text-white">
         <Image
-          src="/product-prototyping.png"
-          alt="Hero Background"
+          src="/product-designing-and-prototyping.png"
+          alt="product-designing-and-prototyping-hero-background"
           fill
           priority
           quality={70}
           className="object-cover"
         />
         {/* Dark Overlay for readability */}
-        <div className="absolute inset-0 bg-slate-900/70"></div>
+        <div className="absolute inset-0 bg-slate-900/50"></div>
 
         <div className="container mx-auto px-4 relative z-10 text-center">
           {/* Main Title */}
@@ -161,7 +161,7 @@ export default function ProductDesign() {
                   <div>
                     <p className="text-xs text-gray-500 font-medium">Email</p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      irtaza.madad@iwizsols.com
+                      info@iwizsols.com
                     </p>
                   </div>
                 </div>

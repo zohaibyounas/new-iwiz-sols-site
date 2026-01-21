@@ -151,15 +151,15 @@ export default function ServiceContent() {
       <section className="relative min-h-[80vh] md:min-h-[90vh] flex items-center overflow-hidden">
         {/* Background Image */}
         <Image
-          src="/embedded-system-scaled.jpg"
-          alt="Hero Background"
+          src="/Main-service-page.png"
+          alt="Main-service-page-Hero-Background-img"
           fill
           priority
           quality={70}
           className="object-cover"
         />
         {/* Dark Overlay for readability */}
-        <div className="absolute inset-0 bg-slate-900/70"></div>
+        <div className="absolute inset-0 bg-slate-900/60"></div>
         {/* PARTICLES */}
         {init && (
           <div className="absolute inset-0 z-0 pointer-events-none">
@@ -253,7 +253,7 @@ export default function ServiceContent() {
                   <div>
                     <p className="text-xs text-gray-500 font-medium">Email</p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      irtaza.madad@iwizsols.com
+                      info@iwizsols.com
                     </p>
                   </div>
                 </div>

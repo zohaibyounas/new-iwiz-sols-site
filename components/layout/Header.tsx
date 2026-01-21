@@ -33,7 +33,7 @@ export function Header() {
             <Phone className="w-4 h-4" /> +92 314 5372506
           </span>
           <span className="flex items-center gap-2">
-            <Mail className="w-4 h-4" /> irtaza.madad@iwizsols.com
+            <Mail className="w-4 h-4" /> info@iwizsols.com
           </span>
           <span className="flex items-center gap-2">
             <MapPin className="w-4 h-4" /> Hasan Chowk, Mureer, Murree Rd,

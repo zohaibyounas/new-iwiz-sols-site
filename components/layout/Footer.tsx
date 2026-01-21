@@ -111,7 +111,7 @@ const Footer = () => {
                   <Mail className="w-4 h-4 text-white group-hover:text-blue-500 transition-colors" />
                 </div>
                 <span className="text-gray-300 text-sm font-medium group-hover:text-white transition-colors">
-                  irtaza.madad@iwizsols.com
+                  info@iwizsols.com
                 </span>
               </div>
             </div>

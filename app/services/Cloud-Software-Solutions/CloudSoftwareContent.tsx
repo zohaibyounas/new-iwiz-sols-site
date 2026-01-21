@@ -76,8 +76,8 @@ export default function CloudSoftwareContent() {
          ======================== */}
       <section className="relative h-[600px] flex items-center justify-center text-white">
         <Image
-          src="/Frame-23.png"
-          alt="Hero Background"
+          src="/Cloud-Sofatware-Solution-main.png"
+          alt="Cloud-Sofatware-Solution-main-hero-background-img"
           fill
           priority
           quality={70}
@@ -85,7 +85,7 @@ export default function CloudSoftwareContent() {
         />
 
         {/* Dark Overlay for readability */}
-        <div className="absolute inset-0 bg-slate-900/70"></div>
+        <div className="absolute inset-0 bg-slate-900/40"></div>
 
         <div className="container mx-auto px-4 relative z-10 text-center">
           {/* Main Title */}
@@ -172,7 +172,7 @@ export default function CloudSoftwareContent() {
                   <div>
                     <p className="text-xs text-gray-500 font-medium">Email</p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      irtaza.madad@iwizsols.com
+                      info@iwizsols.com
                     </p>
                   </div>
                 </div>
@@ -201,7 +201,7 @@ export default function CloudSoftwareContent() {
             {/* Main Featured Image */}
             <div className="relative w-[700px] h-[300px] md:h-[420px] mb-8 overflow-hidden  rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px] ">
               <img
-                src="/cloude-service.jpg"
+                src="/cloude-service.jpeg"
                 alt="Data Security Technology"
                 //  fill
                 className="object-cover"
@@ -250,15 +250,15 @@ export default function CloudSoftwareContent() {
                   src="/s3.png"
                   alt="Worker Laptop"
                   //   fill
-                  className="object-cover"
+                  className="object-cover object-cover w-[380px] h-[300px] rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px]"
                 />
               </div>
               <div className="relative h-[280px]  overflow-hidden ">
                 <img
-                  src="/s2.png"
+                  src="/cloude-service.jpg"
                   alt="Tech Visualization"
                   //    fill
-                  className="object-cover"
+                  className="object-cover object-cover w-[380px] h-[300px] rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px]"
                 />
               </div>
             </div>

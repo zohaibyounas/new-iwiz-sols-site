@@ -41,7 +41,7 @@ const TeamMember = () => {
 
       <div className="relative z-10 w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2  items-stretch gap-8 ">
         {/* LEFT COLUMN: Featured Member Card */}
-        <div className="relative bg-white rounded-[40px] overflow-hidden shadow-2xl flex flex-col justify-end h-full min-h-[500px] lg:min-h-auto group lg:w-[80%] ">
+        <div className="relative bg-white rounded-[40px] overflow-hidden shadow-2xl flex flex-col justify-end h-full min-h-[500px] lg:min-h-auto group lg:w-[88%] ">
           {/* Main Image */}
           <div className="absolute inset-0 lg:w-[100%] h-full">
             <img
@@ -130,7 +130,7 @@ const TeamMember = () => {
           </div>
 
           {/* Thumbnails Row */}
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 gap-4">
             {/* Thumb 1 (Active) */}
             <div className="relative aspect-square rounded-2xl overflow-hidden border-4 border-white cursor-pointer transition-transform hover:scale-105">
               <img
@@ -152,14 +152,14 @@ const TeamMember = () => {
             </div>
 
             {/* Thumb 3 */}
-            <div className="relative aspect-square rounded-2xl overflow-hidden cursor-pointer opacity-80 hover:opacity-100 transition-all hover:scale-105">
+            {/* <div className="relative aspect-square rounded-2xl overflow-hidden cursor-pointer opacity-80 hover:opacity-100 transition-all hover:scale-105">
               <img
                 src="/munsif.jpg "
                 alt="Member 3"
                 // fill
                 className="object-cover"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

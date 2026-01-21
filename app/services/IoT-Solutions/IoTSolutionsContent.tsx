@@ -76,15 +76,15 @@ export default function IoTSolutionsContent() {
          ======================== */}
       <section className="relative h-[600px] flex items-center justify-center text-white">
         <Image
-          src="/IoT-Connectivity-Solutions.jpg"
-          alt="Hero Background"
+          src="/iot-main-image.png"
+          alt="iot-main-image-hero-background"
           fill
           priority
           quality={70}
           className="object-cover"
         />
         {/* Dark Overlay for readability */}
-        <div className="absolute inset-0 bg-slate-900/70"></div>
+        <div className="absolute inset-0 bg-slate-900/40"></div>
 
         <div className="container mx-auto px-4 relative z-10 text-center">
           {/* Main Title */}
@@ -171,7 +171,7 @@ export default function IoTSolutionsContent() {
                   <div>
                     <p className="text-xs text-gray-500 font-medium">Email</p>
                     <p className="text-sm font-extrabold text-gray-900">
-                      irtaza.madad@iwizsols.com
+                      info@iwizsols.com
                     </p>
                   </div>
                 </div>
@@ -246,18 +246,18 @@ export default function IoTSolutionsContent() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="relative h-[280px] overflow-hidden ">
                 <img
-                  src="/del.jpg"
+                  src="/del.jpeg"
                   alt="Worker Laptop"
                   //  fill
-                  className="object-cover object-cover w-[380px] h-[300px] rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px]"
+                  className="object-cover object-cover w-[380px] h-[300px] rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px] bg"
                 />
               </div>
-              <div className="relative h-[280px]  overflow-hidden ">
+              <div className="relative h-[280px]  overflow-hidden  ">
                 <img
-                  src="/iot-test.jpg"
+                  src="/iot-test.jpeg"
                   alt="Tech Visualization"
                   //      fill
-                  className="object-cover object-cover w-[380px] h-[300px] rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px]"
+                  className="object-cover object-cover w-[380px] h-[300px] rounded-tl-[60px] rounded-bl-[20px] rounded-tr-[20px] rounded-br-[30px] lg:rounded-tr-[5px] lg:rounded-bl-[5px] lg:rounded-br-[30px] "
                 />
               </div>
             </div>
