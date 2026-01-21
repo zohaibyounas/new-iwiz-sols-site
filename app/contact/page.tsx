@@ -52,7 +52,7 @@ export default function ContactPage() {
       {/* HEADER SECTION */}
       <section className="relative h-[600px] flex items-center justify-center text-white">
         <Image
-          src="/contactimg.jfif"
+          src="/contactimg.jpg"
           alt="Contact img"
           fill
           priority
