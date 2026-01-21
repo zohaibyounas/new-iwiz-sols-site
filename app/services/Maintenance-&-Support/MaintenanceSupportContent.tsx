@@ -74,14 +74,15 @@ export default function MaintenanceSupportContent() {
       {/* ========================
           1. PAGE HEADER SECTION 
          ======================== */}
-      <section
-        className="relative h-[600px] flex items-center justify-center text-white"
-        style={{
-          backgroundImage: "url('/maintenance-hero.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+      <section className="relative h-[600px] flex items-center justify-center text-white">
+        <Image
+          src="/maintenance-hero.jpg"
+          alt="Hero Background"
+          fill
+          priority
+          quality={70}
+          className="object-cover"
+        />
         {/* Dark Overlay for readability */}
         <div className="absolute inset-0 bg-slate-900/70"></div>
 

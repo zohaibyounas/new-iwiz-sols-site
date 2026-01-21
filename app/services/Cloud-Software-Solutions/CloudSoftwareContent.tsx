@@ -17,19 +17,19 @@ export default function CloudSoftwareContent() {
   // State to manage FAQ accordion (Index 0 is open by default as per image)
   const [openFaq, setOpenFaq] = useState<number | null>(0);
 
-interface FAQ {
+  interface FAQ {
     question: string;
     answer: string;
-}
+  }
 
-interface Service {
+  interface Service {
     name: string;
     active: boolean;
-}
+  }
 
-const toggleFaq = (index: number): void => {
+  const toggleFaq = (index: number): void => {
     setOpenFaq(openFaq === index ? null : index);
-};
+  };
 
   const services = [
     { name: "Product-Design-&-Prototyping", active: false },
@@ -74,14 +74,16 @@ const toggleFaq = (index: number): void => {
       {/* ========================
           1. PAGE HEADER SECTION 
          ======================== */}
-      <section
-        className="relative h-[600px] flex items-center justify-center text-white"
-        style={{
-          backgroundImage: "url('/Frame-23.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+      <section className="relative h-[600px] flex items-center justify-center text-white">
+        <Image
+          src="/Frame-23.png"
+          alt="Hero Background"
+          fill
+          priority
+          quality={70}
+          className="object-cover"
+        />
+
         {/* Dark Overlay for readability */}
         <div className="absolute inset-0 bg-slate-900/70"></div>
 

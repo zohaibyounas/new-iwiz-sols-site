@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ChevronRight, ThumbsUp, Users } from "lucide-react";
 import emailjs from "emailjs-com";
 import { toast, Toaster } from "react-hot-toast";
+import Image from "next/image";
 
 export default function ContactPage() {
   const [isSending, setIsSending] = useState(false);
@@ -40,7 +41,7 @@ export default function ContactPage() {
           console.error("EmailJS error details:", error);
           toast.error("Failed to send email. Try again!");
           setIsSending(false);
-        }
+        },
       );
   };
 
@@ -49,15 +50,15 @@ export default function ContactPage() {
       <Toaster position="top-right" />
 
       {/* HEADER SECTION */}
-      <section
-        className="relative h-[600px] flex items-center justify-center text-white"
-        style={{
-          backgroundImage:
-            "url('https://plus.unsplash.com/premium_photo-1661763911173-f2f7becc70b0?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29udGFjdCUyMHVzfGVufDB8fDB8fHww')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+      <section className="relative h-[600px] flex items-center justify-center text-white">
+        <Image
+          src="/contactimg.jfif"
+          alt="Contact img"
+          fill
+          priority
+          quality={70}
+          className="object-cover"
+        />
         <div className="absolute inset-0 bg-slate-900/70"></div>
         <div className="container mx-auto px-4 relative z-10 text-center">
           <h1 className="text-5xl md:text-6xl font-extrabold mb-6">
