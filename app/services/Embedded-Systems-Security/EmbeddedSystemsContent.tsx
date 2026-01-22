@@ -198,7 +198,7 @@ export default function EmbeddedSystemsContent() {
 
             {/* Main Title & Text */}
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">
-              Data Security
+              Embedded Systems Security
             </h2>
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-6">
               Protect your embedded devices with our robust embedded systems

@@ -294,7 +294,7 @@ export default function ServiceContent() {
               Main Services
             </h2>
             <p className="text-gray-500 text-sm md:text-[15px] leading-7 mb-6">
-              we provide comprehensive technology solutions to help businesses
+              We provide comprehensive technology solutions to help businesses
               innovate, secure, and scale efficiently. From product design and
               prototyping to embedded systems security, IoT, mobile and desktop
               applications, cloud software, retail automation, and ongoing

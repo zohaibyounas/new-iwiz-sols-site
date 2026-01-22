@@ -276,12 +276,12 @@ const Footer = () => {
 
           <div className="flex items-center gap-3">
             {/* Facebook (White Box, Dark Icon) */}
-            <Link
+            {/* <Link
               href="https://www.facebook.com/profile.php?id=61551482918436&_rdc=1&_rdr#"
               className="w-9 h-9 bg-white rounded flex items-center justify-center hover:bg-gray-200 transition-colors group"
             >
               <Facebook className="w-4 h-4 text-[#0F1113] group-hover:scale-110 transition-transform" />
-            </Link>
+            </Link> */}
 
             {/* LinkedIn (Blue Box, White Icon - as per image) */}
             <Link
@@ -292,20 +292,20 @@ const Footer = () => {
             </Link>
 
             {/* Twitter (White Box, Dark Icon) */}
-            <Link
+            {/* <Link
               href="https://x.com/IWIZSOLUTI8328"
               className="w-9 h-9 bg-white rounded flex items-center justify-center hover:bg-gray-200 transition-colors group"
             >
               <Twitter className="w-4 h-4 text-[#0F1113] group-hover:scale-110 transition-transform" />
-            </Link>
+            </Link> */}
 
             {/* Instagram (White Box, Dark Icon) */}
-            <Link
+            {/* <Link
               href="https://www.instagram.com/iwizsol/"
               className="w-9 h-9 bg-white rounded flex items-center justify-center hover:bg-gray-200 transition-colors group"
             >
               <Instagram className="w-4 h-4 text-[#0F1113] group-hover:scale-110 transition-transform" />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

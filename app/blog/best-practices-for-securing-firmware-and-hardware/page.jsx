@@ -169,7 +169,7 @@ export default function BlogDetailsPage() {
             </div>
 
             {/* Tags & Share Footer */}
-            <div className="border-t border-b border-gray-100 py-6 flex flex-col md:flex-row items-center justify-between gap-4 mb-16">
+            {/* <div className="border-t border-b border-gray-100 py-6 flex flex-col md:flex-row items-center justify-between gap-4 mb-16">
               <div className="flex items-center gap-3">
                 <span className="font-bold text-gray-900">Tags:</span>
                 <span className="bg-white border border-gray-200 px-4 py-1.5 rounded-full text-xs font-medium text-gray-500 hover:text-blue-600 cursor-pointer transition-colors">
@@ -191,22 +191,20 @@ export default function BlogDetailsPage() {
                   <Youtube className="w-4 h-4 hover:text-red-600 cursor-pointer transition-colors" />
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Comments Section */}
-            <div className="mb-16">
+            {/* <div className="mb-16">
               <h3 className="text-2xl font-bold text-gray-900 mb-8">
                 2 Comments
               </h3>
 
               <div className="space-y-8">
-                {/* Comment 1 */}
                 <div className="flex gap-4 md:gap-6">
                   <div className="w-16 h-16 rounded-full overflow-hidden flex-shrink-0 relative">
                     <img
                       src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop"
                       alt="Ralph Edwards"
-                      //   fill
                       className="object-cover"
                     />
                   </div>
@@ -233,13 +231,12 @@ export default function BlogDetailsPage() {
                   </div>
                 </div>
 
-                {/* Comment 2 (Nested Indentation Logic usually, but image shows stacked with gap) */}
+               
                 <div className="flex gap-4 md:gap-6 md:ml-12 border-t border-gray-50 pt-8">
                   <div className="w-16 h-16 rounded-full overflow-hidden flex-shrink-0 relative">
                     <img
                       src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop"
                       alt="Leslie Alexander"
-                      //   fill
                       className="object-cover"
                     />
                   </div>
@@ -265,10 +262,10 @@ export default function BlogDetailsPage() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Leave a Comment Form */}
-            <div className="bg-white">
+            {/* <div className="bg-white">
               <h3 className="text-2xl font-bold text-gray-900 mb-2">
                 Leave A Comment
               </h3>
@@ -305,7 +302,7 @@ export default function BlogDetailsPage() {
                   Post Comment
                 </button>
               </form>
-            </div>
+            </div> */}
           </div>
 
           {/* --- RIGHT COLUMN: SIDEBAR (Span 4) --- */}
@@ -401,10 +398,12 @@ export default function BlogDetailsPage() {
                     />
                   </div>
                   <div>
-                    <h5 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors mb-1">
-                      From idea to prototype: step-by-step product development
-                      process{" "}
-                    </h5>
+                    <Link href="/blog/from-idea-to-prototype-step-by-step-product-development-process">
+                      <h5 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors mb-1">
+                        From idea to prototype: step-by-step product development
+                        process{" "}
+                      </h5>
+                    </Link>
                     <span className="text-[11px] text-gray-400">
                       30 Dec 2025
                     </span>
@@ -421,9 +420,11 @@ export default function BlogDetailsPage() {
                     />
                   </div>
                   <div>
-                    <h5 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors mb-1">
-                      Best practices for securing firmware and hardware.
-                    </h5>
+                    <Link href="/blog/best-practices-for-securing-firmware-and-hardware">
+                      <h5 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors mb-1">
+                        Best practices for securing firmware and hardware.
+                      </h5>
+                    </Link>
                     <span className="text-[11px] text-gray-400">
                       30 Dec 2025{" "}
                     </span>
@@ -440,10 +441,12 @@ export default function BlogDetailsPage() {
                     />
                   </div>
                   <div>
-                    <h5 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors mb-1">
-                      Embedded security for automotive, medical, and industrial
-                      devices.
-                    </h5>
+                    <Link href="/blog/embedded-security-for-automotive-medical-and-industrial-devices">
+                      <h5 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-blue-600 transition-colors mb-1">
+                        Embedded security for automotive, medical, and
+                        industrial devices.
+                      </h5>
+                    </Link>
                     <span className="text-[11px] text-gray-400">
                       30 Dec 2025{" "}
                     </span>
@@ -453,7 +456,7 @@ export default function BlogDetailsPage() {
             </div>
 
             {/* Tag Cloud Widget */}
-            <div className="bg-[#F8F9FA] p-8 rounded-[20px]">
+            {/* <div className="bg-[#F8F9FA] p-8 rounded-[20px]">
               <h4 className="font-bold text-gray-900 mb-6 text-lg">
                 Tag Cloud
               </h4>
@@ -483,7 +486,7 @@ export default function BlogDetailsPage() {
                   Services
                 </span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

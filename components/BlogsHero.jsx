@@ -40,7 +40,7 @@ const BlogsHero = () => {
 
             <div className="flex flex-col flex-grow">
               <div className="flex items-center text-gray-500 text-sm font-medium mb-2">
-                <span>Alom Khan</span>
+                <span>Irtaza Madad</span>
                 <span className="mx-2">•</span>
                 <span>27 May, 2024</span>
               </div>
@@ -63,7 +63,7 @@ const BlogsHero = () => {
             </div>
             <div className="flex flex-col flex-grow">
               <div className="flex items-center text-gray-500 text-xs font-medium mb-2">
-                <span>Alom Khan</span>
+                <span>Bilal Rasool</span>
                 <span className="mx-2">•</span>
                 <span>27 May, 2024</span>
               </div>
@@ -87,12 +87,13 @@ const BlogsHero = () => {
 
             <div className="flex flex-col flex-grow">
               <div className="flex items-center text-gray-500 text-xs font-medium mb-2">
-                <span>Alom Khan</span>
+                <span>Muhammad Aqib</span>
                 <span className="mx-2">•</span>
                 <span>27 May, 2024</span>
               </div>
               <h3 className="text-lg md:text-xl font-bold text-gray-900 leading-snug group-hover:text-blue-600 transition-colors">
-                Embedded security for automotive, medical, and industrial device{" "}
+                Embedded security for automotive, medical, and industrial
+                device{" "}
               </h3>
             </div>
           </div>
