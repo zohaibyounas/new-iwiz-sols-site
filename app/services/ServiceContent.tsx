@@ -314,9 +314,9 @@ export default function ServiceContent() {
             {/* Checkmark List */}
             <div className="space-y-4 mb-10">
               {[
-                "Product design, prototyping, IoT solutions, and mobile/desktop/cloud application development to bring your ideas to life.",
-                "Embedded systems security, POS, and retail automation to safeguard operations and streamline workflows.",
-                "Maintenance, technical support, system monitoring, and updates to ensure smooth, uninterrupted business performance.",
+                "Product design, prototyping, IoT solutions, and mobile/desktop/cloud application development to bring your ideas to life",
+                "Embedded systems security, POS, and retail automation to safeguard operations and streamline workflows",
+                "Maintenance, technical support, system monitoring, and updates to ensure smooth, uninterrupted business performance",
               ].map((text, idx) => (
                 <div key={idx} className="flex items-center gap-3">
                   <CheckCircle2 className="w-5 h-5 text-blue-600 fill-blue-100 flex-shrink-0" />

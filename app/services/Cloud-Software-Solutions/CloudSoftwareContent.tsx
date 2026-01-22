@@ -48,7 +48,7 @@ export default function CloudSoftwareContent() {
         " Cloud software solutions provide applications, storage, and services hosted on secure cloud platforms.",
     },
     {
-      question: "Why should businesses use cloud software??",
+      question: "Why should businesses use cloud software?",
       answer:
         " Cloud software improves scalability, reduces infrastructure costs, and enables remote access to systems.",
     },
